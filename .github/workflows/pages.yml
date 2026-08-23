@@ -38,8 +38,20 @@ jobs:
         run: npm ci
 
       - name: Refresh public ranking snapshot
-        continue-on-error: true
         run: npm run refresh:data
+
+      - name: Verify snapshot freshness
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFile } from "node:fs/promises";
+          const snapshot = JSON.parse(await readFile("public/data/contest-547.json", "utf8"));
+          const age = Date.now() - Date.parse(snapshot.generatedAt);
+          if (!Number.isFinite(age) || age > 10 * 60 * 1000) {
+            throw new Error(`Ranking snapshot is stale: ${snapshot.generatedAt}`);
+          }
+          console.log(`Fresh snapshot: ${snapshot.generatedAt}, ${snapshot.stats.total} contestants`);
+          NODE
 
       - name: Set Pages base path
         shell: bash

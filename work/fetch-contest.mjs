@@ -8,29 +8,35 @@ const profilesPath = resolve(dataDir, `contest-${contestId}-profiles.json`);
 const publicPath = resolve("public", "data", `contest-${contestId}.json`);
 const baseUrl = "https://www.matiji.net/exam-back";
 const headers = {
-  "content-type": "application/x-www-form-urlencoded",
+  accept: "application/json, text/plain, */*",
+  "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
   referer: `https://www.matiji.net/exam/contest/contestdetail/${contestId}`,
-  "user-agent": "Mozilla/5.0 (compatible; MatijiContestExplorer/1.0)",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/140.0 Safari/537.36",
 };
 
-async function postForm(path, values, attempt = 0) {
+async function requestJson(path, values, attempt = 0) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 20_000);
+  const timeout = setTimeout(() => controller.abort(), 30_000);
+  const query = new URLSearchParams({
+    ...values,
+    _refresh: `${Date.now()}-${attempt}`,
+  });
   try {
-    const response = await fetch(`${baseUrl}${path}`, {
-      method: "POST",
+    const response = await fetch(`${baseUrl}${path}?${query}`, {
+      method: "GET",
       headers,
-      body: new URLSearchParams(values),
+      cache: "no-store",
       signal: controller.signal,
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json();
   } catch (error) {
-    if (attempt < 2) {
-      await new Promise((resolveRetry) => setTimeout(resolveRetry, 600 * 2 ** attempt));
-      return postForm(path, values, attempt + 1);
+    if (attempt < 3) {
+      await new Promise((resolveRetry) => setTimeout(resolveRetry, 1_000 * 2 ** attempt));
+      return requestJson(path, values, attempt + 1);
     }
-    throw error;
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`${path} 请求失败（重试 ${attempt + 1} 次）：${message}`, { cause: error });
   } finally {
     clearTimeout(timeout);
   }
@@ -43,8 +49,8 @@ function normalizeSchool(value) {
 
 await mkdir(dataDir, { recursive: true });
 const [matchPayload, rankingPayload] = await Promise.all([
-  postForm("/pc/queryMatchById.do", { id: String(contestId) }),
-  postForm("/pc/queryMatchRankListById.do", { matchId: String(contestId), start: "0", limit: "5000" }),
+  requestJson("/pc/queryMatchById.do", { id: String(contestId) }),
+  requestJson("/pc/queryMatchRankListById.do", { matchId: String(contestId), start: "0", limit: "5000" }),
 ]);
 
 if (matchPayload.error_no !== "0" || rankingPayload.error_no !== "0") {
@@ -125,7 +131,7 @@ async function worker() {
   while (cursor < pending.length) {
     const contestant = pending[cursor++];
     try {
-      const payload = await postForm("/pc/queryUserDetailById.do", { userId: String(contestant.userId) });
+      const payload = await requestJson("/pc/queryUserDetailById.do", { userId: String(contestant.userId) });
       if (payload.error_no !== "0") throw new Error(String(payload.data || "用户详情接口返回错误"));
       const detail = payload.data || {};
       const school = normalizeSchool(
