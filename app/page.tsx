@@ -160,6 +160,11 @@ export default function Home() {
   const problemStats = useMemo(() => Array.from({ length: data?.stats.questionCount || 8 }, (_, index) => (
     data?.contestants.reduce((total, contestant) => total + (contestant.problems[index]?.solved ? 1 : 0), 0) || 0
   )), [data]);
+  const solvedGroupTones = useMemo(() => {
+    const solvedCounts = Array.from(new Set((data?.contestants || []).map((contestant) => contestant.passCount)))
+      .sort((a, b) => b - a);
+    return new Map(solvedCounts.map((solvedCount, index) => [solvedCount, index % 2]));
+  }, [data]);
 
   function goToPage(nextPage: number) {
     const target = Math.min(totalPages, Math.max(1, Math.trunc(nextPage) || 1));
@@ -254,7 +259,12 @@ export default function Home() {
                   const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
                   const advanced = contestant.rank <= ADVANCE_LIMIT;
                   return (
-                    <tr key={contestant.userId} data-award={award?.label || undefined}>
+                    <tr
+                      key={contestant.userId}
+                      data-award={award?.label || undefined}
+                      data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
+                      data-row-parity={(contestant.rank - 1) % 2}
+                    >
                       <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></td>
                       <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
                       <td><div className="team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
@@ -275,7 +285,12 @@ export default function Home() {
               const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
               const advanced = contestant.rank <= ADVANCE_LIMIT;
               return (
-                <article key={contestant.userId} data-award={award?.label || undefined}>
+                <article
+                  key={contestant.userId}
+                  data-award={award?.label || undefined}
+                  data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
+                  data-row-parity={(contestant.rank - 1) % 2}
+                >
                   <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
                   <div className="mobile-team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p></div></div>
                   <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>

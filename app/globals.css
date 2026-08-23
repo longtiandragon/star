@@ -92,10 +92,10 @@ button, select { cursor: pointer; }
 .xcpc-table thead th { position: sticky; top: 0; z-index: 3; height: 33px; padding: 2px 4px; border: 0; background: var(--head); color: #3d4354; font-size: 8px; font-weight: 800; }
 .xcpc-table thead th > strong, .xcpc-table thead th > small { display: block; }
 .xcpc-table thead th > small { margin-top: 2px; font-size: 7px; }
-.xcpc-table tbody tr { --row-bg: var(--row-gray-1); }
-.xcpc-table tbody tr:nth-child(even) { --row-bg: var(--row-gray-0); }
-.xcpc-table tbody tr[data-award="金牌"], .xcpc-table tbody tr[data-award="铜牌"] { --row-bg: var(--row-blue-0); }
-.xcpc-table tbody tr[data-award="金牌"]:nth-child(even), .xcpc-table tbody tr[data-award="铜牌"]:nth-child(even) { --row-bg: var(--row-blue-1); }
+.xcpc-table tbody tr[data-solved-group="0"][data-row-parity="0"] { --row-bg: var(--row-blue-0); }
+.xcpc-table tbody tr[data-solved-group="0"][data-row-parity="1"] { --row-bg: var(--row-blue-1); }
+.xcpc-table tbody tr[data-solved-group="1"][data-row-parity="0"] { --row-bg: var(--row-gray-1); }
+.xcpc-table tbody tr[data-solved-group="1"][data-row-parity="1"] { --row-bg: var(--row-gray-0); }
 .xcpc-table tbody tr:hover { filter: brightness(.97); }
 .xcpc-table tbody td { height: 36px; padding: 2px 5px; border: 0; background: var(--row-bg); font-size: 8px; font-weight: 700; }
 .rank-column { width: 62px; }
@@ -168,9 +168,11 @@ button, select { cursor: pointer; }
   .result-count { justify-content: flex-start; }
   .table-wrap { display: none; }
   .mobile-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; font-family: Consolas, monospace; }
-  .mobile-list > article { min-width: 0; padding: 11px; background: var(--row-gray-1); }
-  .mobile-list > article:nth-child(even) { background: var(--row-gray-0); }
-  .mobile-list > article[data-award="金牌"], .mobile-list > article[data-award="铜牌"] { background: var(--row-blue-1); }
+  .mobile-list > article { min-width: 0; padding: 11px; }
+  .mobile-list > article[data-solved-group="0"][data-row-parity="0"] { background: var(--row-blue-0); }
+  .mobile-list > article[data-solved-group="0"][data-row-parity="1"] { background: var(--row-blue-1); }
+  .mobile-list > article[data-solved-group="1"][data-row-parity="0"] { background: var(--row-gray-1); }
+  .mobile-list > article[data-solved-group="1"][data-row-parity="1"] { background: var(--row-gray-0); }
   .mobile-head { display: flex; align-items: flex-start; justify-content: space-between; }
   .rank-stack { display: grid; justify-items: start; }
   .mobile-head .badge-row { justify-content: flex-start; }
