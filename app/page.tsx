@@ -36,10 +36,10 @@ type ContestData = {
 const PAGE_SIZE = 40;
 const ADVANCE_LIMIT = 400;
 
-type AwardBands = {
-  gold: number;
-  silver: number;
-  bronze: number;
+type AwardThresholds = {
+  goldEnd: number;
+  silverEnd: number;
+  bronzeEnd: number;
 };
 
 type Award = {
@@ -47,11 +47,11 @@ type Award = {
   tone: "rank-gold" | "rank-silver" | "rank-bronze";
 };
 
-function calculateAwardBands(total: number): AwardBands {
+function calculateAwardThresholds(total: number): AwardThresholds {
   return {
-    gold: Math.round(total * 0.05),
-    silver: Math.round(total * 0.1),
-    bronze: Math.round(total * 0.15),
+    goldEnd: Math.round(total * 0.05),
+    silverEnd: Math.round(total * 0.15),
+    bronzeEnd: Math.round(total * 0.3),
   };
 }
 function formatNumber(value: number) {
@@ -76,11 +76,11 @@ function formatDateTime(value: string) {
   }).format(new Date(value));
 }
 
-function getAward(rank: number, passCount: number, bands: AwardBands): Award | null {
+function getAward(rank: number, passCount: number, thresholds: AwardThresholds): Award | null {
   if (passCount === 0) return null;
-  if (rank <= bands.gold) return { label: "金牌", tone: "rank-gold" };
-  if (rank <= bands.gold + bands.silver) return { label: "银牌", tone: "rank-silver" };
-  if (rank <= bands.gold + bands.silver + bands.bronze) return { label: "铜牌", tone: "rank-bronze" };
+  if (rank <= thresholds.goldEnd) return { label: "金牌", tone: "rank-gold" };
+  if (rank <= thresholds.silverEnd) return { label: "银牌", tone: "rank-silver" };
+  if (rank <= thresholds.bronzeEnd) return { label: "铜牌", tone: "rank-bronze" };
   return null;
 }
 
@@ -138,10 +138,8 @@ export default function Home() {
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const podium = data?.contestants.slice(0, 3) || [];
-  const awardBands = useMemo(() => calculateAwardBands(data?.stats.total || 0), [data?.stats.total]);
-  const goldEnd = awardBands.gold;
-  const silverEnd = goldEnd + awardBands.silver;
-  const bronzeEnd = silverEnd + awardBands.bronze;
+  const awardThresholds = useMemo(() => calculateAwardThresholds(data?.stats.total || 0), [data?.stats.total]);
+  const { goldEnd, silverEnd, bronzeEnd } = awardThresholds;
 
   function goToPage(nextPage: number) {
     const target = Math.min(totalPages, Math.max(1, Math.trunc(nextPage) || 1));
@@ -197,9 +195,9 @@ export default function Home() {
 
       <section className="summary" aria-label="比赛概览">
         <article><small>参赛人数</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
-        <article className="gold-card"><small>金牌 · 1—{goldEnd || "—"}</small><strong>{data ? formatNumber(awardBands.gold) : "—"}</strong></article>
-        <article className="silver-card"><small>银牌 · {goldEnd ? goldEnd + 1 : "—"}—{silverEnd || "—"}</small><strong>{data ? formatNumber(awardBands.silver) : "—"}</strong></article>
-        <article className="bronze-card"><small>铜牌 · {silverEnd ? silverEnd + 1 : "—"}—{bronzeEnd || "—"}</small><strong>{data ? formatNumber(awardBands.bronze) : "—"}</strong></article>
+        <article className="gold-card"><small>金牌 · 累计前 5%</small><strong>{data ? `1—${formatNumber(goldEnd)}` : "—"}</strong></article>
+        <article className="silver-card"><small>银牌 · 累计前 15%</small><strong>{data ? `${formatNumber(goldEnd + 1)}—${formatNumber(silverEnd)}` : "—"}</strong></article>
+        <article className="bronze-card"><small>铜牌 · 累计前 30%</small><strong>{data ? `${formatNumber(silverEnd + 1)}—${formatNumber(bronzeEnd)}` : "—"}</strong></article>
         <article className="advance-card"><small>晋级 · 前 {ADVANCE_LIMIT} 名</small><strong>{ADVANCE_LIMIT}</strong></article>
       </section>
 
@@ -236,7 +234,7 @@ export default function Home() {
                 <caption className="sr-only">2026 年百度之星初赛第一场官方总榜</caption>
                 <thead><tr><th>排名 / 奖项</th><th>参赛者</th><th>学校 / 地区</th><th>AC</th><th>总用时</th><th>罚次</th><th>解题轨迹</th></tr></thead>
                 <tbody>{pageRows.map((contestant) => {
-                  const award = getAward(contestant.rank, contestant.passCount, awardBands);
+                  const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
                   const advanced = contestant.rank <= ADVANCE_LIMIT;
                   return (
                   <tr key={contestant.userId}>
@@ -254,7 +252,7 @@ export default function Home() {
             </div>
 
             <div className="mobile-list">{pageRows.map((contestant) => {
-              const award = getAward(contestant.rank, contestant.passCount, awardBands);
+              const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
               const advanced = contestant.rank <= ADVANCE_LIMIT;
               return (
               <article key={contestant.userId}>
