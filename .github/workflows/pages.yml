@@ -40,21 +40,35 @@ jobs:
       - name: Route Matiji through its mainland CDN
         shell: bash
         run: |
-          MATIJI_IP="$(
-            curl --fail --silent --show-error --retry 2 \
-              'https://doh.pub/resolve?name=www.matiji.net&type=A' \
-              -H 'accept: application/dns-json' \
-            | jq -r '.Answer[]? | select(.type == 1) | .data' \
-            | tail -n 1
-          )"
-          if [[ ! "$MATIJI_IP" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-            MATIJI_IP="42.97.39.183"
+          mapfile -t MATIJI_CANDIDATES < <(
+            {
+              curl --fail --silent --max-time 8 \
+                'https://doh.pub/resolve?name=www.matiji.net&type=A' \
+                -H 'accept: application/dns-json' \
+                | jq -r '.Answer[]? | select(.type == 1) | .data' || true
+              printf '%s\n' 42.97.39.183 117.68.127.6 113.113.100.43
+            } | awk '/^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$/ && !seen[$0]++'
+          )
+
+          MATIJI_IP=""
+          for candidate in "${MATIJI_CANDIDATES[@]}"; do
+            echo "Testing Matiji CDN node: $candidate"
+            if curl --fail --silent --show-error \
+              --connect-timeout 5 --max-time 15 \
+              --resolve "www.matiji.net:443:$candidate" \
+              'https://www.matiji.net/exam-back/pc/queryMatchRankListById.do?matchId=547&start=0&limit=1' \
+              > /dev/null; then
+              MATIJI_IP="$candidate"
+              break
+            fi
+          done
+
+          if [[ -z "$MATIJI_IP" ]]; then
+            echo 'No reachable Matiji CDN node' >&2
+            exit 1
           fi
           echo "$MATIJI_IP www.matiji.net" | sudo tee -a /etc/hosts
-          curl --fail --silent --show-error --retry 2 \
-            --connect-timeout 10 --max-time 30 \
-            'https://www.matiji.net/exam-back/pc/queryMatchRankListById.do?matchId=547&start=0&limit=1' \
-            > /dev/null
+          echo "Using Matiji CDN node: $MATIJI_IP"
 
       - name: Refresh public ranking snapshot
         run: npm run refresh:data
