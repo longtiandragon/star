@@ -2,15 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-type Stage = "university" | "school" | "vocational" | "other" | "undisclosed";
-type StageFilter = "all" | Stage;
-
 type Profile = {
   school: string;
   province: string;
-  stage: Stage;
-  stageLabel: string;
-  basis: string;
 };
 
 type Problem = { solved: boolean; seconds: number; errors: number };
@@ -40,14 +34,6 @@ type ContestData = {
 };
 
 const PAGE_SIZE = 36;
-const STAGE_LABELS: Record<Stage, string> = {
-  university: "大学",
-  school: "中小学",
-  vocational: "职业院校",
-  other: "其他",
-  undisclosed: "未公开",
-};
-
 function formatNumber(value: number) {
   return new Intl.NumberFormat("zh-CN").format(value);
 }
@@ -71,9 +57,16 @@ function formatDateTime(value: string) {
 }
 
 function rankTone(rank: number) {
-  if (rank === 1) return "rank-gold";
-  if (rank === 2) return "rank-silver";
-  if (rank === 3) return "rank-bronze";
+  if (rank <= 400) return "rank-gold";
+  if (rank <= 800) return "rank-silver";
+  if (rank <= 1200) return "rank-bronze";
+  return "";
+}
+
+function medalLabel(rank: number) {
+  if (rank <= 400) return "金牌";
+  if (rank <= 800) return "银牌";
+  if (rank <= 1200) return "铜牌";
   return "";
 }
 
@@ -82,10 +75,10 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [query, setQuery] = useState("");
-  const [stageFilter, setStageFilter] = useState<StageFilter>("all");
   const [schoolFilter, setSchoolFilter] = useState("all");
   const [passFilter, setPassFilter] = useState("all");
   const [page, setPage] = useState(1);
+  const [pageInput, setPageInput] = useState("1");
 
   useEffect(() => {
     const controller = new AbortController();
@@ -103,12 +96,6 @@ export default function Home() {
       .finally(() => setLoading(false));
     return () => controller.abort();
   }, []);
-
-  const stageCounts = useMemo(() => {
-    const counts: Record<Stage, number> = { university: 0, school: 0, vocational: 0, other: 0, undisclosed: 0 };
-    data?.contestants.forEach((contestant) => { counts[contestant.profile.stage] += 1; });
-    return counts;
-  }, [data]);
 
   const schoolOptions = useMemo(() => {
     const counts = new Map<string, number>();
@@ -128,24 +115,27 @@ export default function Home() {
         || String(contestant.userId).includes(normalized)
         || profile.school.toLowerCase().includes(normalized)
         || profile.province.toLowerCase().includes(normalized);
-      const matchesStage = stageFilter === "all" || profile.stage === stageFilter;
       const matchesSchool = schoolFilter === "all" || profile.school === schoolFilter;
       const matchesPass = passFilter === "all" || contestant.passCount >= Number(passFilter);
-      return matchesQuery && matchesStage && matchesSchool && matchesPass;
+      return matchesQuery && matchesSchool && matchesPass;
     });
-  }, [data, passFilter, query, schoolFilter, stageFilter]);
+  }, [data, passFilter, query, schoolFilter]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const podium = data?.contestants.slice(0, 3) || [];
-  const disclosed = (data?.stats.total || 0) - stageCounts.undisclosed;
+
+  function goToPage(nextPage: number) {
+    const target = Math.min(totalPages, Math.max(1, Math.trunc(nextPage) || 1));
+    setPage(target);
+    setPageInput(String(target));
+  }
 
   function clearFilters() {
     setQuery("");
-    setStageFilter("all");
     setSchoolFilter("all");
     setPassFilter("all");
-    setPage(1);
+    goToPage(1);
   }
 
   return (
@@ -156,7 +146,6 @@ export default function Home() {
           <span><strong>选手雷达</strong><small>BAIDU STAR · MATIJI DATA</small></span>
         </a>
         <div className="top-actions">
-          <span className="status"><i /> 公开数据快照</span>
           <a href="https://www.matiji.net/exam/contest/contestdetail/547" target="_blank" rel="noreferrer">码蹄集原榜 ↗</a>
         </div>
       </header>
@@ -165,7 +154,6 @@ export default function Home() {
         <div className="hero-copy">
           <div className="edition"><span>2026</span><b>PRELIMINARY 01</b><em>#547</em></div>
           <h1>百度之星<br /><span>初赛第一场</span></h1>
-          <p>从公开榜单整理 {formatNumber(data?.stats.total || 4256)} 位参赛者的排名、解题数与用时，并补充公开用户详情中的学校与学段信息。</p>
           <div className="hero-meta">
             <span><small>比赛时间</small>08.23 · 14:00—17:00</span>
             <span><small>题目</small>{data?.stats.questionCount || 8} PROBLEMS</span>
@@ -190,10 +178,10 @@ export default function Home() {
       </section>
 
       <section className="summary" aria-label="比赛概览">
-        <article><small>PARTICIPANTS</small><strong>{data ? formatNumber(data.stats.total) : "4,256"}</strong><span>官方总榜参赛者</span></article>
-        <article><small>SCHOOL DISCLOSED</small><strong>{data ? formatNumber(disclosed) : "—"}</strong><span>公开详情含学校</span></article>
-        <article><small>UNIQUE SCHOOLS</small><strong>{data ? formatNumber(schoolOptions.length) : "—"}</strong><span>公开学校全称去重</span></article>
-        <article className="accent"><small>RANKING RULE</small><strong>唯一总榜</strong><span>筛选不改变官方名次</span></article>
+        <article><small>参赛人数</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
+        <article className="gold-card"><small>金牌 · 1—400</small><strong>400</strong></article>
+        <article className="silver-card"><small>银牌 · 401—800</small><strong>400</strong></article>
+        <article className="bronze-card"><small>铜牌 · 801—1200</small><strong>400</strong></article>
       </section>
 
       <section className="leaderboard" aria-labelledby="leaderboard-title">
@@ -205,23 +193,15 @@ export default function Home() {
         <div className="filters">
           <label className="search-box">
             <span>搜索参赛者</span>
-            <div><b>/</b><input type="search" value={query} onChange={(event) => { setQuery(event.target.value); setPage(1); }} placeholder="昵称、ID、学校或省份" />{query && <button type="button" onClick={() => { setQuery(""); setPage(1); }} aria-label="清空搜索">×</button>}</div>
+            <div><b>/</b><input type="search" value={query} onChange={(event) => { setQuery(event.target.value); goToPage(1); }} placeholder="昵称、ID、学校或省份" />{query && <button type="button" onClick={() => { setQuery(""); goToPage(1); }} aria-label="清空搜索">×</button>}</div>
           </label>
-          <label><span>学校</span><select value={schoolFilter} onChange={(event) => { setSchoolFilter(event.target.value); setPage(1); }}><option value="all">全部公开学校 · {schoolOptions.length}</option>{schoolOptions.map(([school, count]) => <option value={school} key={school}>{school} · {count}</option>)}</select></label>
-          <label><span>AC 门槛</span><select value={passFilter} onChange={(event) => { setPassFilter(event.target.value); setPage(1); }}><option value="all">不限</option>{[6, 5, 4, 3, 2, 1].map((count) => <option value={count} key={count}>≥ {count} 题</option>)}</select></label>
-        </div>
-
-        <div className="stage-tabs" role="group" aria-label="学校学段资料筛选">
-          {([[
-            "all", "全部", data?.stats.total || 0,
-          ], ["university", "大学", stageCounts.university], ["school", "中小学", stageCounts.school], ["vocational", "职业院校", stageCounts.vocational], ["other", "其他", stageCounts.other], ["undisclosed", "未公开", stageCounts.undisclosed]] as Array<[StageFilter, string, number]>).map(([value, label, count]) => (
-            <button type="button" key={value} className={stageFilter === value ? "active" : ""} onClick={() => { setStageFilter(value); setPage(1); }} aria-pressed={stageFilter === value}>{label}<span>{formatNumber(count)}</span></button>
-          ))}
+          <label><span>学校</span><select value={schoolFilter} onChange={(event) => { setSchoolFilter(event.target.value); goToPage(1); }}><option value="all">全部公开学校 · {schoolOptions.length}</option>{schoolOptions.map(([school, count]) => <option value={school} key={school}>{school} · {count}</option>)}</select></label>
+          <label><span>AC 门槛</span><select value={passFilter} onChange={(event) => { setPassFilter(event.target.value); goToPage(1); }}><option value="all">不限</option>{[6, 5, 4, 3, 2, 1].map((count) => <option value={count} key={count}>≥ {count} 题</option>)}</select></label>
         </div>
 
         <div className="result-rail">
-          <p>找到 <strong>{formatNumber(filtered.length)}</strong> 位参赛者 <span>· 学段仅作资料筛选，名次始终使用官方总榜</span></p>
-          {(query || stageFilter !== "all" || schoolFilter !== "all" || passFilter !== "all") && <button type="button" onClick={clearFilters}>清空筛选</button>}
+          <p><strong>{formatNumber(filtered.length)}</strong> 位参赛者</p>
+          {(query || schoolFilter !== "all" || passFilter !== "all") && <button type="button" onClick={clearFilters}>清空筛选</button>}
         </div>
 
         {error ? (
@@ -229,18 +209,18 @@ export default function Home() {
         ) : loading ? (
           <div className="loading-list">{Array.from({ length: 8 }, (_, index) => <div key={index} />)}</div>
         ) : filtered.length === 0 ? (
-          <div className="state"><span>NO MATCH</span><h3>没有符合条件的参赛者</h3><p>可以清空学校、学段或 AC 门槛。</p><button type="button" onClick={clearFilters}>重置筛选</button></div>
+          <div className="state"><span>NO MATCH</span><h3>没有符合条件的参赛者</h3><p>可以清空学校或 AC 门槛。</p><button type="button" onClick={clearFilters}>重置筛选</button></div>
         ) : (
           <>
             <div className="table-wrap">
               <table>
                 <caption className="sr-only">2026 年百度之星初赛第一场官方总榜</caption>
-                <thead><tr><th>官方排名</th><th>参赛者</th><th>学校 / 学段</th><th>AC</th><th>总用时</th><th>罚次</th><th>解题轨迹</th></tr></thead>
+                <thead><tr><th>排名 / 奖牌</th><th>参赛者</th><th>学校 / 地区</th><th>AC</th><th>总用时</th><th>罚次</th><th>解题轨迹</th></tr></thead>
                 <tbody>{pageRows.map((contestant) => (
                   <tr key={contestant.userId}>
-                    <td><span className={`rank-number ${rankTone(contestant.rank)}`}>{String(contestant.rank).padStart(4, "0")}</span></td>
+                    <td><div className="rank-stack"><span className={`rank-number ${rankTone(contestant.rank)}`}>{String(contestant.rank).padStart(4, "0")}</span>{medalLabel(contestant.rank) && <span className={`medal-badge ${rankTone(contestant.rank)}`}>{medalLabel(contestant.rank)}</span>}</div></td>
                     <td><div className="person"><span>{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
-                    <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province ? `${contestant.profile.province} · ` : ""}<i data-stage={contestant.profile.stage} title={contestant.profile.basis}>{STAGE_LABELS[contestant.profile.stage]}</i></span></div></td>
+                    <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
                     <td><span className="ac"><strong>{contestant.passCount}</strong><small>/{data?.stats.questionCount || 8}</small></span></td>
                     <td><time>{formatDuration(contestant.finishTime)}</time></td>
                     <td><span className={contestant.errors ? "penalty" : "no-penalty"}>{contestant.errors}</span></td>
@@ -252,27 +232,30 @@ export default function Home() {
 
             <div className="mobile-list">{pageRows.map((contestant) => (
               <article key={contestant.userId}>
-                <div className="mobile-head"><span className={`rank-number ${rankTone(contestant.rank)}`}>#{contestant.rank}</span><span className="ac"><strong>{contestant.passCount}</strong> AC</span></div>
+                <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${rankTone(contestant.rank)}`}>#{contestant.rank}</span>{medalLabel(contestant.rank) && <span className={`medal-badge ${rankTone(contestant.rank)}`}>{medalLabel(contestant.rank)}</span>}</div><span className="ac"><strong>{contestant.passCount}</strong> AC</span></div>
                 <h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p>
-                <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span data-stage={contestant.profile.stage}>{contestant.profile.stageLabel}</span></div>
+                <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
                 <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>
                 <div className="problem-strip">{contestant.problems.map((problem, index) => <span key={index} data-state={problem.solved ? (problem.errors ? "penalty" : "solved") : "empty"}>{String.fromCharCode(65 + index)}</span>)}</div>
               </article>
             ))}</div>
 
             <nav className="pagination" aria-label="榜单分页">
-              <button type="button" disabled={page === 1} onClick={() => setPage((current) => Math.max(1, current - 1))}>← 上一页</button>
-              <div><strong>{String(page).padStart(2, "0")}</strong><span>/ {String(totalPages).padStart(2, "0")}</span></div>
-              <button type="button" disabled={page === totalPages} onClick={() => setPage((current) => Math.min(totalPages, current + 1))}>下一页 →</button>
+              <button type="button" disabled={page === 1} onClick={() => goToPage(page - 1)}>← 上一页</button>
+              <div className="page-controls">
+                <div className="page-status"><strong>{page}</strong><span>/ {totalPages}</span></div>
+                <form onSubmit={(event) => { event.preventDefault(); goToPage(Number(pageInput)); }}>
+                  <label className="sr-only" htmlFor="page-jump">跳转页码</label>
+                  <input id="page-jump" type="number" min="1" max={totalPages} value={pageInput} onChange={(event) => setPageInput(event.target.value)} />
+                  <button type="submit">跳转</button>
+                </form>
+              </div>
+              <button type="button" disabled={page === totalPages} onClick={() => goToPage(page + 1)}>下一页 →</button>
             </nav>
           </>
         )}
       </section>
 
-      <footer className="footer">
-        <div><strong>数据口径</strong><p>排名、昵称、AC 数、用时和解题记录来自比赛公开总榜；学校与省份来自公开用户详情。学段根据公开学校全称识别，只用于资料筛选，不构成比赛分组，也不会重新计算名次。</p></div>
-        <div><span>CONTEST #547</span><span>{formatNumber(data?.stats.total || 4256)} PUBLIC RANKS</span><span>NO TRACK DIVISION</span></div>
-      </footer>
     </main>
   );
 }

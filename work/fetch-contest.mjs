@@ -41,24 +41,6 @@ function normalizeSchool(value) {
   return school.length >= 2 && school !== "未知" && !/^\d+$/.test(school) ? school : "-";
 }
 
-function classifySchool(school) {
-  if (school === "-") return { stage: "undisclosed", stageLabel: "未公开", basis: "公开用户详情未提供学校" };
-  if (/小学|幼儿园/.test(school)) return { stage: "school", stageLabel: "中小学", basis: "根据公开学校全称识别为基础教育学校" };
-  if (/中学|高中|初中|附中|一中|二中|三中|四中|五中|六中|七中|八中|九中|十中|中等学校/.test(school)) {
-    return { stage: "school", stageLabel: "中小学", basis: "根据公开学校全称识别为基础教育学校" };
-  }
-  if (/(大学|学院|研究生院|本科)/.test(school) && !/(职业大学|职业技术大学|职业学院|职业技术学院)/.test(school)) {
-    return { stage: "university", stageLabel: "大学", basis: "根据公开学校全称识别为高等院校" };
-  }
-  if (/职业|职院|技工|技师学院|中专|技校|高等专科|职业技术|专科学校/.test(school)) {
-    return { stage: "vocational", stageLabel: "职业院校", basis: "根据公开学校全称识别为职业教育院校" };
-  }
-  if (/大学|学院|研究生院|本科/.test(school)) {
-    return { stage: "university", stageLabel: "大学", basis: "根据公开学校全称识别为高等院校" };
-  }
-  return { stage: "other", stageLabel: "其他", basis: "学校全称不足以明确识别学段" };
-}
-
 await mkdir(dataDir, { recursive: true });
 const [matchPayload, rankingPayload] = await Promise.all([
   postForm("/pc/queryMatchById.do", { id: String(contestId) }),
@@ -122,8 +104,10 @@ try {
 
 const profiles = { ...existing };
 for (const [userId, profile] of Object.entries(profiles)) {
-  const school = normalizeSchool(profile.school);
-  profiles[userId] = { ...profile, school, ...classifySchool(school) };
+  profiles[userId] = {
+    school: normalizeSchool(profile.school),
+    province: typeof profile.province === "string" ? profile.province : "",
+  };
 }
 const pending = contestants.filter((item) => !profiles[item.userId]);
 let cursor = 0;
@@ -152,7 +136,6 @@ async function worker() {
       profiles[contestant.userId] = {
         school,
         province: typeof detail.province === "string" ? detail.province : "",
-        ...classifySchool(school),
       };
     } catch {
       delete profiles[contestant.userId];
@@ -190,9 +173,6 @@ await writeFile(
       profile: profiles[contestant.userId] || {
         school: "-",
         province: "",
-        stage: "undisclosed",
-        stageLabel: "未公开",
-        basis: "公开用户详情暂时读取失败，将在下次更新时重试",
       },
     })),
     generatedAt: new Date().toISOString(),
