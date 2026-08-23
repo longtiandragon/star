@@ -35,6 +35,7 @@ type ContestData = {
 
 const PAGE_SIZE = 40;
 const ADVANCE_LIMIT = 400;
+const SNAPSHOT_REFRESH_INTERVAL = 5 * 60 * 1000;
 const PROBLEM_COLORS = [
   { background: "#e998b6", color: "#4d2030" },
   { background: "#17623a", color: "#ffffff" },
@@ -115,18 +116,29 @@ export default function Home() {
   useEffect(() => {
     const controller = new AbortController();
     const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-    fetch(`${basePath}/data/contest-547.json`, { signal: controller.signal })
-      .then(async (response) => {
-        const payload = (await response.json()) as ContestData & { error?: string };
-        if (!response.ok) throw new Error(payload.error || "榜单读取失败");
-        setData(payload);
+    const loadSnapshot = () => {
+      fetch(`${basePath}/data/contest-547.json?v=${Date.now()}`, {
+        cache: "no-store",
+        signal: controller.signal,
       })
-      .catch((loadError) => {
-        if (loadError instanceof DOMException && loadError.name === "AbortError") return;
-        setError(loadError instanceof Error ? loadError.message : "榜单读取失败");
-      })
-      .finally(() => setLoading(false));
-    return () => controller.abort();
+        .then(async (response) => {
+          const payload = (await response.json()) as ContestData & { error?: string };
+          if (!response.ok) throw new Error(payload.error || "榜单读取失败");
+          setData(payload);
+          setError("");
+        })
+        .catch((loadError) => {
+          if (loadError instanceof DOMException && loadError.name === "AbortError") return;
+          setError(loadError instanceof Error ? loadError.message : "榜单读取失败");
+        })
+        .finally(() => setLoading(false));
+    };
+    loadSnapshot();
+    const refreshTimer = window.setInterval(loadSnapshot, SNAPSHOT_REFRESH_INTERVAL);
+    return () => {
+      window.clearInterval(refreshTimer);
+      controller.abort();
+    };
   }, []);
 
   const schoolOptions = useMemo(() => {
