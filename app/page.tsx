@@ -35,6 +35,16 @@ type ContestData = {
 
 const PAGE_SIZE = 40;
 const ADVANCE_LIMIT = 400;
+const PROBLEM_COLORS = [
+  { background: "#e998b6", color: "#4d2030" },
+  { background: "#17623a", color: "#ffffff" },
+  { background: "#ff7388", color: "#4b1b23" },
+  { background: "#f5a000", color: "#422b00" },
+  { background: "#2993cf", color: "#ffffff" },
+  { background: "#9bcf3f", color: "#24330b" },
+  { background: "#8a50c7", color: "#ffffff" },
+  { background: "#f0d326", color: "#3b3300" },
+];
 
 type AwardThresholds = {
   goldEnd: number;
@@ -74,6 +84,14 @@ function formatDateTime(value: string) {
     minute: "2-digit",
     hour12: false,
   }).format(new Date(value));
+}
+
+function formatProblemTime(seconds: number) {
+  return Math.max(1, Math.floor(seconds / 60));
+}
+
+function formatPenaltyMinutes(seconds: number) {
+  return Math.floor(seconds / 60);
 }
 
 function getAward(rank: number, passCount: number, thresholds: AwardThresholds): Award | null {
@@ -137,9 +155,11 @@ export default function Home() {
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-  const podium = data?.contestants.slice(0, 3) || [];
   const awardThresholds = useMemo(() => calculateAwardThresholds(data?.stats.total || 0), [data?.stats.total]);
   const { goldEnd, silverEnd, bronzeEnd } = awardThresholds;
+  const problemStats = useMemo(() => Array.from({ length: data?.stats.questionCount || 8 }, (_, index) => (
+    data?.contestants.reduce((total, contestant) => total + (contestant.problems[index]?.solved ? 1 : 0), 0) || 0
+  )), [data]);
 
   function goToPage(nextPage: number) {
     const target = Math.min(totalPages, Math.max(1, Math.trunc(nextPage) || 1));
@@ -155,97 +175,97 @@ export default function Home() {
   }
 
   return (
-    <main className="shell">
-      <header className="topbar">
-        <a className="brand" href="#top" aria-label="百度之星选手雷达首页">
-          <span className="brand-code">B*</span>
-          <span><strong>选手雷达</strong><small>BAIDU STAR · MATIJI DATA</small></span>
+    <main className="scoreboard-shell" id="top">
+      <header className="site-header">
+        <a className="board-brand" href="#top" aria-label="百度之星榜单首页">
+          <span className="brand-mark">B*</span>
+          <span><strong>BAIDU STAR</strong><small>CONTEST BOARD</small></span>
         </a>
-        <div className="top-actions">
+        <nav className="header-nav" aria-label="页面导航">
+          <a href="#standings">榜单</a>
           <a href="https://www.matiji.net/exam/contest/contestdetail/547" target="_blank" rel="noreferrer">码蹄集原榜 ↗</a>
-        </div>
+        </nav>
       </header>
 
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <div className="edition"><span>2026</span><b>PRELIMINARY 01</b><em>#547</em></div>
-          <h1>百度之星<br /><span>初赛第一场</span></h1>
-          <div className="hero-meta">
-            <span><small>比赛时间</small>08.23 · 14:00—17:00</span>
-            <span><small>题目</small>{data?.stats.questionCount || 8} PROBLEMS</span>
-            <span><small>最高通过</small>{data?.stats.highestPass || 6} AC</span>
-          </div>
+      <section className="contest-head" aria-labelledby="contest-title">
+        <div className="contest-identity">
+          <h1 id="contest-title">2026 年百度之星程序设计大赛 初赛第一场</h1>
+          <p>{data?.contest.sponsor || "百度之星程序设计大赛组织委员会"}</p>
         </div>
-
-        <aside className="radar-card" aria-label="榜首速览">
-          <div className="radar-head"><span>OFFICIAL RANK SIGNAL</span><strong>TOP / 003</strong></div>
-          <div className="leader-list">
-            {(loading ? [null, null, null] : podium).map((leader, index) => leader ? (
-              <article key={leader.userId}>
-                <b>{String(leader.rank).padStart(2, "0")}</b>
-                <span><strong>{leader.nickname}</strong><small>ID {leader.userId}</small></span>
-                <span className="leader-score"><strong>{leader.passCount}</strong><small>AC</small></span>
-                <time>{formatDuration(leader.finishTime)}</time>
-              </article>
-            ) : <div className="leader-skeleton" key={index} />)}
-          </div>
-          <div className="radar-grid" aria-hidden="true"><i /><i /><i /></div>
-        </aside>
+        <div className="contest-timing">
+          <strong>开始时间：2026-08-23 14:00:00<sup>GMT+8</sup></strong>
+          <span className="final-pill"><i /> FINISHED</span>
+          <strong>结束时间：2026-08-23 17:00:00<sup>GMT+8</sup></strong>
+        </div>
+        <div className="contest-progress" aria-label="比赛已结束"><span /></div>
+        <div className="progress-labels"><strong>当前时间：03:00:00</strong><strong>剩余时间：00:00:00</strong></div>
       </section>
 
-      <section className="summary" aria-label="比赛概览">
-        <article><small>参赛人数</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
-        <article className="gold-card"><small>金牌 · 累计前 5%</small><strong>{data ? `1—${formatNumber(goldEnd)}` : "—"}</strong></article>
-        <article className="silver-card"><small>银牌 · 累计前 15%</small><strong>{data ? `${formatNumber(goldEnd + 1)}—${formatNumber(silverEnd)}` : "—"}</strong></article>
-        <article className="bronze-card"><small>铜牌 · 累计前 30%</small><strong>{data ? `${formatNumber(silverEnd + 1)}—${formatNumber(bronzeEnd)}` : "—"}</strong></article>
-        <article className="advance-card"><small>晋级 · 前 {ADVANCE_LIMIT} 名</small><strong>{ADVANCE_LIMIT}</strong></article>
+      <section className="award-overview" aria-label="名额概览">
+        <article><small>参赛</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
+        <article data-tone="gold"><small>金牌 5%</small><strong>{data ? `1—${formatNumber(goldEnd)}` : "—"}</strong></article>
+        <article data-tone="silver"><small>银牌 15%</small><strong>{data ? `${formatNumber(goldEnd + 1)}—${formatNumber(silverEnd)}` : "—"}</strong></article>
+        <article data-tone="bronze"><small>铜牌 30%</small><strong>{data ? `${formatNumber(silverEnd + 1)}—${formatNumber(bronzeEnd)}` : "—"}</strong></article>
+        <article data-tone="advance"><small>晋级</small><strong>1—{ADVANCE_LIMIT}</strong></article>
       </section>
 
-      <section className="leaderboard" aria-labelledby="leaderboard-title">
-        <div className="panel-head">
-          <div><span>PARTICIPANT INDEX</span><h2 id="leaderboard-title">官方总榜索引</h2><p>{data?.contest.title || "2026年百度之星 初赛 第一场"}</p></div>
-          <div className="snapshot-time"><small>资料快照</small><strong>{data ? formatDateTime(data.generatedAt) : "读取中"}</strong></div>
-        </div>
+      <section className="standings" id="standings" aria-labelledby="standings-title">
+        <header className="board-head">
+          <div>
+            <span className="eyebrow">STANDINGS</span>
+            <h2 id="standings-title">实时排名</h2>
+            <p>每页 40 人 · FINAL STANDINGS</p>
+          </div>
+          <div className="snapshot-time"><small>最后快照</small><strong>{data ? formatDateTime(data.generatedAt) : "读取中"}</strong></div>
+        </header>
 
-        <div className="filters">
+        <div className="board-tools">
           <label className="search-box">
-            <span>搜索参赛者</span>
-            <div><b>/</b><input type="search" value={query} onChange={(event) => { setQuery(event.target.value); goToPage(1); }} placeholder="昵称、ID、学校或省份" />{query && <button type="button" onClick={() => { setQuery(""); goToPage(1); }} aria-label="清空搜索">×</button>}</div>
+            <span className="sr-only">搜索参赛者</span>
+            <div><b>⌕</b><input type="search" value={query} onChange={(event) => { setQuery(event.target.value); goToPage(1); }} placeholder="搜索昵称、ID、学校或地区" />{query && <button type="button" onClick={() => { setQuery(""); goToPage(1); }} aria-label="清空搜索">×</button>}</div>
           </label>
-          <label><span>学校</span><select value={schoolFilter} onChange={(event) => { setSchoolFilter(event.target.value); goToPage(1); }}><option value="all">全部公开学校 · {schoolOptions.length}</option>{schoolOptions.map(([school, count]) => <option value={school} key={school}>{school} · {count}</option>)}</select></label>
-          <label><span>AC 门槛</span><select value={passFilter} onChange={(event) => { setPassFilter(event.target.value); goToPage(1); }}><option value="all">不限</option>{[6, 5, 4, 3, 2, 1].map((count) => <option value={count} key={count}>≥ {count} 题</option>)}</select></label>
-        </div>
-
-        <div className="result-rail">
-          <p><strong>{formatNumber(filtered.length)}</strong> 位参赛者</p>
-          {(query || schoolFilter !== "all" || passFilter !== "all") && <button type="button" onClick={clearFilters}>清空筛选</button>}
+          <label><span className="sr-only">学校筛选</span><select value={schoolFilter} onChange={(event) => { setSchoolFilter(event.target.value); goToPage(1); }}><option value="all">全部学校 · {schoolOptions.length}</option>{schoolOptions.map(([school, count]) => <option value={school} key={school}>{school} · {count}</option>)}</select></label>
+          <label><span className="sr-only">AC门槛</span><select value={passFilter} onChange={(event) => { setPassFilter(event.target.value); goToPage(1); }}><option value="all">全部 AC</option>{[6, 5, 4, 3, 2, 1].map((count) => <option value={count} key={count}>至少 {count} AC</option>)}</select></label>
+          <div className="result-count"><strong>{formatNumber(filtered.length)}</strong><span>支队伍</span>{(query || schoolFilter !== "all" || passFilter !== "all") && <button type="button" onClick={clearFilters}>重置</button>}</div>
         </div>
 
         {error ? (
           <div className="state"><span>DATA ERROR</span><h3>{error}</h3><p>请重新启动本地站点后再试。</p></div>
         ) : loading ? (
-          <div className="loading-list">{Array.from({ length: 8 }, (_, index) => <div key={index} />)}</div>
+          <div className="loading-list">{Array.from({ length: 12 }, (_, index) => <div key={index} />)}</div>
         ) : filtered.length === 0 ? (
-          <div className="state"><span>NO MATCH</span><h3>没有符合条件的参赛者</h3><p>可以清空学校或 AC 门槛。</p><button type="button" onClick={clearFilters}>重置筛选</button></div>
+          <div className="state"><span>NO MATCH</span><h3>没有符合条件的参赛者</h3><button type="button" onClick={clearFilters}>重置筛选</button></div>
         ) : (
           <>
             <div className="table-wrap">
-              <table>
-                <caption className="sr-only">2026 年百度之星初赛第一场官方总榜</caption>
-                <thead><tr><th>排名 / 奖项</th><th>参赛者</th><th>学校 / 地区</th><th>AC</th><th>总用时</th><th>罚次</th><th>解题轨迹</th></tr></thead>
+              <table className="xcpc-table">
+                <caption className="sr-only">2026年百度之星初赛第一场排名</caption>
+                <thead>
+                  <tr>
+                    <th className="rank-column">排名</th>
+                    <th className="school-column">学校 / 地区</th>
+                    <th className="team-column">参赛者</th>
+                    <th className="score-column">解题</th>
+                    <th className="penalty-column">罚时</th>
+                    {Array.from({ length: data?.stats.questionCount || 8 }, (_, index) => <th className="problem-column" key={index} style={PROBLEM_COLORS[index % PROBLEM_COLORS.length]}><strong>{String.fromCharCode(65 + index)}</strong><small>{problemStats[index]}</small></th>)}
+                  </tr>
+                </thead>
                 <tbody>{pageRows.map((contestant) => {
                   const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
                   const advanced = contestant.rank <= ADVANCE_LIMIT;
                   return (
-                  <tr key={contestant.userId}>
-                    <td><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>{String(contestant.rank).padStart(4, "0")}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div></td>
-                    <td><div className="person"><span>{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
-                    <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
-                    <td><span className="ac"><strong>{contestant.passCount}</strong><small>/{data?.stats.questionCount || 8}</small></span></td>
-                    <td><time>{formatDuration(contestant.finishTime)}</time></td>
-                    <td><span className={contestant.errors ? "penalty" : "no-penalty"}>{contestant.errors}</span></td>
-                    <td><div className="problem-strip" aria-label={`${contestant.nickname} 的解题轨迹`}>{contestant.problems.map((problem, index) => <span key={index} data-state={problem.solved ? (problem.errors ? "penalty" : "solved") : "empty"} title={`第 ${index + 1} 题：${problem.solved ? `通过，${problem.errors} 次罚次` : "未通过"}`}>{String.fromCharCode(65 + index)}</span>)}</div></td>
-                  </tr>
+                    <tr key={contestant.userId} data-award={award?.label || undefined}>
+                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></td>
+                      <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
+                      <td><div className="team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
+                      <td className="solved-cell"><strong>{contestant.passCount}</strong><span>/{data?.stats.questionCount || 8}</span></td>
+                      <td className="time-cell"><strong>{formatPenaltyMinutes(contestant.finishTime)}</strong><span>{contestant.errors ? `${contestant.errors} 次罚时` : ""}</span></td>
+                      {contestant.problems.map((problem, index) => (
+                        <td className="problem-cell" key={index} data-state={problem.solved ? "solved" : problem.errors ? "failed" : "empty"} title={`第 ${index + 1} 题：${problem.solved ? `通过，用时 ${formatDuration(problem.seconds)}，${problem.errors} 次罚时` : "未通过"}`}>
+                          {problem.solved ? <><strong>+</strong><small>{problem.errors + 1}/{formatProblemTime(problem.seconds)}</small></> : problem.errors ? <><strong>-</strong><small>{problem.errors}</small></> : null}
+                        </td>
+                      ))}
+                    </tr>
                   );
                 })}</tbody>
               </table>
@@ -255,13 +275,13 @@ export default function Home() {
               const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
               const advanced = contestant.rank <= ADVANCE_LIMIT;
               return (
-              <article key={contestant.userId}>
-                <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div><span className="ac"><strong>{contestant.passCount}</strong> AC</span></div>
-                <h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p>
-                <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
-                <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>
-                <div className="problem-strip">{contestant.problems.map((problem, index) => <span key={index} data-state={problem.solved ? (problem.errors ? "penalty" : "solved") : "empty"}>{String.fromCharCode(65 + index)}</span>)}</div>
-              </article>
+                <article key={contestant.userId} data-award={award?.label || undefined}>
+                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
+                  <div className="mobile-team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p></div></div>
+                  <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
+                  <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>
+                  <div className="problem-strip" aria-label={`${contestant.nickname}的解题情况`}>{contestant.problems.map((problem, index) => <span key={index} data-state={problem.solved ? "solved" : problem.errors ? "failed" : "empty"}>{String.fromCharCode(65 + index)}</span>)}</div>
+                </article>
               );
             })}</div>
 
@@ -280,7 +300,6 @@ export default function Home() {
           </>
         )}
       </section>
-
     </main>
   );
 }
