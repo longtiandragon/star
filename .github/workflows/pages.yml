@@ -37,6 +37,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Route Matiji through its mainland CDN
+        shell: bash
+        run: |
+          MATIJI_IP="$(
+            curl --fail --silent --show-error --retry 2 \
+              'https://doh.pub/resolve?name=www.matiji.net&type=A' \
+              -H 'accept: application/dns-json' \
+            | jq -r '.Answer[]? | select(.type == 1) | .data' \
+            | tail -n 1
+          )"
+          if [[ ! "$MATIJI_IP" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            MATIJI_IP="42.97.39.183"
+          fi
+          echo "$MATIJI_IP www.matiji.net" | sudo tee -a /etc/hosts
+          curl --fail --silent --show-error --retry 2 \
+            --connect-timeout 10 --max-time 30 \
+            'https://www.matiji.net/exam-back/pc/queryMatchRankListById.do?matchId=547&start=0&limit=1' \
+            > /dev/null
+
       - name: Refresh public ranking snapshot
         run: npm run refresh:data
 
