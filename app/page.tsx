@@ -33,7 +33,27 @@ type ContestData = {
   generatedAt: string;
 };
 
-const PAGE_SIZE = 36;
+const PAGE_SIZE = 40;
+const ADVANCE_LIMIT = 400;
+
+type AwardBands = {
+  gold: number;
+  silver: number;
+  bronze: number;
+};
+
+type Award = {
+  label: "金牌" | "银牌" | "铜牌";
+  tone: "rank-gold" | "rank-silver" | "rank-bronze";
+};
+
+function calculateAwardBands(total: number): AwardBands {
+  return {
+    gold: Math.round(total * 0.05),
+    silver: Math.round(total * 0.1),
+    bronze: Math.round(total * 0.15),
+  };
+}
 function formatNumber(value: number) {
   return new Intl.NumberFormat("zh-CN").format(value);
 }
@@ -56,18 +76,12 @@ function formatDateTime(value: string) {
   }).format(new Date(value));
 }
 
-function rankTone(rank: number) {
-  if (rank <= 400) return "rank-gold";
-  if (rank <= 800) return "rank-silver";
-  if (rank <= 1200) return "rank-bronze";
-  return "";
-}
-
-function medalLabel(rank: number) {
-  if (rank <= 400) return "金牌";
-  if (rank <= 800) return "银牌";
-  if (rank <= 1200) return "铜牌";
-  return "";
+function getAward(rank: number, passCount: number, bands: AwardBands): Award | null {
+  if (passCount === 0) return null;
+  if (rank <= bands.gold) return { label: "金牌", tone: "rank-gold" };
+  if (rank <= bands.gold + bands.silver) return { label: "银牌", tone: "rank-silver" };
+  if (rank <= bands.gold + bands.silver + bands.bronze) return { label: "铜牌", tone: "rank-bronze" };
+  return null;
 }
 
 export default function Home() {
@@ -124,6 +138,10 @@ export default function Home() {
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const podium = data?.contestants.slice(0, 3) || [];
+  const awardBands = useMemo(() => calculateAwardBands(data?.stats.total || 0), [data?.stats.total]);
+  const goldEnd = awardBands.gold;
+  const silverEnd = goldEnd + awardBands.silver;
+  const bronzeEnd = silverEnd + awardBands.bronze;
 
   function goToPage(nextPage: number) {
     const target = Math.min(totalPages, Math.max(1, Math.trunc(nextPage) || 1));
@@ -179,9 +197,10 @@ export default function Home() {
 
       <section className="summary" aria-label="比赛概览">
         <article><small>参赛人数</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
-        <article className="gold-card"><small>金牌 · 1—400</small><strong>400</strong></article>
-        <article className="silver-card"><small>银牌 · 401—800</small><strong>400</strong></article>
-        <article className="bronze-card"><small>铜牌 · 801—1200</small><strong>400</strong></article>
+        <article className="gold-card"><small>金牌 · 1—{goldEnd || "—"}</small><strong>{data ? formatNumber(awardBands.gold) : "—"}</strong></article>
+        <article className="silver-card"><small>银牌 · {goldEnd ? goldEnd + 1 : "—"}—{silverEnd || "—"}</small><strong>{data ? formatNumber(awardBands.silver) : "—"}</strong></article>
+        <article className="bronze-card"><small>铜牌 · {silverEnd ? silverEnd + 1 : "—"}—{bronzeEnd || "—"}</small><strong>{data ? formatNumber(awardBands.bronze) : "—"}</strong></article>
+        <article className="advance-card"><small>晋级 · 前 {ADVANCE_LIMIT} 名</small><strong>{ADVANCE_LIMIT}</strong></article>
       </section>
 
       <section className="leaderboard" aria-labelledby="leaderboard-title">
@@ -215,10 +234,13 @@ export default function Home() {
             <div className="table-wrap">
               <table>
                 <caption className="sr-only">2026 年百度之星初赛第一场官方总榜</caption>
-                <thead><tr><th>排名 / 奖牌</th><th>参赛者</th><th>学校 / 地区</th><th>AC</th><th>总用时</th><th>罚次</th><th>解题轨迹</th></tr></thead>
-                <tbody>{pageRows.map((contestant) => (
+                <thead><tr><th>排名 / 奖项</th><th>参赛者</th><th>学校 / 地区</th><th>AC</th><th>总用时</th><th>罚次</th><th>解题轨迹</th></tr></thead>
+                <tbody>{pageRows.map((contestant) => {
+                  const award = getAward(contestant.rank, contestant.passCount, awardBands);
+                  const advanced = contestant.rank <= ADVANCE_LIMIT;
+                  return (
                   <tr key={contestant.userId}>
-                    <td><div className="rank-stack"><span className={`rank-number ${rankTone(contestant.rank)}`}>{String(contestant.rank).padStart(4, "0")}</span>{medalLabel(contestant.rank) && <span className={`medal-badge ${rankTone(contestant.rank)}`}>{medalLabel(contestant.rank)}</span>}</div></td>
+                    <td><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>{String(contestant.rank).padStart(4, "0")}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div></td>
                     <td><div className="person"><span>{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
                     <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
                     <td><span className="ac"><strong>{contestant.passCount}</strong><small>/{data?.stats.questionCount || 8}</small></span></td>
@@ -226,19 +248,24 @@ export default function Home() {
                     <td><span className={contestant.errors ? "penalty" : "no-penalty"}>{contestant.errors}</span></td>
                     <td><div className="problem-strip" aria-label={`${contestant.nickname} 的解题轨迹`}>{contestant.problems.map((problem, index) => <span key={index} data-state={problem.solved ? (problem.errors ? "penalty" : "solved") : "empty"} title={`第 ${index + 1} 题：${problem.solved ? `通过，${problem.errors} 次罚次` : "未通过"}`}>{String.fromCharCode(65 + index)}</span>)}</div></td>
                   </tr>
-                ))}</tbody>
+                  );
+                })}</tbody>
               </table>
             </div>
 
-            <div className="mobile-list">{pageRows.map((contestant) => (
+            <div className="mobile-list">{pageRows.map((contestant) => {
+              const award = getAward(contestant.rank, contestant.passCount, awardBands);
+              const advanced = contestant.rank <= ADVANCE_LIMIT;
+              return (
               <article key={contestant.userId}>
-                <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${rankTone(contestant.rank)}`}>#{contestant.rank}</span>{medalLabel(contestant.rank) && <span className={`medal-badge ${rankTone(contestant.rank)}`}>{medalLabel(contestant.rank)}</span>}</div><span className="ac"><strong>{contestant.passCount}</strong> AC</span></div>
+                <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div><span className="ac"><strong>{contestant.passCount}</strong> AC</span></div>
                 <h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p>
                 <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
                 <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>
                 <div className="problem-strip">{contestant.problems.map((problem, index) => <span key={index} data-state={problem.solved ? (problem.errors ? "penalty" : "solved") : "empty"}>{String.fromCharCode(65 + index)}</span>)}</div>
               </article>
-            ))}</div>
+              );
+            })}</div>
 
             <nav className="pagination" aria-label="榜单分页">
               <button type="button" disabled={page === 1} onClick={() => goToPage(page - 1)}>← 上一页</button>
