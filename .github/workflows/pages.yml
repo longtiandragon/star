@@ -38,6 +38,7 @@ jobs:
         run: npm ci
 
       - name: Refresh public ranking snapshot
+        continue-on-error: true
         run: npm run refresh:data
 
       - name: Set Pages base path
