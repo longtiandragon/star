@@ -1,10 +1,12 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { contest547Exclusions, exclusionSource } from "./contest-547-exclusions.mjs";
 
 const contestId = Number(process.argv[2] || 547);
 const dataDir = resolve(process.argv[3] || "app/data");
 const rankingPath = resolve(dataDir, `contest-${contestId}-ranking.json`);
 const profilesPath = resolve(dataDir, `contest-${contestId}-profiles.json`);
+const disqualifiedPath = resolve(dataDir, `contest-${contestId}-disqualified.json`);
 const publicPath = resolve("public", "data", `contest-${contestId}.json`);
 const baseUrl = "https://www.matiji.net/exam-back";
 const headers = {
@@ -59,7 +61,7 @@ if (matchPayload.error_no !== "0" || rankingPayload.error_no !== "0") {
 
 const match = matchPayload.data || {};
 const rows = rankingPayload.data?.datas || [];
-const contestants = rows.map((row) => {
+const sourceContestants = rows.map((row) => {
   const questions = Array.isArray(row.questionScoreList) ? row.questionScoreList : [];
   return {
     rank: Number(row.orderIndex || 0),
@@ -79,6 +81,36 @@ const contestants = rows.map((row) => {
   };
 });
 
+const disqualifiedArchive = JSON.parse(await readFile(disqualifiedPath, "utf8"));
+const excludedContestants = Array.isArray(disqualifiedArchive.excludedContestants)
+  ? disqualifiedArchive.excludedContestants
+  : [];
+if (excludedContestants.length !== contest547Exclusions.length) {
+  throw new Error(`作弊/违规档案应为 ${contest547Exclusions.length} 人，当前为 ${excludedContestants.length} 人`);
+}
+const expectedExclusions = new Map(contest547Exclusions.map((item) => [item.nickname, item.category]));
+for (const contestant of excludedContestants) {
+  if (expectedExclusions.get(contestant.nickname) !== contestant.disqualification) {
+    throw new Error(`作弊/违规档案与官方名单不一致：${contestant.nickname}`);
+  }
+}
+
+const excludedNicknames = new Set(excludedContestants.map((item) => item.nickname));
+const currentNicknames = new Set(sourceContestants.map((item) => item.nickname));
+const missingExcludedCount = excludedContestants.filter((item) => !currentNicknames.has(item.nickname)).length;
+const contestants = sourceContestants
+  .filter((item) => !excludedNicknames.has(item.nickname))
+  .map((item, index) => ({ ...item, rank: index + 1 }));
+const stats = {
+  total: contestants.length,
+  originalTotal: sourceContestants.length + missingExcludedCount,
+  excludedTotal: excludedContestants.length,
+  cheatingTotal: excludedContestants.filter((item) => item.disqualification === "作弊").length,
+  violationTotal: excludedContestants.filter((item) => item.disqualification === "违规").length,
+  questionCount: Number(rankingPayload.total || 0),
+  highestPass: contestants.reduce((max, item) => Math.max(max, item.passCount), 0),
+};
+
 await writeFile(
   rankingPath,
   `${JSON.stringify({
@@ -90,16 +122,14 @@ await writeFile(
       endTime: Number(match.endTime || 0),
       sourceUrl: `https://www.matiji.net/exam/contest/contestdetail/${contestId}`,
     },
-    stats: {
-      total: contestants.length,
-      questionCount: Number(rankingPayload.total || 0),
-      highestPass: contestants.reduce((max, item) => Math.max(max, item.passCount), 0),
-    },
+    stats,
     contestants,
+    excludedContestants,
+    exclusionSource,
     generatedAt: new Date().toISOString(),
   }, null, 2)}\n`,
 );
-console.log(`ranking ${contestants.length} -> ${rankingPath}`);
+console.log(`ranking ${contestants.length} eligible, ${excludedContestants.length} excluded -> ${rankingPath}`);
 
 let existing = {};
 try {
@@ -169,11 +199,7 @@ await writeFile(
       endTime: Number(match.endTime || 0),
       sourceUrl: `https://www.matiji.net/exam/contest/contestdetail/${contestId}`,
     },
-    stats: {
-      total: contestants.length,
-      questionCount: Number(rankingPayload.total || 0),
-      highestPass: contestants.reduce((max, item) => Math.max(max, item.passCount), 0),
-    },
+    stats,
     contestants: contestants.map((contestant) => ({
       ...contestant,
       profile: profiles[contestant.userId] || {
@@ -181,6 +207,8 @@ await writeFile(
         province: "",
       },
     })),
+    excludedContestants,
+    exclusionSource,
     generatedAt: new Date().toISOString(),
   })}\n`,
 );

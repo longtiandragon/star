@@ -35,6 +35,8 @@ next-env.d.ts
 /dist/
 /.wrangler/
 /outputs/
+/tmp/
 !/work/
 /work/*
 !/work/fetch-contest.mjs
+!/work/contest-547-exclusions.mjs

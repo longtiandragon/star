@@ -1,0 +1,6283 @@
+{
+  "contestId": 547,
+  "capturedAt": "2026-08-23T16:07:13.536Z",
+  "source": {
+    "articleUrl": "https://star.baidu.com/#/news-info?tab=3&id=62CA2C6F42AC24C04B71BCA08B9C16A9",
+    "pdfUrl": "https://base.cdn.bcebos.com/zuobi_2026_astar_first.pdf",
+    "publishedAt": "2026-08-29"
+  },
+  "excludedContestants": [
+    {
+      "rank": 1,
+      "userId": 204568,
+      "nickname": "小码_204568",
+      "passCount": 6,
+      "finishTime": 7309,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 822,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1126,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 295,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1426,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1724,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1916,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3,
+      "userId": 280514,
+      "nickname": "小码_280514",
+      "passCount": 6,
+      "finishTime": 14157,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 279,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1379,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3541,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2233,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4251,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2474,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 8,
+      "userId": 152997,
+      "nickname": "小码_152997",
+      "passCount": 6,
+      "finishTime": 18893,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 482,
+          "errors": 1
+        },
+        {
+          "solved": true,
+          "seconds": 6691,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5314,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2599,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 533,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 874,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 8,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 34,
+      "userId": 283951,
+      "nickname": "1000000007",
+      "passCount": 5,
+      "finishTime": 12260,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 227,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5321,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3243,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 269,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 800,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "南京大学",
+        "province": "江苏省"
+      },
+      "originalRank": 34,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 39,
+      "userId": 215270,
+      "nickname": "Sulfox",
+      "passCount": 5,
+      "finishTime": 12766,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 578,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6065,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2587,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 216,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 920,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "辽宁省"
+      },
+      "originalRank": 39,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 54,
+      "userId": 246661,
+      "nickname": "Szm0822",
+      "passCount": 5,
+      "finishTime": 15351,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1125,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6598,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3729,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 650,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3249,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "河南师范大学",
+        "province": "河南省"
+      },
+      "originalRank": 54,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 76,
+      "userId": 282098,
+      "nickname": "小码_282098",
+      "passCount": 5,
+      "finishTime": 23416,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1438,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3732,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5742,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5997,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6507,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 76,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 77,
+      "userId": 203541,
+      "nickname": "小码_203541",
+      "passCount": 5,
+      "finishTime": 24017,
+      "errors": 5,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1679,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5371,
+          "errors": 1
+        },
+        {
+          "solved": true,
+          "seconds": 6776,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1914,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2277,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 77,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 78,
+      "userId": 279250,
+      "nickname": "小码_279250",
+      "passCount": 5,
+      "finishTime": 27440,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5581,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5884,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5810,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5651,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4514,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "西安邮电大学",
+        "province": "陕西省"
+      },
+      "originalRank": 78,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 79,
+      "userId": 280912,
+      "nickname": "郭政淼",
+      "passCount": 5,
+      "finishTime": 28344,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 4664,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4064,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6204,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6214,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 7198,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "西安交通大学",
+        "province": "西安市"
+      },
+      "originalRank": 79,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 97,
+      "userId": 283211,
+      "nickname": "小码_283211",
+      "passCount": 4,
+      "finishTime": 6409,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 831,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3368,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 886,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1324,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "黑龙江省"
+      },
+      "originalRank": 97,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 107,
+      "userId": 280783,
+      "nickname": "小码_280783",
+      "passCount": 4,
+      "finishTime": 6965,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1025,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3220,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1124,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1596,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 107,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 136,
+      "userId": 279080,
+      "nickname": "小码_279080",
+      "passCount": 4,
+      "finishTime": 8257,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 445,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4023,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 507,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 882,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 136,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 139,
+      "userId": 146003,
+      "nickname": "倾愚",
+      "passCount": 4,
+      "finishTime": 8282,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 516,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5556,
+          "errors": 1
+        },
+        {
+          "solved": true,
+          "seconds": 195,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 815,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "重庆市"
+      },
+      "originalRank": 139,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 156,
+      "userId": 215714,
+      "nickname": "小码_215714",
+      "passCount": 4,
+      "finishTime": 8768,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 504,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5165,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 689,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1210,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 156,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 169,
+      "userId": 225166,
+      "nickname": "斩万劫",
+      "passCount": 4,
+      "finishTime": 8993,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 964,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4085,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 266,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2478,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "广东省"
+      },
+      "originalRank": 169,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 175,
+      "userId": 161614,
+      "nickname": "小码_161614",
+      "passCount": 4,
+      "finishTime": 9122,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1021,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3875,
+          "errors": 1
+        },
+        {
+          "solved": true,
+          "seconds": 337,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1489,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 175,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 194,
+      "userId": 244103,
+      "nickname": "小码_244103",
+      "passCount": 4,
+      "finishTime": 9732,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1850,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 870,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3981,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3031,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 194,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 217,
+      "userId": 139069,
+      "nickname": "TosakaUCW",
+      "passCount": 4,
+      "finishTime": 10214,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 827,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4585,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1785,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3017,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "广东省"
+      },
+      "originalRank": 217,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 221,
+      "userId": 204765,
+      "nickname": "陈静兰",
+      "passCount": 4,
+      "finishTime": 10308,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2202,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 856,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5603,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1647,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 221,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 222,
+      "userId": 193849,
+      "nickname": "小码_193849",
+      "passCount": 4,
+      "finishTime": 10342,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 457,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4387,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 548,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1350,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 222,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 234,
+      "userId": 204053,
+      "nickname": "小码_204053",
+      "passCount": 4,
+      "finishTime": 10750,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 586,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4697,
+          "errors": 1
+        },
+        {
+          "solved": true,
+          "seconds": 146,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1721,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 234,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 270,
+      "userId": 245612,
+      "nickname": "若之哥布林",
+      "passCount": 4,
+      "finishTime": 12052,
+      "errors": 4,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 218,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5147,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 256,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1631,
+          "errors": 4
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "湖北省"
+      },
+      "originalRank": 270,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 272,
+      "userId": 172475,
+      "nickname": "小码_172475",
+      "passCount": 4,
+      "finishTime": 12093,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 841,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4785,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3051,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3416,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 272,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 276,
+      "userId": 172835,
+      "nickname": "小码_172835",
+      "passCount": 4,
+      "finishTime": 12199,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 464,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6130,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 698,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1307,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 276,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 278,
+      "userId": 204129,
+      "nickname": "小码_204129",
+      "passCount": 4,
+      "finishTime": 12422,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1606,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4432,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1695,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3489,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 278,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 321,
+      "userId": 283587,
+      "nickname": "小码_283587",
+      "passCount": 4,
+      "finishTime": 14396,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 661,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4656,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3580,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5499,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 321,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 332,
+      "userId": 280958,
+      "nickname": "小码_280958",
+      "passCount": 4,
+      "finishTime": 15287,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 656,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 7169,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 720,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3142,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 332,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 363,
+      "userId": 277080,
+      "nickname": "小码_277080",
+      "passCount": 4,
+      "finishTime": 19874,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 6353,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5727,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3418,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4376,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 363,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 366,
+      "userId": 262513,
+      "nickname": "小码_262513",
+      "passCount": 4,
+      "finishTime": 21081,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 887,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6604,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6847,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6743,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 366,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 369,
+      "userId": 279553,
+      "nickname": "小码_279553",
+      "passCount": 4,
+      "finishTime": 21830,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5143,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 917,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 7195,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4975,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 369,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 378,
+      "userId": 214994,
+      "nickname": "小码_214994",
+      "passCount": 4,
+      "finishTime": 32271,
+      "errors": 21,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1013,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4697,
+          "errors": 19
+        },
+        {
+          "solved": true,
+          "seconds": 416,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 945,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 378,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 380,
+      "userId": 184031,
+      "nickname": "下面的人是奶龙",
+      "passCount": 4,
+      "finishTime": 34508,
+      "errors": 20,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 740,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6146,
+          "errors": 4
+        },
+        {
+          "solved": true,
+          "seconds": 39,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3583,
+          "errors": 16
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "安徽省"
+      },
+      "originalRank": 380,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 406,
+      "userId": 180411,
+      "nickname": "小码_180411",
+      "passCount": 3,
+      "finishTime": 1848,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 351,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 417,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1080,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 406,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 413,
+      "userId": 162976,
+      "nickname": "蒋硕阳",
+      "passCount": 3,
+      "finishTime": 1983,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1183,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 52,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 748,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "吉林省"
+      },
+      "originalRank": 413,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 438,
+      "userId": 45404,
+      "nickname": "小码_45404",
+      "passCount": 3,
+      "finishTime": 2420,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 724,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 262,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1434,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 438,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 453,
+      "userId": 283959,
+      "nickname": "小码_283959",
+      "passCount": 3,
+      "finishTime": 2721,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 771,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 154,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1796,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 453,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 462,
+      "userId": 277184,
+      "nickname": "小码_277184",
+      "passCount": 3,
+      "finishTime": 2861,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 428,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 264,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 969,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 462,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 474,
+      "userId": 282077,
+      "nickname": "小码_282077",
+      "passCount": 3,
+      "finishTime": 2988,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 892,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1004,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1092,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 474,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 500,
+      "userId": 182121,
+      "nickname": "usedchang",
+      "passCount": 3,
+      "finishTime": 3215,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 852,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 922,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1441,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "温州大学",
+        "province": "浙江省"
+      },
+      "originalRank": 500,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 518,
+      "userId": 183845,
+      "nickname": "小码_183845",
+      "passCount": 3,
+      "finishTime": 3406,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 834,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1030,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1542,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "南京理工大学",
+        "province": "南京市"
+      },
+      "originalRank": 518,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 533,
+      "userId": 241030,
+      "nickname": "Am_Gm",
+      "passCount": 3,
+      "finishTime": 3569,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 416,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 478,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1475,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "北京市"
+      },
+      "originalRank": 533,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 562,
+      "userId": 190475,
+      "nickname": "小码_190475",
+      "passCount": 3,
+      "finishTime": 3767,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 651,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 279,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1637,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 562,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 569,
+      "userId": 281313,
+      "nickname": "Bob1108",
+      "passCount": 3,
+      "finishTime": 3825,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1667,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 132,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 826,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "唐山市龙华中学",
+        "province": "河北省"
+      },
+      "originalRank": 569,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 580,
+      "userId": 278068,
+      "nickname": "小码_278068",
+      "passCount": 3,
+      "finishTime": 3899,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 666,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 124,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1909,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 580,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 582,
+      "userId": 189704,
+      "nickname": "小码_189704",
+      "passCount": 3,
+      "finishTime": 3918,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 402,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 211,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 905,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 582,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 584,
+      "userId": 153840,
+      "nickname": "narKu",
+      "passCount": 3,
+      "finishTime": 3936,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 750,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 197,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1789,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "江西省"
+      },
+      "originalRank": 584,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 610,
+      "userId": 195319,
+      "nickname": "BLACKCAT",
+      "passCount": 3,
+      "finishTime": 4084,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 568,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 133,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 983,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "河北省"
+      },
+      "originalRank": 610,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 628,
+      "userId": 215193,
+      "nickname": "小码_215193",
+      "passCount": 3,
+      "finishTime": 4178,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 804,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 398,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1776,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 628,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 658,
+      "userId": 181633,
+      "nickname": "Brilliant",
+      "passCount": 3,
+      "finishTime": 4460,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 627,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 188,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1245,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "广东省"
+      },
+      "originalRank": 658,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 663,
+      "userId": 280733,
+      "nickname": "小码_280733",
+      "passCount": 3,
+      "finishTime": 4494,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 738,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1110,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2646,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 663,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 739,
+      "userId": 30174,
+      "nickname": "小码_30174",
+      "passCount": 3,
+      "finishTime": 4908,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1197,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 199,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2312,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "湖南省"
+      },
+      "originalRank": 739,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 772,
+      "userId": 153411,
+      "nickname": "Ww_wW",
+      "passCount": 3,
+      "finishTime": 5102,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 173,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 341,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 988,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "辽宁省"
+      },
+      "originalRank": 772,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 805,
+      "userId": 278558,
+      "nickname": "小码_278558",
+      "passCount": 3,
+      "finishTime": 5251,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1168,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1312,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2771,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 805,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 830,
+      "userId": 238514,
+      "nickname": "小码_238514",
+      "passCount": 3,
+      "finishTime": 5366,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1086,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1176,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1904,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 830,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 854,
+      "userId": 282867,
+      "nickname": "小码_282867",
+      "passCount": 3,
+      "finishTime": 5482,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 596,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 805,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4081,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 854,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 875,
+      "userId": 138354,
+      "nickname": "niolle",
+      "passCount": 3,
+      "finishTime": 5554,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1661,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1713,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2180,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "江苏省"
+      },
+      "originalRank": 875,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 937,
+      "userId": 282090,
+      "nickname": "小码_282090",
+      "passCount": 3,
+      "finishTime": 5898,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 854,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 925,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1719,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 937,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1011,
+      "userId": 182064,
+      "nickname": "小码_182064",
+      "passCount": 3,
+      "finishTime": 6350,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 479,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 184,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3287,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1011,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1053,
+      "userId": 279411,
+      "nickname": "小码_279411",
+      "passCount": 3,
+      "finishTime": 6598,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1815,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1886,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2897,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1053,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1064,
+      "userId": 90470,
+      "nickname": "小码_90470",
+      "passCount": 3,
+      "finishTime": 6659,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 902,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4451,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 106,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "北京市"
+      },
+      "originalRank": 1064,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1072,
+      "userId": 30802,
+      "nickname": "小码_30802",
+      "passCount": 3,
+      "finishTime": 6715,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1117,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1183,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2015,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "山东省"
+      },
+      "originalRank": 1072,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1117,
+      "userId": 34275,
+      "nickname": "Satrpx",
+      "passCount": 3,
+      "finishTime": 7046,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1164,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1253,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2229,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1117,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1184,
+      "userId": 227812,
+      "nickname": "小码_227812",
+      "passCount": 3,
+      "finishTime": 7369,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1015,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 550,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2204,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1184,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1212,
+      "userId": 277480,
+      "nickname": "小码_277480",
+      "passCount": 3,
+      "finishTime": 7485,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2013,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2475,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2997,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1212,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1225,
+      "userId": 280771,
+      "nickname": "小码_280771",
+      "passCount": 3,
+      "finishTime": 7529,
+      "errors": 4,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 703,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 267,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1759,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1225,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1248,
+      "userId": 281441,
+      "nickname": "小码_281441",
+      "passCount": 3,
+      "finishTime": 7618,
+      "errors": 4,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 607,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 683,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1528,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1248,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1259,
+      "userId": 246015,
+      "nickname": "小码_246015",
+      "passCount": 3,
+      "finishTime": 7688,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 886,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1047,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2155,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1259,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1260,
+      "userId": 277669,
+      "nickname": "小码_277669",
+      "passCount": 3,
+      "finishTime": 7692,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 703,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 777,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2612,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1260,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1261,
+      "userId": 266532,
+      "nickname": "小码_266532",
+      "passCount": 3,
+      "finishTime": 7694,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1178,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1028,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1888,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1261,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1276,
+      "userId": 283357,
+      "nickname": "小码_283357",
+      "passCount": 3,
+      "finishTime": 7755,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 787,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 920,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2448,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1276,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1308,
+      "userId": 212761,
+      "nickname": "小码_212761",
+      "passCount": 3,
+      "finishTime": 7964,
+      "errors": 4,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1073,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 92,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1999,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1308,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1417,
+      "userId": 279834,
+      "nickname": "小码_279834",
+      "passCount": 3,
+      "finishTime": 8576,
+      "errors": 4,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1318,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 276,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2182,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1417,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1766,
+      "userId": 227912,
+      "nickname": "小码_227912",
+      "passCount": 3,
+      "finishTime": 11065,
+      "errors": 5,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 644,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 819,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3602,
+          "errors": 4
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1766,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 1823,
+      "userId": 264780,
+      "nickname": "sankela",
+      "passCount": 3,
+      "finishTime": 11711,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3487,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1749,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5275,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "三峡大学",
+        "province": "湖北省"
+      },
+      "originalRank": 1823,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1836,
+      "userId": 276409,
+      "nickname": "小码_276409",
+      "passCount": 3,
+      "finishTime": 11834,
+      "errors": 6,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1033,
+          "errors": 5
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1545,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2056,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "四川省"
+      },
+      "originalRank": 1836,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1845,
+      "userId": 278311,
+      "nickname": "小码_278311",
+      "passCount": 3,
+      "finishTime": 11866,
+      "errors": 3,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1324,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1718,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5224,
+          "errors": 3
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1845,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1861,
+      "userId": 185026,
+      "nickname": "小码_185026",
+      "passCount": 3,
+      "finishTime": 11992,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2648,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1853,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5091,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1861,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1933,
+      "userId": 283595,
+      "nickname": "小码_283595",
+      "passCount": 3,
+      "finishTime": 12860,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5314,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 836,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6710,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1933,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 1991,
+      "userId": 233707,
+      "nickname": "小码_233707",
+      "passCount": 3,
+      "finishTime": 13451,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5321,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1123,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5807,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 1991,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2013,
+      "userId": 278640,
+      "nickname": "小码_278640",
+      "passCount": 3,
+      "finishTime": 13668,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1408,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5575,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6685,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2013,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2044,
+      "userId": 281883,
+      "nickname": "小码_281883",
+      "passCount": 3,
+      "finishTime": 13998,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5811,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2951,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5236,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2044,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2108,
+      "userId": 282344,
+      "nickname": "小码_282344",
+      "passCount": 3,
+      "finishTime": 14882,
+      "errors": 6,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1075,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1777,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4830,
+          "errors": 5
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2108,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 2114,
+      "userId": 281477,
+      "nickname": "小码_281477",
+      "passCount": 3,
+      "finishTime": 15018,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5694,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4304,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5020,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2114,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2156,
+      "userId": 281329,
+      "nickname": "小码_281329",
+      "passCount": 3,
+      "finishTime": 15486,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5838,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2461,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 7187,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2156,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2213,
+      "userId": 204825,
+      "nickname": "小码_204825",
+      "passCount": 3,
+      "finishTime": 16411,
+      "errors": 2,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2695,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5837,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5479,
+          "errors": 2
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2213,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2607,
+      "userId": 150617,
+      "nickname": "小码_150617",
+      "passCount": 2,
+      "finishTime": 2195,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1676,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 519,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "陕西省"
+      },
+      "originalRank": 2607,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2783,
+      "userId": 280693,
+      "nickname": "小码_280693",
+      "passCount": 2,
+      "finishTime": 4408,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 3604,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 804,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2783,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2820,
+      "userId": 281458,
+      "nickname": "小码_281458",
+      "passCount": 2,
+      "finishTime": 5154,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1846,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3308,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2820,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2826,
+      "userId": 278846,
+      "nickname": "小码_278846",
+      "passCount": 2,
+      "finishTime": 5253,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 1931,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3322,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2826,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 2875,
+      "userId": 234554,
+      "nickname": "我欲乘风归去",
+      "passCount": 2,
+      "finishTime": 6003,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2550,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3453,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "济南市"
+      },
+      "originalRank": 2875,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 2880,
+      "userId": 244601,
+      "nickname": "小码_244601",
+      "passCount": 2,
+      "finishTime": 6071,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5707,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 364,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2880,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2939,
+      "userId": 218062,
+      "nickname": "APOLLO",
+      "passCount": 2,
+      "finishTime": 7037,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1316,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5721,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": "山东省"
+      },
+      "originalRank": 2939,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 2965,
+      "userId": 282691,
+      "nickname": "小码_282691",
+      "passCount": 2,
+      "finishTime": 7567,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 6164,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1403,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "塔里木大学",
+        "province": "新疆维吾尔自治区"
+      },
+      "originalRank": 2965,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2978,
+      "userId": 281240,
+      "nickname": "许哈哈",
+      "passCount": 2,
+      "finishTime": 7902,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 3858,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4044,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "青岛黄海学院",
+        "province": "山东省"
+      },
+      "originalRank": 2978,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2993,
+      "userId": 264507,
+      "nickname": "小码_264507",
+      "passCount": 2,
+      "finishTime": 8201,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2768,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5433,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2993,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 2997,
+      "userId": 235692,
+      "nickname": "小码_235692",
+      "passCount": 2,
+      "finishTime": 8253,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3463,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4790,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 2997,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3007,
+      "userId": 282274,
+      "nickname": "小码_282274",
+      "passCount": 2,
+      "finishTime": 8457,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 2867,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5590,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3007,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3055,
+      "userId": 281439,
+      "nickname": "烨king",
+      "passCount": 2,
+      "finishTime": 9273,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5931,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3342,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3055,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3081,
+      "userId": 278486,
+      "nickname": "小码_278486",
+      "passCount": 2,
+      "finishTime": 9816,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4279,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5537,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3081,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 3091,
+      "userId": 282045,
+      "nickname": "小码_282045",
+      "passCount": 2,
+      "finishTime": 9945,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 4671,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 4074,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3091,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3096,
+      "userId": 282309,
+      "nickname": "小码_282309",
+      "passCount": 2,
+      "finishTime": 10062,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5663,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 3199,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3096,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3131,
+      "userId": 194257,
+      "nickname": "小码_194257",
+      "passCount": 2,
+      "finishTime": 11164,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5475,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 5689,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3131,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3152,
+      "userId": 282729,
+      "nickname": "小码_282729",
+      "passCount": 2,
+      "finishTime": 11940,
+      "errors": 1,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 4041,
+          "errors": 1
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6699,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3152,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 3170,
+      "userId": 230675,
+      "nickname": "小码_230675",
+      "passCount": 2,
+      "finishTime": 12571,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 6185,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6386,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3170,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3175,
+      "userId": 277649,
+      "nickname": "小码_277649",
+      "passCount": 2,
+      "finishTime": 12935,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": true,
+          "seconds": 5829,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 7106,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3175,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 3630,
+      "userId": 218996,
+      "nickname": "小码_218996",
+      "passCount": 1,
+      "finishTime": 847,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 847,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3630,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3648,
+      "userId": 281637,
+      "nickname": "小码_281637",
+      "passCount": 1,
+      "finishTime": 936,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 936,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3648,
+      "disqualification": "违规"
+    },
+    {
+      "rank": 3766,
+      "userId": 283770,
+      "nickname": "小码_283770",
+      "passCount": 1,
+      "finishTime": 1610,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 1610,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3766,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 3866,
+      "userId": 280760,
+      "nickname": "小码_280760",
+      "passCount": 1,
+      "finishTime": 2163,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 2163,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 3866,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 4134,
+      "userId": 244985,
+      "nickname": "小码_244985",
+      "passCount": 1,
+      "finishTime": 6789,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6789,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 4134,
+      "disqualification": "作弊"
+    },
+    {
+      "rank": 4137,
+      "userId": 282839,
+      "nickname": "小码_282839",
+      "passCount": 1,
+      "finishTime": 6900,
+      "errors": 0,
+      "problems": [
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 6900,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        },
+        {
+          "solved": false,
+          "seconds": 0,
+          "errors": 0
+        }
+      ],
+      "profile": {
+        "school": "-",
+        "province": ""
+      },
+      "originalRank": 4137,
+      "disqualification": "作弊"
+    }
+  ]
+}

@@ -8,8 +8,10 @@ type Profile = {
 };
 
 type Problem = { solved: boolean; seconds: number; errors: number };
+type Disqualification = "作弊" | "违规";
 type Contestant = {
   rank: number;
+  originalRank?: number;
   userId: number;
   nickname: string;
   passCount: number;
@@ -17,6 +19,7 @@ type Contestant = {
   errors: number;
   problems: Problem[];
   profile: Profile;
+  disqualification?: Disqualification;
 };
 
 type ContestData = {
@@ -28,10 +31,26 @@ type ContestData = {
     endTime: number;
     sourceUrl: string;
   };
-  stats: { total: number; questionCount: number; highestPass: number };
+  stats: {
+    total: number;
+    originalTotal: number;
+    excludedTotal: number;
+    cheatingTotal: number;
+    violationTotal: number;
+    questionCount: number;
+    highestPass: number;
+  };
   contestants: Contestant[];
+  excludedContestants: Contestant[];
+  exclusionSource: {
+    articleUrl: string;
+    pdfUrl: string;
+    publishedAt: string;
+  };
   generatedAt: string;
 };
+
+type ViewMode = "ranking" | "excluded";
 
 const PAGE_SIZE = 40;
 const ADVANCE_LIMIT = 400;
@@ -110,6 +129,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [schoolFilter, setSchoolFilter] = useState("all");
   const [passFilter, setPassFilter] = useState("all");
+  const [viewMode, setViewMode] = useState<ViewMode>("ranking");
   const [page, setPage] = useState(1);
   const [pageInput, setPageInput] = useState("1");
 
@@ -141,18 +161,23 @@ export default function Home() {
     };
   }, []);
 
+  const activeContestants = useMemo(
+    () => viewMode === "ranking" ? data?.contestants || [] : data?.excludedContestants || [],
+    [data, viewMode],
+  );
+
   const schoolOptions = useMemo(() => {
     const counts = new Map<string, number>();
-    data?.contestants.forEach((contestant) => {
+    activeContestants.forEach((contestant) => {
       const school = contestant.profile.school;
       if (school !== "-") counts.set(school, (counts.get(school) || 0) + 1);
     });
     return Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
-  }, [data]);
+  }, [activeContestants]);
 
   const filtered = useMemo(() => {
     const normalized = query.trim().toLowerCase();
-    return (data?.contestants || []).filter((contestant) => {
+    return activeContestants.filter((contestant) => {
       const profile = contestant.profile;
       const matchesQuery = !normalized
         || contestant.nickname.toLowerCase().includes(normalized)
@@ -163,20 +188,20 @@ export default function Home() {
       const matchesPass = passFilter === "all" || contestant.passCount >= Number(passFilter);
       return matchesQuery && matchesSchool && matchesPass;
     });
-  }, [data, passFilter, query, schoolFilter]);
+  }, [activeContestants, passFilter, query, schoolFilter]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageRows = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const awardThresholds = useMemo(() => calculateAwardThresholds(data?.stats.total || 0), [data?.stats.total]);
   const { goldEnd, silverEnd, bronzeEnd } = awardThresholds;
   const problemStats = useMemo(() => Array.from({ length: data?.stats.questionCount || 8 }, (_, index) => (
-    data?.contestants.reduce((total, contestant) => total + (contestant.problems[index]?.solved ? 1 : 0), 0) || 0
-  )), [data]);
+    activeContestants.reduce((total, contestant) => total + (contestant.problems[index]?.solved ? 1 : 0), 0) || 0
+  )), [activeContestants, data?.stats.questionCount]);
   const solvedGroupTones = useMemo(() => {
-    const solvedCounts = Array.from(new Set((data?.contestants || []).map((contestant) => contestant.passCount)))
+    const solvedCounts = Array.from(new Set(activeContestants.map((contestant) => contestant.passCount)))
       .sort((a, b) => b - a);
     return new Map(solvedCounts.map((solvedCount, index) => [solvedCount, index % 2]));
-  }, [data]);
+  }, [activeContestants]);
 
   function goToPage(nextPage: number) {
     const target = Math.min(totalPages, Math.max(1, Math.trunc(nextPage) || 1));
@@ -191,6 +216,15 @@ export default function Home() {
     goToPage(1);
   }
 
+  function switchView(nextView: ViewMode) {
+    setViewMode(nextView);
+    setQuery("");
+    setSchoolFilter("all");
+    setPassFilter("all");
+    setPage(1);
+    setPageInput("1");
+  }
+
   return (
     <main className="scoreboard-shell" id="top">
       <header className="site-header">
@@ -200,6 +234,7 @@ export default function Home() {
         </a>
         <nav className="header-nav" aria-label="页面导航">
           <a href="#standings">榜单</a>
+          <a href="#standings" onClick={() => switchView("excluded")}>违规查询</a>
           <a href="https://www.matiji.net/exam/contest/contestdetail/547" target="_blank" rel="noreferrer">码蹄集原榜 ↗</a>
         </nav>
       </header>
@@ -219,22 +254,29 @@ export default function Home() {
       </section>
 
       <section className="award-overview" aria-label="名额概览">
-        <article><small>参赛</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
+        <article><small>有效排名</small><strong>{data ? formatNumber(data.stats.total) : "—"}</strong></article>
         <article data-tone="gold"><small>金牌 5%</small><strong>{data ? `1—${formatNumber(goldEnd)}` : "—"}</strong></article>
         <article data-tone="silver"><small>银牌 15%</small><strong>{data ? `${formatNumber(goldEnd + 1)}—${formatNumber(silverEnd)}` : "—"}</strong></article>
         <article data-tone="bronze"><small>铜牌 30%</small><strong>{data ? `${formatNumber(silverEnd + 1)}—${formatNumber(bronzeEnd)}` : "—"}</strong></article>
         <article data-tone="advance"><small>晋级</small><strong>1—{ADVANCE_LIMIT}</strong></article>
+        <article data-tone="excluded"><small>已排除</small><strong>{data ? formatNumber(data.stats.excludedTotal) : "—"}</strong></article>
       </section>
 
       <section className="standings" id="standings" aria-labelledby="standings-title">
         <header className="board-head">
           <div>
             <span className="eyebrow">STANDINGS</span>
-            <h2 id="standings-title">实时排名</h2>
-            <p>每页 40 人 · FINAL STANDINGS</p>
+            <h2 id="standings-title">{viewMode === "ranking" ? "正式排名" : "违规 / 作弊原排名"}</h2>
+            <p>{viewMode === "ranking" ? "排除官方公示名单后重新排名 · 每页 40 人" : "仅供查询原排名，不参与奖项与晋级 · 每页 40 人"}</p>
           </div>
           <div className="snapshot-time"><small>最后快照</small><strong>{data ? formatDateTime(data.generatedAt) : "读取中"}</strong></div>
         </header>
+
+        <div className="view-switch" role="group" aria-label="榜单类型">
+          <button type="button" aria-pressed={viewMode === "ranking"} onClick={() => switchView("ranking")}>有效榜单 <strong>{data ? formatNumber(data.stats.total) : "—"}</strong></button>
+          <button type="button" aria-pressed={viewMode === "excluded"} onClick={() => switchView("excluded")}>违规 / 作弊 <strong>{data ? formatNumber(data.stats.excludedTotal) : "—"}</strong></button>
+          {viewMode === "excluded" && data && <span className="official-notice">作弊 {data.stats.cheatingTotal} 人 · 违规 {data.stats.violationTotal} 人 · <a href={data.exclusionSource.articleUrl} target="_blank" rel="noreferrer">查看官方公示 ↗</a></span>}
+        </div>
 
         <div className="board-tools">
           <label className="search-box">
@@ -243,7 +285,7 @@ export default function Home() {
           </label>
           <label><span className="sr-only">学校筛选</span><select value={schoolFilter} onChange={(event) => { setSchoolFilter(event.target.value); goToPage(1); }}><option value="all">全部学校 · {schoolOptions.length}</option>{schoolOptions.map(([school, count]) => <option value={school} key={school}>{school} · {count}</option>)}</select></label>
           <label><span className="sr-only">AC门槛</span><select value={passFilter} onChange={(event) => { setPassFilter(event.target.value); goToPage(1); }}><option value="all">全部 AC</option>{[6, 5, 4, 3, 2, 1].map((count) => <option value={count} key={count}>至少 {count} AC</option>)}</select></label>
-          <div className="result-count"><strong>{formatNumber(filtered.length)}</strong><span>支队伍</span>{(query || schoolFilter !== "all" || passFilter !== "all") && <button type="button" onClick={clearFilters}>重置</button>}</div>
+          <div className="result-count"><strong>{formatNumber(filtered.length)}</strong><span>{viewMode === "ranking" ? "名有效选手" : "名公示选手"}</span>{(query || schoolFilter !== "all" || passFilter !== "all") && <button type="button" onClick={clearFilters}>重置</button>}</div>
         </div>
 
         {error ? (
@@ -259,7 +301,7 @@ export default function Home() {
                 <caption className="sr-only">2026年百度之星初赛第一场排名</caption>
                 <thead>
                   <tr>
-                    <th className="rank-column">排名</th>
+                    <th className="rank-column">{viewMode === "ranking" ? "排名" : "原排名"}</th>
                     <th className="school-column">学校 / 地区</th>
                     <th className="team-column">参赛者</th>
                     <th className="score-column">解题</th>
@@ -268,16 +310,18 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>{pageRows.map((contestant) => {
-                  const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
-                  const advanced = contestant.rank <= ADVANCE_LIMIT;
+                  const displayRank = viewMode === "excluded" ? contestant.originalRank ?? contestant.rank : contestant.rank;
+                  const award = viewMode === "ranking" ? getAward(contestant.rank, contestant.passCount, awardThresholds) : null;
+                  const advanced = viewMode === "ranking" && contestant.rank <= ADVANCE_LIMIT;
                   return (
                     <tr
                       key={contestant.userId}
                       data-award={award?.label || undefined}
+                      data-disqualified={contestant.disqualification ? "true" : undefined}
                       data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
-                      data-row-parity={(contestant.rank - 1) % 2}
+                      data-row-parity={(displayRank - 1) % 2}
                     >
-                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></td>
+                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{displayRank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}{contestant.disqualification && <span className={`status-badge status-${contestant.disqualification === "作弊" ? "cheating" : "violation"}`}>{contestant.disqualification}</span>}</span></td>
                       <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
                       <td><div className="team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
                       <td className="solved-cell"><strong>{contestant.passCount}</strong><span>/{data?.stats.questionCount || 8}</span></td>
@@ -294,16 +338,18 @@ export default function Home() {
             </div>
 
             <div className="mobile-list">{pageRows.map((contestant) => {
-              const award = getAward(contestant.rank, contestant.passCount, awardThresholds);
-              const advanced = contestant.rank <= ADVANCE_LIMIT;
+              const displayRank = viewMode === "excluded" ? contestant.originalRank ?? contestant.rank : contestant.rank;
+              const award = viewMode === "ranking" ? getAward(contestant.rank, contestant.passCount, awardThresholds) : null;
+              const advanced = viewMode === "ranking" && contestant.rank <= ADVANCE_LIMIT;
               return (
                 <article
                   key={contestant.userId}
                   data-award={award?.label || undefined}
+                  data-disqualified={contestant.disqualification ? "true" : undefined}
                   data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
-                  data-row-parity={(contestant.rank - 1) % 2}
+                  data-row-parity={(displayRank - 1) % 2}
                 >
-                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{contestant.rank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
+                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{displayRank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}{contestant.disqualification && <span className={`status-badge status-${contestant.disqualification === "作弊" ? "cheating" : "violation"}`}>{contestant.disqualification}</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
                   <div className="mobile-team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p></div></div>
                   <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
                   <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>
