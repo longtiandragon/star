@@ -1,6 +1,10 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
-import { contest547Exclusions, exclusionSource } from "./contest-547-exclusions.mjs";
+import {
+  contest547Exclusions,
+  exclusionSource,
+  updatedExclusionSource,
+} from "./contest-547-exclusions.mjs";
 
 const contestId = Number(process.argv[2] || 547);
 const dataDir = resolve(process.argv[3] || "app/data");
@@ -105,8 +109,10 @@ const stats = {
   total: contestants.length,
   originalTotal: sourceContestants.length + missingExcludedCount,
   excludedTotal: excludedContestants.length,
+  priorExcludedTotal: excludedContestants.filter((item) => item.disqualification !== "新增作弊").length,
   cheatingTotal: excludedContestants.filter((item) => item.disqualification === "作弊").length,
   violationTotal: excludedContestants.filter((item) => item.disqualification === "违规").length,
+  newCheatingTotal: excludedContestants.filter((item) => item.disqualification === "新增作弊").length,
   questionCount: Number(rankingPayload.total || 0),
   highestPass: contestants.reduce((max, item) => Math.max(max, item.passCount), 0),
 };
@@ -126,6 +132,7 @@ await writeFile(
     contestants,
     excludedContestants,
     exclusionSource,
+    updatedExclusionSource,
     generatedAt: new Date().toISOString(),
   }, null, 2)}\n`,
 );
@@ -209,6 +216,7 @@ await writeFile(
     })),
     excludedContestants,
     exclusionSource,
+    updatedExclusionSource,
     generatedAt: new Date().toISOString(),
   })}\n`,
 );

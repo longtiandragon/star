@@ -8,7 +8,7 @@ type Profile = {
 };
 
 type Problem = { solved: boolean; seconds: number; errors: number };
-type Disqualification = "作弊" | "违规";
+type Disqualification = "作弊" | "违规" | "新增作弊";
 type Contestant = {
   rank: number;
   originalRank?: number;
@@ -35,8 +35,10 @@ type ContestData = {
     total: number;
     originalTotal: number;
     excludedTotal: number;
+    priorExcludedTotal: number;
     cheatingTotal: number;
     violationTotal: number;
+    newCheatingTotal: number;
     questionCount: number;
     highestPass: number;
   };
@@ -47,10 +49,14 @@ type ContestData = {
     pdfUrl: string;
     publishedAt: string;
   };
+  updatedExclusionSource: {
+    articleUrl: string;
+    publishedAt: string;
+  };
   generatedAt: string;
 };
 
-type ViewMode = "ranking" | "excluded";
+type ViewMode = "ranking" | "excluded" | "new-cheating";
 
 const PAGE_SIZE = 40;
 const ADVANCE_LIMIT = 400;
@@ -122,6 +128,11 @@ function getAward(rank: number, passCount: number, thresholds: AwardThresholds):
   return null;
 }
 
+function getDisqualificationTone(category: Disqualification) {
+  if (category === "新增作弊") return "new-cheating";
+  return category === "作弊" ? "cheating" : "violation";
+}
+
 export default function Home() {
   const [data, setData] = useState<ContestData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -162,7 +173,13 @@ export default function Home() {
   }, []);
 
   const activeContestants = useMemo(
-    () => viewMode === "ranking" ? data?.contestants || [] : data?.excludedContestants || [],
+    () => {
+      if (viewMode === "ranking") return data?.contestants || [];
+      if (viewMode === "new-cheating") {
+        return (data?.excludedContestants || []).filter((item) => item.disqualification === "新增作弊");
+      }
+      return (data?.excludedContestants || []).filter((item) => item.disqualification !== "新增作弊");
+    },
     [data, viewMode],
   );
 
@@ -234,7 +251,7 @@ export default function Home() {
         </a>
         <nav className="header-nav" aria-label="页面导航">
           <a href="#standings">榜单</a>
-          <a href="#standings" onClick={() => switchView("excluded")}>违规查询</a>
+          <a href="#standings" onClick={() => switchView("excluded")}>公示查询</a>
           <a href="https://www.matiji.net/exam/contest/contestdetail/547" target="_blank" rel="noreferrer">码蹄集原榜 ↗</a>
         </nav>
       </header>
@@ -266,16 +283,18 @@ export default function Home() {
         <header className="board-head">
           <div>
             <span className="eyebrow">STANDINGS</span>
-            <h2 id="standings-title">{viewMode === "ranking" ? "正式排名" : "违规 / 作弊原排名"}</h2>
-            <p>{viewMode === "ranking" ? "排除官方公示名单后重新排名 · 每页 40 人" : "仅供查询原排名，不参与奖项与晋级 · 每页 40 人"}</p>
+            <h2 id="standings-title">{viewMode === "ranking" ? "正式排名" : viewMode === "new-cheating" ? "新增作弊原排名" : "首批违规 / 作弊原排名"}</h2>
+            <p>{viewMode === "ranking" ? "排除两批官方公示名单后重新排名 · 每页 40 人" : "显示官方封榜原排名，不参与奖项与晋级 · 每页 40 人"}</p>
           </div>
           <div className="snapshot-time"><small>最后快照</small><strong>{data ? formatDateTime(data.generatedAt) : "读取中"}</strong></div>
         </header>
 
         <div className="view-switch" role="group" aria-label="榜单类型">
           <button type="button" aria-pressed={viewMode === "ranking"} onClick={() => switchView("ranking")}>有效榜单 <strong>{data ? formatNumber(data.stats.total) : "—"}</strong></button>
-          <button type="button" aria-pressed={viewMode === "excluded"} onClick={() => switchView("excluded")}>违规 / 作弊 <strong>{data ? formatNumber(data.stats.excludedTotal) : "—"}</strong></button>
-          {viewMode === "excluded" && data && <span className="official-notice">作弊 {data.stats.cheatingTotal} 人 · 违规 {data.stats.violationTotal} 人 · <a href={data.exclusionSource.articleUrl} target="_blank" rel="noreferrer">查看官方公示 ↗</a></span>}
+          <button type="button" aria-pressed={viewMode === "excluded"} onClick={() => switchView("excluded")}>首批作弊 / 违规 <strong>{data ? formatNumber(data.stats.priorExcludedTotal) : "—"}</strong></button>
+          <button type="button" aria-pressed={viewMode === "new-cheating"} onClick={() => switchView("new-cheating")}>新增作弊 <strong>{data ? formatNumber(data.stats.newCheatingTotal) : "—"}</strong></button>
+          {viewMode === "excluded" && data && <span className="official-notice">作弊 {data.stats.cheatingTotal} 人 · 违规 {data.stats.violationTotal} 人 · <a href={data.exclusionSource.articleUrl} target="_blank" rel="noreferrer">首批官方公示 ↗</a></span>}
+          {viewMode === "new-cheating" && data && <span className="official-notice new-cheating-notice">新增作弊 {data.stats.newCheatingTotal} 人 · <a href={data.updatedExclusionSource.articleUrl} target="_blank" rel="noreferrer">9月1日更新公示 ↗</a></span>}
         </div>
 
         <div className="board-tools">
@@ -310,7 +329,7 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>{pageRows.map((contestant) => {
-                  const displayRank = viewMode === "excluded" ? contestant.originalRank ?? contestant.rank : contestant.rank;
+                  const displayRank = viewMode !== "ranking" ? contestant.originalRank ?? contestant.rank : contestant.rank;
                   const award = viewMode === "ranking" ? getAward(contestant.rank, contestant.passCount, awardThresholds) : null;
                   const advanced = viewMode === "ranking" && contestant.rank <= ADVANCE_LIMIT;
                   return (
@@ -321,7 +340,7 @@ export default function Home() {
                       data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
                       data-row-parity={(displayRank - 1) % 2}
                     >
-                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{displayRank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}{contestant.disqualification && <span className={`status-badge status-${contestant.disqualification === "作弊" ? "cheating" : "violation"}`}>{contestant.disqualification}</span>}</span></td>
+                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{displayRank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}{contestant.disqualification && <span className={`status-badge status-${getDisqualificationTone(contestant.disqualification)}`}>{contestant.disqualification}</span>}</span></td>
                       <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
                       <td><div className="team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
                       <td className="solved-cell"><strong>{contestant.passCount}</strong><span>/{data?.stats.questionCount || 8}</span></td>
@@ -338,7 +357,7 @@ export default function Home() {
             </div>
 
             <div className="mobile-list">{pageRows.map((contestant) => {
-              const displayRank = viewMode === "excluded" ? contestant.originalRank ?? contestant.rank : contestant.rank;
+              const displayRank = viewMode !== "ranking" ? contestant.originalRank ?? contestant.rank : contestant.rank;
               const award = viewMode === "ranking" ? getAward(contestant.rank, contestant.passCount, awardThresholds) : null;
               const advanced = viewMode === "ranking" && contestant.rank <= ADVANCE_LIMIT;
               return (
@@ -349,7 +368,7 @@ export default function Home() {
                   data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
                   data-row-parity={(displayRank - 1) % 2}
                 >
-                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{displayRank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}{contestant.disqualification && <span className={`status-badge status-${contestant.disqualification === "作弊" ? "cheating" : "violation"}`}>{contestant.disqualification}</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
+                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{displayRank}</span><span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级</span>}{contestant.disqualification && <span className={`status-badge status-${getDisqualificationTone(contestant.disqualification)}`}>{contestant.disqualification}</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
                   <div className="mobile-team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p></div></div>
                   <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
                   <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>

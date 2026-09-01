@@ -82,6 +82,8 @@ button, select { cursor: pointer; }
 .view-switch button strong { margin-left: 4px; }
 .official-notice { margin-left: 4px; color: #7a4250; font-size: 13px; font-weight: 700; }
 .official-notice a { border-bottom: 1px solid currentColor; color: #c52a2a; }
+.new-cheating-notice { color: #78141b; }
+.new-cheating-notice a { color: #9e101b; }
 
 .board-tools { display: grid; grid-template-columns: minmax(250px, 1fr) minmax(180px, .35fr) 130px auto; gap: 5px; align-items: center; margin-bottom: 10px; font-family: Consolas, monospace; }
 .board-tools select, .search-box > div { height: 42px; border: 1px solid #aaaeba; border-radius: 0; background: white; color: #2b3144; }
@@ -126,6 +128,7 @@ button, select { cursor: pointer; }
 .advance-badge { background: #b8f2ea; color: #075c57; }
 .status-cheating { background: #b31925; color: white; }
 .status-violation { background: #f08a24; color: white; }
+.status-new-cheating { background: #6f0b16; color: white; }
 .school, .team > div { display: grid; gap: 2px; min-width: 0; }
 .school strong, .school span, .team strong, .team small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .school strong, .team strong { color: #30364a; font-size: 13px; }

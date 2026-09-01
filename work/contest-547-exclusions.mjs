@@ -1,8 +1,15 @@
-export const exclusionSource = {
+export const initialExclusionSource = {
   articleUrl: "https://star.baidu.com/#/news-info?tab=3&id=62CA2C6F42AC24C04B71BCA08B9C16A9",
   pdfUrl: "https://base.cdn.bcebos.com/zuobi_2026_astar_first.pdf",
   publishedAt: "2026-08-29",
 };
+
+export const updatedExclusionSource = {
+  articleUrl: "https://star.baidu.com/#/news-info?tab=3&id=CD67A73928B8C85AE5C40D0E277DAD49",
+  publishedAt: "2026-09-01",
+};
+
+export const exclusionSource = initialExclusionSource;
 
 const cheatingNicknames = `
 Szm0822
@@ -61,7 +68,6 @@ const violationNicknames = `
 小码_262513
 1000000007
 Sulfox
-小码_283587
 小码_161614
 小码_279080
 小码_203541
@@ -81,7 +87,6 @@ Satrpx
 小码_227912
 小码_90470
 小码_282344
-APOLLO
 我欲乘风归去
 小码_277649
 小码_278486
@@ -122,7 +127,18 @@ Ww_wW
 小码_212761
 `.trim().split("\n");
 
+const newCheatingNicknames = `
+小码_283850
+小码_283587
+小码_268657
+小码_225807
+Whistle
+APOLLO
+小码_243614
+`.trim().split("\n");
+
 export const contest547Exclusions = [
   ...cheatingNicknames.map((nickname) => ({ nickname, category: "作弊" })),
   ...violationNicknames.map((nickname) => ({ nickname, category: "违规" })),
+  ...newCheatingNicknames.map((nickname) => ({ nickname, category: "新增作弊" })),
 ];
