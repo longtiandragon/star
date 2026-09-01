@@ -53,6 +53,13 @@ function normalizeSchool(value) {
   return school.length >= 2 && school !== "未知" && !/^\d+$/.test(school) ? school : "-";
 }
 
+function compareContestRanking(left, right) {
+  return right.passCount - left.passCount
+    || left.finishTime - right.finishTime
+    || left.rank - right.rank
+    || left.userId - right.userId;
+}
+
 await mkdir(dataDir, { recursive: true });
 const [matchPayload, rankingPayload] = await Promise.all([
   requestJson("/pc/queryMatchById.do", { id: String(contestId) }),
@@ -83,12 +90,27 @@ const sourceContestants = rows.map((row) => {
       };
     }),
   };
-});
+})
+  .sort(compareContestRanking)
+  .map((contestant, index) => ({ ...contestant, rank: index + 1 }));
 
 const disqualifiedArchive = JSON.parse(await readFile(disqualifiedPath, "utf8"));
-const excludedContestants = Array.isArray(disqualifiedArchive.excludedContestants)
+const archivedExcludedContestants = Array.isArray(disqualifiedArchive.excludedContestants)
   ? disqualifiedArchive.excludedContestants
   : [];
+const currentContestantsByNickname = new Map(sourceContestants.map((contestant) => [contestant.nickname, contestant]));
+const excludedContestants = archivedExcludedContestants
+  .map((archived) => {
+    const current = currentContestantsByNickname.get(archived.nickname);
+    if (!current) return archived;
+    return {
+      ...current,
+      profile: archived.profile,
+      originalRank: current.rank,
+      disqualification: archived.disqualification,
+    };
+  })
+  .sort(compareContestRanking);
 if (excludedContestants.length !== contest547Exclusions.length) {
   throw new Error(`作弊/违规档案应为 ${contest547Exclusions.length} 人，当前为 ${excludedContestants.length} 人`);
 }

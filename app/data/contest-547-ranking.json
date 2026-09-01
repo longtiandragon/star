@@ -206875,9 +206875,9 @@
       "rank": 4,
       "userId": 246661,
       "nickname": "Szm0822",
-      "passCount": 5,
-      "finishTime": 15351,
-      "errors": 0,
+      "passCount": 7,
+      "finishTime": 36229,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -206890,8 +206890,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8137,
           "errors": 0
         },
         {
@@ -206905,9 +206905,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10341,
+          "errors": 2
         },
         {
           "solved": true,
@@ -206931,28 +206931,28 @@
       "rank": 5,
       "userId": 283770,
       "nickname": "小码_283770",
-      "passCount": 1,
-      "finishTime": 1610,
+      "passCount": 7,
+      "finishTime": 53091,
       "errors": 0,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8274,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8687,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8740,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8644,
           "errors": 0
         },
         {
@@ -206961,13 +206961,13 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8518,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8618,
           "errors": 0
         },
         {
@@ -207155,8 +207155,8 @@
       "rank": 29,
       "userId": 279250,
       "nickname": "小码_279250",
-      "passCount": 5,
-      "finishTime": 27440,
+      "passCount": 6,
+      "finishTime": 35016,
       "errors": 0,
       "problems": [
         {
@@ -207190,8 +207190,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7576,
           "errors": 0
         },
         {
@@ -207211,8 +207211,8 @@
       "rank": 30,
       "userId": 262513,
       "nickname": "小码_262513",
-      "passCount": 4,
-      "finishTime": 21081,
+      "passCount": 6,
+      "finishTime": 37735,
       "errors": 0,
       "problems": [
         {
@@ -207221,8 +207221,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9133,
           "errors": 0
         },
         {
@@ -207246,8 +207246,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7521,
           "errors": 0
         },
         {
@@ -207267,8 +207267,8 @@
       "rank": 31,
       "userId": 280912,
       "nickname": "郭政淼",
-      "passCount": 5,
-      "finishTime": 28344,
+      "passCount": 6,
+      "finishTime": 38066,
       "errors": 0,
       "problems": [
         {
@@ -207277,8 +207277,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9722,
           "errors": 0
         },
         {
@@ -207323,9 +207323,9 @@
       "rank": 32,
       "userId": 150617,
       "nickname": "小码_150617",
-      "passCount": 2,
-      "finishTime": 2195,
-      "errors": 0,
+      "passCount": 6,
+      "finishTime": 40741,
+      "errors": 1,
       "problems": [
         {
           "solved": true,
@@ -207333,9 +207333,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10574,
+          "errors": 1
         },
         {
           "solved": false,
@@ -207343,8 +207343,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8283,
           "errors": 0
         },
         {
@@ -207353,13 +207353,13 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8777,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9712,
           "errors": 0
         },
         {
@@ -207379,9 +207379,9 @@
       "rank": 34,
       "userId": 282309,
       "nickname": "小码_282309",
-      "passCount": 2,
-      "finishTime": 10062,
-      "errors": 1,
+      "passCount": 6,
+      "finishTime": 50029,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -207389,18 +207389,18 @@
           "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9568,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9914,
+          "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9761,
           "errors": 0
         },
         {
@@ -207414,8 +207414,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9524,
           "errors": 0
         },
         {
@@ -207547,8 +207547,8 @@
       "rank": 87,
       "userId": 139069,
       "nickname": "TosakaUCW",
-      "passCount": 4,
-      "finishTime": 10214,
+      "passCount": 5,
+      "finishTime": 17451,
       "errors": 0,
       "problems": [
         {
@@ -207557,8 +207557,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7237,
           "errors": 0
         },
         {
@@ -207603,8 +207603,8 @@
       "rank": 91,
       "userId": 244103,
       "nickname": "小码_244103",
-      "passCount": 4,
-      "finishTime": 9732,
+      "passCount": 5,
+      "finishTime": 17867,
       "errors": 0,
       "problems": [
         {
@@ -207623,8 +207623,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8135,
           "errors": 0
         },
         {
@@ -207659,9 +207659,9 @@
       "rank": 109,
       "userId": 225166,
       "nickname": "斩万劫",
-      "passCount": 4,
-      "finishTime": 8993,
-      "errors": 1,
+      "passCount": 5,
+      "finishTime": 20921,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -207669,9 +207669,9 @@
           "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10728,
+          "errors": 1
         },
         {
           "solved": false,
@@ -207771,8 +207771,8 @@
       "rank": 119,
       "userId": 283587,
       "nickname": "小码_283587",
-      "passCount": 4,
-      "finishTime": 14396,
+      "passCount": 5,
+      "finishTime": 22069,
       "errors": 0,
       "problems": [
         {
@@ -207781,8 +207781,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7673,
           "errors": 0
         },
         {
@@ -207827,9 +207827,9 @@
       "rank": 130,
       "userId": 161614,
       "nickname": "小码_161614",
-      "passCount": 4,
-      "finishTime": 9122,
-      "errors": 2,
+      "passCount": 5,
+      "finishTime": 23132,
+      "errors": 6,
       "problems": [
         {
           "solved": true,
@@ -207837,9 +207837,9 @@
           "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9210,
+          "errors": 4
         },
         {
           "solved": false,
@@ -207939,9 +207939,9 @@
       "rank": 135,
       "userId": 279080,
       "nickname": "小码_279080",
-      "passCount": 4,
-      "finishTime": 8257,
-      "errors": 2,
+      "passCount": 5,
+      "finishTime": 23887,
+      "errors": 7,
       "problems": [
         {
           "solved": true,
@@ -207949,9 +207949,9 @@
           "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9630,
+          "errors": 5
         },
         {
           "solved": false,
@@ -208051,8 +208051,8 @@
       "rank": 149,
       "userId": 277080,
       "nickname": "小码_277080",
-      "passCount": 4,
-      "finishTime": 19874,
+      "passCount": 5,
+      "finishTime": 30536,
       "errors": 0,
       "problems": [
         {
@@ -208061,8 +208061,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10662,
           "errors": 0
         },
         {
@@ -208107,8 +208107,8 @@
       "rank": 150,
       "userId": 283595,
       "nickname": "小码_283595",
-      "passCount": 3,
-      "finishTime": 12860,
+      "passCount": 5,
+      "finishTime": 30642,
       "errors": 0,
       "problems": [
         {
@@ -208127,8 +208127,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8627,
           "errors": 0
         },
         {
@@ -208137,8 +208137,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9155,
           "errors": 0
         },
         {
@@ -208163,8 +208163,8 @@
       "rank": 151,
       "userId": 279553,
       "nickname": "小码_279553",
-      "passCount": 4,
-      "finishTime": 21830,
+      "passCount": 5,
+      "finishTime": 31866,
       "errors": 3,
       "problems": [
         {
@@ -208183,8 +208183,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10036,
           "errors": 0
         },
         {
@@ -208219,9 +208219,9 @@
       "rank": 153,
       "userId": 233707,
       "nickname": "小码_233707",
-      "passCount": 3,
-      "finishTime": 13451,
-      "errors": 1,
+      "passCount": 5,
+      "finishTime": 32384,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -208239,9 +208239,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 8628,
+          "errors": 1
         },
         {
           "solved": true,
@@ -208249,8 +208249,8 @@
           "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9105,
           "errors": 0
         },
         {
@@ -208275,9 +208275,9 @@
       "rank": 154,
       "userId": 281477,
       "nickname": "小码_281477",
-      "passCount": 3,
-      "finishTime": 15018,
-      "errors": 0,
+      "passCount": 5,
+      "finishTime": 32814,
+      "errors": 1,
       "problems": [
         {
           "solved": true,
@@ -208290,13 +208290,13 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 8677,
+          "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7919,
           "errors": 0
         },
         {
@@ -208331,8 +208331,8 @@
       "rank": 157,
       "userId": 282691,
       "nickname": "小码_282691",
-      "passCount": 2,
-      "finishTime": 7567,
+      "passCount": 5,
+      "finishTime": 34335,
       "errors": 0,
       "problems": [
         {
@@ -208351,8 +208351,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9326,
           "errors": 0
         },
         {
@@ -208361,13 +208361,13 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10151,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7291,
           "errors": 0
         },
         {
@@ -208387,8 +208387,8 @@
       "rank": 158,
       "userId": 281329,
       "nickname": "小码_281329",
-      "passCount": 3,
-      "finishTime": 15486,
+      "passCount": 5,
+      "finishTime": 35178,
       "errors": 0,
       "problems": [
         {
@@ -208407,8 +208407,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9488,
           "errors": 0
         },
         {
@@ -208417,8 +208417,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10204,
           "errors": 0
         },
         {
@@ -208443,9 +208443,9 @@
       "rank": 161,
       "userId": 280693,
       "nickname": "小码_280693",
-      "passCount": 2,
-      "finishTime": 4408,
-      "errors": 0,
+      "passCount": 5,
+      "finishTime": 37215,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -208463,8 +208463,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9525,
           "errors": 0
         },
         {
@@ -208473,14 +208473,14 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10236,
+          "errors": 1
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10646,
+          "errors": 1
         },
         {
           "solved": false,
@@ -208499,8 +208499,8 @@
       "rank": 162,
       "userId": 230675,
       "nickname": "小码_230675",
-      "passCount": 2,
-      "finishTime": 12571,
+      "passCount": 5,
+      "finishTime": 38370,
       "errors": 0,
       "problems": [
         {
@@ -208514,13 +208514,13 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8582,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8249,
           "errors": 0
         },
         {
@@ -208534,8 +208534,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8968,
           "errors": 0
         },
         {
@@ -208555,9 +208555,9 @@
       "rank": 163,
       "userId": 244601,
       "nickname": "小码_244601",
-      "passCount": 2,
-      "finishTime": 6071,
-      "errors": 0,
+      "passCount": 5,
+      "finishTime": 39875,
+      "errors": 3,
       "problems": [
         {
           "solved": true,
@@ -208575,8 +208575,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10149,
           "errors": 0
         },
         {
@@ -208585,14 +208585,14 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9814,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10241,
+          "errors": 3
         },
         {
           "solved": false,
@@ -208611,18 +208611,13 @@
       "rank": 164,
       "userId": 280760,
       "nickname": "小码_280760",
-      "passCount": 1,
-      "finishTime": 2163,
+      "passCount": 5,
+      "finishTime": 42368,
       "errors": 0,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
-        },
-        {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10384,
           "errors": 0
         },
         {
@@ -208637,17 +208632,22 @@
         },
         {
           "solved": true,
+          "seconds": 10309,
+          "errors": 0
+        },
+        {
+          "solved": true,
           "seconds": 2163,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9429,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10083,
           "errors": 0
         },
         {
@@ -208667,9 +208667,9 @@
       "rank": 165,
       "userId": 281439,
       "nickname": "烨king",
-      "passCount": 2,
-      "finishTime": 9273,
-      "errors": 0,
+      "passCount": 5,
+      "finishTime": 42438,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -208687,8 +208687,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9979,
           "errors": 0
         },
         {
@@ -208697,14 +208697,14 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10779,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10007,
+          "errors": 2
         },
         {
           "solved": false,
@@ -208723,13 +208723,13 @@
       "rank": 166,
       "userId": 244985,
       "nickname": "小码_244985",
-      "passCount": 1,
-      "finishTime": 6789,
+      "passCount": 5,
+      "finishTime": 42516,
       "errors": 0,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7672,
           "errors": 0
         },
         {
@@ -208738,13 +208738,13 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10392,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9289,
           "errors": 0
         },
         {
@@ -208758,8 +208758,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8374,
           "errors": 0
         },
         {
@@ -208779,19 +208779,14 @@
       "rank": 167,
       "userId": 218996,
       "nickname": "小码_218996",
-      "passCount": 1,
-      "finishTime": 847,
-      "errors": 0,
+      "passCount": 5,
+      "finishTime": 44050,
+      "errors": 4,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
-        },
-        {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9950,
+          "errors": 4
         },
         {
           "solved": false,
@@ -208805,17 +208800,22 @@
         },
         {
           "solved": true,
+          "seconds": 9834,
+          "errors": 0
+        },
+        {
+          "solved": true,
           "seconds": 847,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10738,
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7881,
           "errors": 0
         },
         {
@@ -208835,13 +208835,18 @@
       "rank": 170,
       "userId": 282839,
       "nickname": "小码_282839",
-      "passCount": 1,
-      "finishTime": 6900,
+      "passCount": 5,
+      "finishTime": 48136,
       "errors": 0,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10342,
+          "errors": 0
+        },
+        {
+          "solved": true,
+          "seconds": 10289,
           "errors": 0
         },
         {
@@ -208850,13 +208855,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
-        },
-        {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10161,
           "errors": 0
         },
         {
@@ -208870,8 +208870,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10444,
           "errors": 0
         },
         {
@@ -209619,8 +209619,8 @@
       "rank": 354,
       "userId": 138354,
       "nickname": "niolle",
-      "passCount": 3,
-      "finishTime": 5554,
+      "passCount": 4,
+      "finishTime": 12798,
       "errors": 0,
       "problems": [
         {
@@ -209639,8 +209639,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7244,
           "errors": 0
         },
         {
@@ -209787,9 +209787,9 @@
       "rank": 445,
       "userId": 277184,
       "nickname": "小码_277184",
-      "passCount": 3,
-      "finishTime": 2861,
-      "errors": 1,
+      "passCount": 4,
+      "finishTime": 15511,
+      "errors": 3,
       "problems": [
         {
           "solved": true,
@@ -209807,9 +209807,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10250,
+          "errors": 2
         },
         {
           "solved": true,
@@ -209843,8 +209843,8 @@
       "rank": 472,
       "userId": 34275,
       "nickname": "Satrpx",
-      "passCount": 3,
-      "finishTime": 7046,
+      "passCount": 4,
+      "finishTime": 16341,
       "errors": 2,
       "problems": [
         {
@@ -209863,8 +209863,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9295,
           "errors": 0
         },
         {
@@ -209899,8 +209899,8 @@
       "rank": 498,
       "userId": 279834,
       "nickname": "小码_279834",
-      "passCount": 3,
-      "finishTime": 8576,
+      "passCount": 4,
+      "finishTime": 17403,
       "errors": 4,
       "problems": [
         {
@@ -209919,8 +209919,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8827,
           "errors": 0
         },
         {
@@ -209955,9 +209955,9 @@
       "rank": 532,
       "userId": 277669,
       "nickname": "小码_277669",
-      "passCount": 3,
-      "finishTime": 7692,
-      "errors": 3,
+      "passCount": 4,
+      "finishTime": 19066,
+      "errors": 4,
       "problems": [
         {
           "solved": true,
@@ -209975,9 +209975,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10174,
+          "errors": 1
         },
         {
           "solved": true,
@@ -210011,8 +210011,8 @@
       "rank": 534,
       "userId": 227912,
       "nickname": "小码_227912",
-      "passCount": 3,
-      "finishTime": 11065,
+      "passCount": 4,
+      "finishTime": 19332,
       "errors": 5,
       "problems": [
         {
@@ -210031,8 +210031,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8267,
           "errors": 0
         },
         {
@@ -210067,8 +210067,8 @@
       "rank": 540,
       "userId": 185026,
       "nickname": "小码_185026",
-      "passCount": 3,
-      "finishTime": 11992,
+      "passCount": 4,
+      "finishTime": 19512,
       "errors": 2,
       "problems": [
         {
@@ -210087,8 +210087,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7520,
           "errors": 0
         },
         {
@@ -210179,9 +210179,9 @@
       "rank": 576,
       "userId": 278311,
       "nickname": "小码_278311",
-      "passCount": 3,
-      "finishTime": 11866,
-      "errors": 3,
+      "passCount": 4,
+      "finishTime": 21930,
+      "errors": 5,
       "problems": [
         {
           "solved": true,
@@ -210199,9 +210199,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 7664,
+          "errors": 2
         },
         {
           "solved": true,
@@ -210235,9 +210235,9 @@
       "rank": 577,
       "userId": 90470,
       "nickname": "小码_90470",
-      "passCount": 3,
-      "finishTime": 6659,
-      "errors": 1,
+      "passCount": 4,
+      "finishTime": 21977,
+      "errors": 7,
       "problems": [
         {
           "solved": true,
@@ -210270,9 +210270,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 8118,
+          "errors": 6
         },
         {
           "solved": false,
@@ -210291,8 +210291,8 @@
       "rank": 601,
       "userId": 278640,
       "nickname": "小码_278640",
-      "passCount": 3,
-      "finishTime": 13668,
+      "passCount": 4,
+      "finishTime": 24011,
       "errors": 0,
       "problems": [
         {
@@ -210321,8 +210321,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10343,
           "errors": 0
         },
         {
@@ -210347,9 +210347,9 @@
       "rank": 605,
       "userId": 276409,
       "nickname": "小码_276409",
-      "passCount": 3,
-      "finishTime": 11834,
-      "errors": 6,
+      "passCount": 4,
+      "finishTime": 24291,
+      "errors": 8,
       "problems": [
         {
           "solved": true,
@@ -210367,9 +210367,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10057,
+          "errors": 2
         },
         {
           "solved": true,
@@ -210403,8 +210403,8 @@
       "rank": 612,
       "userId": 282344,
       "nickname": "小码_282344",
-      "passCount": 3,
-      "finishTime": 14882,
+      "passCount": 4,
+      "finishTime": 24906,
       "errors": 6,
       "problems": [
         {
@@ -210423,8 +210423,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10024,
           "errors": 0
         },
         {
@@ -210459,9 +210459,9 @@
       "rank": 622,
       "userId": 264507,
       "nickname": "小码_264507",
-      "passCount": 2,
-      "finishTime": 8201,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 25462,
+      "errors": 1,
       "problems": [
         {
           "solved": true,
@@ -210479,9 +210479,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 7706,
+          "errors": 1
         },
         {
           "solved": true,
@@ -210494,8 +210494,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8355,
           "errors": 0
         },
         {
@@ -210515,9 +210515,9 @@
       "rank": 625,
       "userId": 281883,
       "nickname": "小码_281883",
-      "passCount": 3,
-      "finishTime": 13998,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 25617,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -210535,9 +210535,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9219,
+          "errors": 2
         },
         {
           "solved": true,
@@ -210571,8 +210571,8 @@
       "rank": 627,
       "userId": 282274,
       "nickname": "小码_282274",
-      "passCount": 2,
-      "finishTime": 8457,
+      "passCount": 4,
+      "finishTime": 25688,
       "errors": 0,
       "problems": [
         {
@@ -210591,8 +210591,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9715,
           "errors": 0
         },
         {
@@ -210606,8 +210606,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7516,
           "errors": 0
         },
         {
@@ -210627,14 +210627,14 @@
       "rank": 629,
       "userId": 218062,
       "nickname": "APOLLO",
-      "passCount": 2,
-      "finishTime": 7037,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 26287,
+      "errors": 1,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 8372,
+          "errors": 1
         },
         {
           "solved": false,
@@ -210647,8 +210647,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9678,
           "errors": 0
         },
         {
@@ -210683,8 +210683,8 @@
       "rank": 632,
       "userId": 281240,
       "nickname": "许哈哈",
-      "passCount": 2,
-      "finishTime": 7902,
+      "passCount": 4,
+      "finishTime": 26691,
       "errors": 0,
       "problems": [
         {
@@ -210703,8 +210703,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10430,
           "errors": 0
         },
         {
@@ -210718,8 +210718,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8359,
           "errors": 0
         },
         {
@@ -210739,14 +210739,14 @@
       "rank": 634,
       "userId": 264780,
       "nickname": "sankela",
-      "passCount": 3,
-      "finishTime": 11711,
-      "errors": 1,
+      "passCount": 4,
+      "finishTime": 27020,
+      "errors": 6,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9309,
+          "errors": 5
         },
         {
           "solved": false,
@@ -210795,9 +210795,9 @@
       "rank": 635,
       "userId": 281458,
       "nickname": "小码_281458",
-      "passCount": 2,
-      "finishTime": 5154,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 27186,
+      "errors": 1,
       "problems": [
         {
           "solved": true,
@@ -210815,9 +210815,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10308,
+          "errors": 1
         },
         {
           "solved": true,
@@ -210830,8 +210830,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10524,
           "errors": 0
         },
         {
@@ -210851,9 +210851,9 @@
       "rank": 636,
       "userId": 234554,
       "nickname": "我欲乘风归去",
-      "passCount": 2,
-      "finishTime": 6003,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 27612,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -210871,8 +210871,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9006,
           "errors": 0
         },
         {
@@ -210886,9 +210886,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10203,
+          "errors": 2
         },
         {
           "solved": false,
@@ -210907,8 +210907,8 @@
       "rank": 642,
       "userId": 277649,
       "nickname": "小码_277649",
-      "passCount": 2,
-      "finishTime": 12935,
+      "passCount": 4,
+      "finishTime": 28398,
       "errors": 0,
       "problems": [
         {
@@ -210932,8 +210932,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7296,
           "errors": 0
         },
         {
@@ -210942,8 +210942,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8167,
           "errors": 0
         },
         {
@@ -210963,13 +210963,13 @@
       "rank": 643,
       "userId": 278486,
       "nickname": "小码_278486",
-      "passCount": 2,
-      "finishTime": 9816,
+      "passCount": 4,
+      "finishTime": 28436,
       "errors": 0,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 7889,
           "errors": 0
         },
         {
@@ -210993,8 +210993,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10731,
           "errors": 0
         },
         {
@@ -211019,9 +211019,9 @@
       "rank": 646,
       "userId": 278846,
       "nickname": "小码_278846",
-      "passCount": 2,
-      "finishTime": 5253,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 28643,
+      "errors": 2,
       "problems": [
         {
           "solved": true,
@@ -211039,8 +211039,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10369,
           "errors": 0
         },
         {
@@ -211054,9 +211054,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10621,
+          "errors": 2
         },
         {
           "solved": false,
@@ -211075,18 +211075,13 @@
       "rank": 647,
       "userId": 281637,
       "nickname": "小码_281637",
-      "passCount": 1,
-      "finishTime": 936,
+      "passCount": 4,
+      "finishTime": 28750,
       "errors": 0,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
-        },
-        {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8867,
           "errors": 0
         },
         {
@@ -211101,6 +211096,11 @@
         },
         {
           "solved": true,
+          "seconds": 9757,
+          "errors": 0
+        },
+        {
+          "solved": true,
           "seconds": 936,
           "errors": 0
         },
@@ -211110,8 +211110,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9190,
           "errors": 0
         },
         {
@@ -211131,9 +211131,9 @@
       "rank": 648,
       "userId": 204825,
       "nickname": "小码_204825",
-      "passCount": 3,
-      "finishTime": 16411,
-      "errors": 2,
+      "passCount": 4,
+      "finishTime": 29016,
+      "errors": 5,
       "problems": [
         {
           "solved": true,
@@ -211151,9 +211151,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9005,
+          "errors": 3
         },
         {
           "solved": true,
@@ -211187,9 +211187,9 @@
       "rank": 650,
       "userId": 277480,
       "nickname": "小码_277480",
-      "passCount": 3,
-      "finishTime": 7485,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 29614,
+      "errors": 12,
       "problems": [
         {
           "solved": true,
@@ -211207,9 +211207,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 7729,
+          "errors": 12
         },
         {
           "solved": true,
@@ -211243,13 +211243,13 @@
       "rank": 651,
       "userId": 235692,
       "nickname": "小码_235692",
-      "passCount": 2,
-      "finishTime": 8253,
-      "errors": 0,
+      "passCount": 4,
+      "finishTime": 29903,
+      "errors": 1,
       "problems": [
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9843,
           "errors": 0
         },
         {
@@ -211263,9 +211263,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 10607,
+          "errors": 1
         },
         {
           "solved": true,
@@ -211299,8 +211299,8 @@
       "rank": 652,
       "userId": 282729,
       "nickname": "小码_282729",
-      "passCount": 2,
-      "finishTime": 11940,
+      "passCount": 4,
+      "finishTime": 30055,
       "errors": 1,
       "problems": [
         {
@@ -211319,8 +211319,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 8725,
           "errors": 0
         },
         {
@@ -211334,8 +211334,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 9390,
           "errors": 0
         },
         {
@@ -211355,8 +211355,8 @@
       "rank": 660,
       "userId": 194257,
       "nickname": "小码_194257",
-      "passCount": 2,
-      "finishTime": 11164,
+      "passCount": 4,
+      "finishTime": 31888,
       "errors": 0,
       "problems": [
         {
@@ -211375,8 +211375,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10397,
           "errors": 0
         },
         {
@@ -211390,8 +211390,8 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
+          "solved": true,
+          "seconds": 10327,
           "errors": 0
         },
         {
@@ -211467,9 +211467,9 @@
       "rank": 665,
       "userId": 282045,
       "nickname": "小码_282045",
-      "passCount": 2,
-      "finishTime": 9945,
-      "errors": 1,
+      "passCount": 4,
+      "finishTime": 33650,
+      "errors": 5,
       "problems": [
         {
           "solved": true,
@@ -211487,9 +211487,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9042,
+          "errors": 1
         },
         {
           "solved": true,
@@ -211502,9 +211502,9 @@
           "errors": 0
         },
         {
-          "solved": false,
-          "seconds": 0,
-          "errors": 0
+          "solved": true,
+          "seconds": 9863,
+          "errors": 3
         },
         {
           "solved": false,
@@ -213433,5 +213433,5 @@
     "articleUrl": "https://star.baidu.com/#/news-info?tab=3&id=CD67A73928B8C85AE5C40D0E277DAD49",
     "publishedAt": "2026-09-01"
   },
-  "generatedAt": "2026-09-01T09:51:03.605Z"
+  "generatedAt": "2026-09-01T10:03:31.865Z"
 }
