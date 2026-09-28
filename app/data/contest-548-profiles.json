@@ -1,0 +1,10314 @@
+{
+  "contestId": 548,
+  "generatedAt": "2026-09-28T02:49:26.800Z",
+  "profiles": {
+    "67": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "24244": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "29042": {
+      "school": "-",
+      "province": "甘肃省"
+    },
+    "29134": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "29557": {
+      "school": "-",
+      "province": "天津市"
+    },
+    "29706": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "29893": {
+      "school": "-",
+      "province": ""
+    },
+    "30036": {
+      "school": "-",
+      "province": ""
+    },
+    "30186": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "30802": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "31134": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "32528": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "35309": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "36357": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "36697": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "40635": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "43076": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "44989": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "47233": {
+      "school": "-",
+      "province": "辽宁省"
+    },
+    "48632": {
+      "school": "-",
+      "province": ""
+    },
+    "52273": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "55410": {
+      "school": "-",
+      "province": "信阳市"
+    },
+    "56267": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "56683": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "57552": {
+      "school": "-",
+      "province": ""
+    },
+    "57675": {
+      "school": "-",
+      "province": ""
+    },
+    "73496": {
+      "school": "-",
+      "province": ""
+    },
+    "80543": {
+      "school": "-",
+      "province": ""
+    },
+    "81626": {
+      "school": "-",
+      "province": "浙江省"
+    },
+    "88801": {
+      "school": "门头沟学院",
+      "province": "黑龙江省"
+    },
+    "90595": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "90597": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "90994": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "91467": {
+      "school": "-",
+      "province": ""
+    },
+    "91606": {
+      "school": "-",
+      "province": "山西省"
+    },
+    "94633": {
+      "school": "-",
+      "province": "贵州省"
+    },
+    "95501": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "96076": {
+      "school": "-",
+      "province": "湘潭市"
+    },
+    "96350": {
+      "school": "-",
+      "province": "上海市"
+    },
+    "97876": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "97879": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "100552": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "102681": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "102791": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "102960": {
+      "school": "广东技术师范大学",
+      "province": "广州市"
+    },
+    "103442": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "103657": {
+      "school": "-",
+      "province": "杭州市"
+    },
+    "104673": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "104779": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "105606": {
+      "school": "-",
+      "province": "浙江省"
+    },
+    "105750": {
+      "school": "-",
+      "province": ""
+    },
+    "105795": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "107743": {
+      "school": "杭州电子科技大学",
+      "province": "杭州市"
+    },
+    "109374": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "110334": {
+      "school": "-",
+      "province": "宁波市"
+    },
+    "110448": {
+      "school": "-",
+      "province": "陕西省"
+    },
+    "111783": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "111936": {
+      "school": "-",
+      "province": "云南省"
+    },
+    "118567": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "119037": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "121098": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "127248": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "128943": {
+      "school": "-",
+      "province": ""
+    },
+    "134148": {
+      "school": "-",
+      "province": "云南省"
+    },
+    "134745": {
+      "school": "-",
+      "province": ""
+    },
+    "135047": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "136185": {
+      "school": "-",
+      "province": ""
+    },
+    "136417": {
+      "school": "上海市紫阳中学",
+      "province": "上海市"
+    },
+    "136672": {
+      "school": "-",
+      "province": ""
+    },
+    "137059": {
+      "school": "-",
+      "province": "阿坝藏族羌族自治州"
+    },
+    "137401": {
+      "school": "东北大学",
+      "province": "辽宁省"
+    },
+    "137625": {
+      "school": "-",
+      "province": ""
+    },
+    "137914": {
+      "school": "-",
+      "province": "太原市"
+    },
+    "138565": {
+      "school": "-",
+      "province": "阿坝藏族羌族自治州"
+    },
+    "138575": {
+      "school": "-",
+      "province": "阿坝藏族羌族自治州"
+    },
+    "139225": {
+      "school": "-",
+      "province": "广西壮族自治区"
+    },
+    "139383": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "139507": {
+      "school": "-",
+      "province": ""
+    },
+    "140039": {
+      "school": "-",
+      "province": "新疆维吾尔自治区"
+    },
+    "140795": {
+      "school": "-",
+      "province": "宁波市"
+    },
+    "141293": {
+      "school": "-",
+      "province": "沈阳市"
+    },
+    "141823": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "142018": {
+      "school": "-",
+      "province": ""
+    },
+    "142043": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "143740": {
+      "school": "-",
+      "province": "深圳市"
+    },
+    "144847": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "146440": {
+      "school": "中国人民解放军网络空间部队信息工程大学",
+      "province": "河南省"
+    },
+    "147178": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "147193": {
+      "school": "-",
+      "province": "辽宁省"
+    },
+    "147292": {
+      "school": "-",
+      "province": "南阳市"
+    },
+    "147402": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "148701": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "148826": {
+      "school": "-",
+      "province": "吉林省"
+    },
+    "148937": {
+      "school": "-",
+      "province": "湘潭市"
+    },
+    "149468": {
+      "school": "-",
+      "province": ""
+    },
+    "149860": {
+      "school": "中国科学技术大学",
+      "province": "合肥市"
+    },
+    "150295": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "150722": {
+      "school": "-",
+      "province": ""
+    },
+    "150744": {
+      "school": "-",
+      "province": ""
+    },
+    "150873": {
+      "school": "清华大学",
+      "province": "北京市"
+    },
+    "151424": {
+      "school": "杭州二中钱江学校",
+      "province": "浙江省"
+    },
+    "152111": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "152681": {
+      "school": "天津滨海小外小学一部",
+      "province": "天津市"
+    },
+    "152866": {
+      "school": "-",
+      "province": "辽宁省"
+    },
+    "152920": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "152937": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "153750": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "154830": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "154832": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "154840": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "154844": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "155355": {
+      "school": "-",
+      "province": "上海市"
+    },
+    "155968": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "155980": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "156928": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "157422": {
+      "school": "-",
+      "province": "河北省"
+    },
+    "159119": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "160426": {
+      "school": "-",
+      "province": ""
+    },
+    "161455": {
+      "school": "-",
+      "province": "十堰市"
+    },
+    "162115": {
+      "school": "-",
+      "province": ""
+    },
+    "163853": {
+      "school": "-",
+      "province": ""
+    },
+    "165906": {
+      "school": "西安邮电大学",
+      "province": "陕西省"
+    },
+    "166695": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "167047": {
+      "school": "-",
+      "province": ""
+    },
+    "167088": {
+      "school": "-",
+      "province": ""
+    },
+    "167673": {
+      "school": "-",
+      "province": ""
+    },
+    "168089": {
+      "school": "-",
+      "province": "郑州市"
+    },
+    "168815": {
+      "school": "-",
+      "province": ""
+    },
+    "168827": {
+      "school": "-",
+      "province": ""
+    },
+    "169088": {
+      "school": "青岛科技大学",
+      "province": "青岛市"
+    },
+    "169215": {
+      "school": "-",
+      "province": "大连市"
+    },
+    "169305": {
+      "school": "-",
+      "province": "安徽省"
+    },
+    "169473": {
+      "school": "-",
+      "province": ""
+    },
+    "169716": {
+      "school": "-",
+      "province": ""
+    },
+    "169733": {
+      "school": "-",
+      "province": ""
+    },
+    "169755": {
+      "school": "-",
+      "province": ""
+    },
+    "170139": {
+      "school": "上海大学",
+      "province": "上海市"
+    },
+    "170186": {
+      "school": "-",
+      "province": ""
+    },
+    "170289": {
+      "school": "-",
+      "province": ""
+    },
+    "170462": {
+      "school": "-",
+      "province": ""
+    },
+    "171357": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "171611": {
+      "school": "-",
+      "province": ""
+    },
+    "171832": {
+      "school": "-",
+      "province": "云南"
+    },
+    "173233": {
+      "school": "-",
+      "province": ""
+    },
+    "174046": {
+      "school": "-",
+      "province": ""
+    },
+    "174196": {
+      "school": "-",
+      "province": ""
+    },
+    "174430": {
+      "school": "-",
+      "province": ""
+    },
+    "175032": {
+      "school": "江西师范大学",
+      "province": "南昌市"
+    },
+    "175851": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "176237": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "176261": {
+      "school": "四川大学",
+      "province": "四川省"
+    },
+    "176399": {
+      "school": "中国人民大学附属中学",
+      "province": "北京市"
+    },
+    "176413": {
+      "school": "-",
+      "province": ""
+    },
+    "177369": {
+      "school": "-",
+      "province": "泉州市"
+    },
+    "177671": {
+      "school": "-",
+      "province": ""
+    },
+    "177679": {
+      "school": "兰州理工大学",
+      "province": "兰州市"
+    },
+    "177726": {
+      "school": "-",
+      "province": ""
+    },
+    "177735": {
+      "school": "-",
+      "province": ""
+    },
+    "178166": {
+      "school": "-",
+      "province": ""
+    },
+    "178334": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "178358": {
+      "school": "-",
+      "province": "新疆维吾尔自治区"
+    },
+    "178553": {
+      "school": "华南理工大学",
+      "province": "广东省"
+    },
+    "178672": {
+      "school": "河南护理职业学院",
+      "province": "河南省"
+    },
+    "178985": {
+      "school": "-",
+      "province": ""
+    },
+    "179042": {
+      "school": "-",
+      "province": ""
+    },
+    "179533": {
+      "school": "-",
+      "province": ""
+    },
+    "179540": {
+      "school": "中南林业科技大学",
+      "province": "湖南省"
+    },
+    "179917": {
+      "school": "-",
+      "province": ""
+    },
+    "180156": {
+      "school": "-",
+      "province": ""
+    },
+    "180214": {
+      "school": "-",
+      "province": ""
+    },
+    "180228": {
+      "school": "-",
+      "province": ""
+    },
+    "180373": {
+      "school": "-",
+      "province": ""
+    },
+    "180391": {
+      "school": "-",
+      "province": ""
+    },
+    "180452": {
+      "school": "-",
+      "province": ""
+    },
+    "180497": {
+      "school": "-",
+      "province": ""
+    },
+    "180650": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "180671": {
+      "school": "-",
+      "province": ""
+    },
+    "180677": {
+      "school": "-",
+      "province": ""
+    },
+    "180774": {
+      "school": "-",
+      "province": ""
+    },
+    "180837": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "180872": {
+      "school": "-",
+      "province": ""
+    },
+    "180942": {
+      "school": "-",
+      "province": ""
+    },
+    "180961": {
+      "school": "-",
+      "province": ""
+    },
+    "181109": {
+      "school": "-",
+      "province": ""
+    },
+    "181212": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "181226": {
+      "school": "长沙理工大学",
+      "province": "湖南省"
+    },
+    "181230": {
+      "school": "-",
+      "province": ""
+    },
+    "181456": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "181466": {
+      "school": "-",
+      "province": ""
+    },
+    "181471": {
+      "school": "-",
+      "province": ""
+    },
+    "181503": {
+      "school": "-",
+      "province": ""
+    },
+    "181524": {
+      "school": "-",
+      "province": ""
+    },
+    "181555": {
+      "school": "-",
+      "province": ""
+    },
+    "181590": {
+      "school": "-",
+      "province": ""
+    },
+    "181747": {
+      "school": "-",
+      "province": "太原市"
+    },
+    "181858": {
+      "school": "-",
+      "province": ""
+    },
+    "181978": {
+      "school": "-",
+      "province": ""
+    },
+    "182082": {
+      "school": "-",
+      "province": ""
+    },
+    "182152": {
+      "school": "-",
+      "province": ""
+    },
+    "182225": {
+      "school": "-",
+      "province": "株洲市"
+    },
+    "182250": {
+      "school": "-",
+      "province": ""
+    },
+    "182348": {
+      "school": "-",
+      "province": ""
+    },
+    "182545": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "182827": {
+      "school": "-",
+      "province": ""
+    },
+    "182908": {
+      "school": "-",
+      "province": ""
+    },
+    "183327": {
+      "school": "-",
+      "province": "广州市"
+    },
+    "183335": {
+      "school": "-",
+      "province": ""
+    },
+    "183357": {
+      "school": "-",
+      "province": ""
+    },
+    "183409": {
+      "school": "-",
+      "province": ""
+    },
+    "183588": {
+      "school": "-",
+      "province": ""
+    },
+    "183599": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "183704": {
+      "school": "-",
+      "province": ""
+    },
+    "183753": {
+      "school": "-",
+      "province": "南昌市"
+    },
+    "183928": {
+      "school": "-",
+      "province": ""
+    },
+    "184035": {
+      "school": "-",
+      "province": ""
+    },
+    "184211": {
+      "school": "-",
+      "province": ""
+    },
+    "184307": {
+      "school": "-",
+      "province": ""
+    },
+    "184475": {
+      "school": "-",
+      "province": "广州市"
+    },
+    "184619": {
+      "school": "-",
+      "province": ""
+    },
+    "184683": {
+      "school": "-",
+      "province": ""
+    },
+    "184846": {
+      "school": "-",
+      "province": ""
+    },
+    "185239": {
+      "school": "-",
+      "province": ""
+    },
+    "185413": {
+      "school": "-",
+      "province": ""
+    },
+    "185740": {
+      "school": "-",
+      "province": ""
+    },
+    "185987": {
+      "school": "-",
+      "province": ""
+    },
+    "186410": {
+      "school": "-",
+      "province": ""
+    },
+    "186500": {
+      "school": "-",
+      "province": ""
+    },
+    "186717": {
+      "school": "-",
+      "province": ""
+    },
+    "186945": {
+      "school": "-",
+      "province": ""
+    },
+    "186962": {
+      "school": "绍兴市第一初级中学",
+      "province": "浙江省"
+    },
+    "187123": {
+      "school": "-",
+      "province": ""
+    },
+    "187183": {
+      "school": "-",
+      "province": "阜阳市"
+    },
+    "187386": {
+      "school": "-",
+      "province": ""
+    },
+    "187639": {
+      "school": "-",
+      "province": ""
+    },
+    "187762": {
+      "school": "-",
+      "province": ""
+    },
+    "187876": {
+      "school": "-",
+      "province": ""
+    },
+    "187878": {
+      "school": "-",
+      "province": "南昌市"
+    },
+    "187920": {
+      "school": "-",
+      "province": ""
+    },
+    "188312": {
+      "school": "-",
+      "province": ""
+    },
+    "188352": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "188392": {
+      "school": "-",
+      "province": ""
+    },
+    "188403": {
+      "school": "-",
+      "province": ""
+    },
+    "188561": {
+      "school": "-",
+      "province": "河北省"
+    },
+    "188568": {
+      "school": "-",
+      "province": ""
+    },
+    "188721": {
+      "school": "-",
+      "province": "上海市"
+    },
+    "188894": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "188984": {
+      "school": "-",
+      "province": "山西省"
+    },
+    "189047": {
+      "school": "-",
+      "province": "山西省"
+    },
+    "189108": {
+      "school": "-",
+      "province": ""
+    },
+    "189293": {
+      "school": "-",
+      "province": ""
+    },
+    "189909": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "190133": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "190162": {
+      "school": "-",
+      "province": ""
+    },
+    "190210": {
+      "school": "胶州市实验小学",
+      "province": "山东省"
+    },
+    "190270": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "190315": {
+      "school": "-",
+      "province": ""
+    },
+    "190475": {
+      "school": "-",
+      "province": ""
+    },
+    "190561": {
+      "school": "-",
+      "province": ""
+    },
+    "190612": {
+      "school": "-",
+      "province": ""
+    },
+    "190624": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "190631": {
+      "school": "-",
+      "province": ""
+    },
+    "190641": {
+      "school": "-",
+      "province": ""
+    },
+    "190643": {
+      "school": "-",
+      "province": ""
+    },
+    "190671": {
+      "school": "-",
+      "province": ""
+    },
+    "190736": {
+      "school": "-",
+      "province": ""
+    },
+    "190814": {
+      "school": "-",
+      "province": ""
+    },
+    "190855": {
+      "school": "-",
+      "province": ""
+    },
+    "190927": {
+      "school": "-",
+      "province": ""
+    },
+    "190989": {
+      "school": "-",
+      "province": ""
+    },
+    "191042": {
+      "school": "西南交通大学",
+      "province": "四川省"
+    },
+    "191237": {
+      "school": "-",
+      "province": ""
+    },
+    "191821": {
+      "school": "-",
+      "province": "云南省"
+    },
+    "192032": {
+      "school": "西华大学",
+      "province": "四川省"
+    },
+    "192062": {
+      "school": "-",
+      "province": ""
+    },
+    "192069": {
+      "school": "-",
+      "province": ""
+    },
+    "192173": {
+      "school": "-",
+      "province": ""
+    },
+    "192429": {
+      "school": "-",
+      "province": ""
+    },
+    "192438": {
+      "school": "-",
+      "province": ""
+    },
+    "192568": {
+      "school": "-",
+      "province": ""
+    },
+    "192637": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "192699": {
+      "school": "-",
+      "province": ""
+    },
+    "192743": {
+      "school": "-",
+      "province": ""
+    },
+    "192844": {
+      "school": "-",
+      "province": ""
+    },
+    "192919": {
+      "school": "-",
+      "province": ""
+    },
+    "192921": {
+      "school": "-",
+      "province": ""
+    },
+    "193081": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "193121": {
+      "school": "山东",
+      "province": "济南市"
+    },
+    "193239": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "193402": {
+      "school": "-",
+      "province": ""
+    },
+    "193585": {
+      "school": "-",
+      "province": ""
+    },
+    "193600": {
+      "school": "-",
+      "province": ""
+    },
+    "193700": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "194048": {
+      "school": "-",
+      "province": ""
+    },
+    "194071": {
+      "school": "-",
+      "province": ""
+    },
+    "194117": {
+      "school": "-",
+      "province": ""
+    },
+    "194234": {
+      "school": "-",
+      "province": ""
+    },
+    "194305": {
+      "school": "-",
+      "province": ""
+    },
+    "194466": {
+      "school": "-",
+      "province": ""
+    },
+    "194622": {
+      "school": "-",
+      "province": "吉林省"
+    },
+    "194798": {
+      "school": "甘肃政法大学",
+      "province": "兰州市"
+    },
+    "194987": {
+      "school": "-",
+      "province": ""
+    },
+    "195081": {
+      "school": "-",
+      "province": "舟山市"
+    },
+    "195099": {
+      "school": "-",
+      "province": ""
+    },
+    "195141": {
+      "school": "-",
+      "province": ""
+    },
+    "195476": {
+      "school": "-",
+      "province": ""
+    },
+    "195652": {
+      "school": "-",
+      "province": ""
+    },
+    "195804": {
+      "school": "-",
+      "province": "株洲市"
+    },
+    "195886": {
+      "school": "-",
+      "province": ""
+    },
+    "195925": {
+      "school": "-",
+      "province": "广西壮族自治区"
+    },
+    "195934": {
+      "school": "-",
+      "province": "株洲市"
+    },
+    "196054": {
+      "school": "-",
+      "province": ""
+    },
+    "196084": {
+      "school": "南京工业职业技术大学",
+      "province": "南京市"
+    },
+    "196094": {
+      "school": "-",
+      "province": "株洲市"
+    },
+    "196147": {
+      "school": "-",
+      "province": ""
+    },
+    "196511": {
+      "school": "湖南工业大学",
+      "province": "株洲市"
+    },
+    "196553": {
+      "school": "-",
+      "province": "株洲市"
+    },
+    "196678": {
+      "school": "-",
+      "province": ""
+    },
+    "196684": {
+      "school": "-",
+      "province": ""
+    },
+    "196821": {
+      "school": "-",
+      "province": ""
+    },
+    "197590": {
+      "school": "-",
+      "province": ""
+    },
+    "197710": {
+      "school": "-",
+      "province": ""
+    },
+    "197894": {
+      "school": "-",
+      "province": ""
+    },
+    "197990": {
+      "school": "-",
+      "province": ""
+    },
+    "198010": {
+      "school": "南京理工大学泰州科技学院",
+      "province": "江苏省"
+    },
+    "198040": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "198041": {
+      "school": "-",
+      "province": ""
+    },
+    "198080": {
+      "school": "-",
+      "province": ""
+    },
+    "198148": {
+      "school": "-",
+      "province": ""
+    },
+    "198269": {
+      "school": "-",
+      "province": ""
+    },
+    "198273": {
+      "school": "-",
+      "province": ""
+    },
+    "198443": {
+      "school": "-",
+      "province": ""
+    },
+    "198508": {
+      "school": "-",
+      "province": ""
+    },
+    "198559": {
+      "school": "-",
+      "province": ""
+    },
+    "198564": {
+      "school": "-",
+      "province": ""
+    },
+    "198592": {
+      "school": "-",
+      "province": ""
+    },
+    "198727": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "198770": {
+      "school": "-",
+      "province": ""
+    },
+    "198998": {
+      "school": "-",
+      "province": ""
+    },
+    "199108": {
+      "school": "-",
+      "province": ""
+    },
+    "199397": {
+      "school": "-",
+      "province": ""
+    },
+    "199472": {
+      "school": "北方工业大学",
+      "province": "北京市"
+    },
+    "199533": {
+      "school": "-",
+      "province": ""
+    },
+    "199683": {
+      "school": "-",
+      "province": ""
+    },
+    "199893": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "200680": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "201195": {
+      "school": "-",
+      "province": ""
+    },
+    "201436": {
+      "school": "-",
+      "province": "成都市"
+    },
+    "201480": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "201673": {
+      "school": "-",
+      "province": ""
+    },
+    "202725": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "202895": {
+      "school": "-",
+      "province": ""
+    },
+    "203568": {
+      "school": "武汉工程大学邮电与信息工程学院",
+      "province": "湖北省"
+    },
+    "203714": {
+      "school": "-",
+      "province": ""
+    },
+    "203751": {
+      "school": "-",
+      "province": ""
+    },
+    "203817": {
+      "school": "-",
+      "province": ""
+    },
+    "203833": {
+      "school": "集美大学",
+      "province": "福建省"
+    },
+    "203834": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "203881": {
+      "school": "-",
+      "province": ""
+    },
+    "203902": {
+      "school": "-",
+      "province": ""
+    },
+    "203953": {
+      "school": "-",
+      "province": ""
+    },
+    "204104": {
+      "school": "河北科技学院",
+      "province": "河北省"
+    },
+    "204113": {
+      "school": "-",
+      "province": "河北省"
+    },
+    "204171": {
+      "school": "-",
+      "province": "广州市"
+    },
+    "204280": {
+      "school": "-",
+      "province": ""
+    },
+    "204319": {
+      "school": "-",
+      "province": ""
+    },
+    "204411": {
+      "school": "-",
+      "province": ""
+    },
+    "204531": {
+      "school": "-",
+      "province": ""
+    },
+    "204551": {
+      "school": "-",
+      "province": ""
+    },
+    "204576": {
+      "school": "-",
+      "province": "广州市"
+    },
+    "204660": {
+      "school": "-",
+      "province": "阜阳市"
+    },
+    "204787": {
+      "school": "-",
+      "province": ""
+    },
+    "204895": {
+      "school": "-",
+      "province": ""
+    },
+    "204946": {
+      "school": "-",
+      "province": ""
+    },
+    "205035": {
+      "school": "-",
+      "province": ""
+    },
+    "205072": {
+      "school": "-",
+      "province": ""
+    },
+    "205142": {
+      "school": "-",
+      "province": "十堰市"
+    },
+    "205153": {
+      "school": "-",
+      "province": ""
+    },
+    "205158": {
+      "school": "-",
+      "province": "十堰市"
+    },
+    "205356": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "205430": {
+      "school": "-",
+      "province": ""
+    },
+    "205439": {
+      "school": "-",
+      "province": ""
+    },
+    "205446": {
+      "school": "-",
+      "province": ""
+    },
+    "205469": {
+      "school": "-",
+      "province": ""
+    },
+    "205494": {
+      "school": "-",
+      "province": "广西壮族自治区"
+    },
+    "205567": {
+      "school": "-",
+      "province": ""
+    },
+    "205592": {
+      "school": "-",
+      "province": ""
+    },
+    "205647": {
+      "school": "-",
+      "province": ""
+    },
+    "205799": {
+      "school": "-",
+      "province": ""
+    },
+    "205800": {
+      "school": "-",
+      "province": ""
+    },
+    "206139": {
+      "school": "江西师范大学",
+      "province": "南昌市"
+    },
+    "206258": {
+      "school": "-",
+      "province": ""
+    },
+    "206265": {
+      "school": "-",
+      "province": ""
+    },
+    "206379": {
+      "school": "南京理工大学泰州科技学院",
+      "province": "江苏省"
+    },
+    "206437": {
+      "school": "-",
+      "province": ""
+    },
+    "206519": {
+      "school": "-",
+      "province": ""
+    },
+    "206871": {
+      "school": "-",
+      "province": "青岛市"
+    },
+    "206958": {
+      "school": "-",
+      "province": ""
+    },
+    "206980": {
+      "school": "-",
+      "province": ""
+    },
+    "207015": {
+      "school": "-",
+      "province": "青岛市"
+    },
+    "207151": {
+      "school": "-",
+      "province": ""
+    },
+    "210847": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "210974": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "211039": {
+      "school": "山东华宇工学院",
+      "province": "德州市"
+    },
+    "211424": {
+      "school": "-",
+      "province": ""
+    },
+    "211812": {
+      "school": "-",
+      "province": ""
+    },
+    "211942": {
+      "school": "-",
+      "province": "温州市"
+    },
+    "211955": {
+      "school": "-",
+      "province": ""
+    },
+    "211971": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "212000": {
+      "school": "贵州大学",
+      "province": "贵州省"
+    },
+    "212118": {
+      "school": "-",
+      "province": ""
+    },
+    "212201": {
+      "school": "-",
+      "province": ""
+    },
+    "212216": {
+      "school": "-",
+      "province": ""
+    },
+    "212386": {
+      "school": "-",
+      "province": ""
+    },
+    "212578": {
+      "school": "-",
+      "province": ""
+    },
+    "212664": {
+      "school": "-",
+      "province": ""
+    },
+    "212745": {
+      "school": "-",
+      "province": ""
+    },
+    "213032": {
+      "school": "-",
+      "province": ""
+    },
+    "213074": {
+      "school": "-",
+      "province": ""
+    },
+    "213108": {
+      "school": "-",
+      "province": ""
+    },
+    "213131": {
+      "school": "-",
+      "province": ""
+    },
+    "213165": {
+      "school": "-",
+      "province": ""
+    },
+    "213215": {
+      "school": "-",
+      "province": ""
+    },
+    "213317": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "213338": {
+      "school": "-",
+      "province": ""
+    },
+    "213339": {
+      "school": "-",
+      "province": ""
+    },
+    "213392": {
+      "school": "-",
+      "province": ""
+    },
+    "214720": {
+      "school": "-",
+      "province": ""
+    },
+    "214736": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "214753": {
+      "school": "-",
+      "province": ""
+    },
+    "214780": {
+      "school": "-",
+      "province": ""
+    },
+    "214854": {
+      "school": "长江大学",
+      "province": "湖北省"
+    },
+    "214908": {
+      "school": "华中科技大学",
+      "province": "湖北省"
+    },
+    "214912": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "215034": {
+      "school": "-",
+      "province": ""
+    },
+    "215058": {
+      "school": "-",
+      "province": ""
+    },
+    "215065": {
+      "school": "南昌航空大学科技学院",
+      "province": "江西省"
+    },
+    "215068": {
+      "school": "-",
+      "province": ""
+    },
+    "215135": {
+      "school": "-",
+      "province": ""
+    },
+    "215232": {
+      "school": "-",
+      "province": ""
+    },
+    "215379": {
+      "school": "-",
+      "province": ""
+    },
+    "215415": {
+      "school": "-",
+      "province": ""
+    },
+    "215467": {
+      "school": "大连大学",
+      "province": "辽宁省"
+    },
+    "215539": {
+      "school": "-",
+      "province": ""
+    },
+    "215626": {
+      "school": "-",
+      "province": ""
+    },
+    "215635": {
+      "school": "-",
+      "province": ""
+    },
+    "215664": {
+      "school": "-",
+      "province": ""
+    },
+    "215946": {
+      "school": "四川大学",
+      "province": "四川省"
+    },
+    "216208": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "216366": {
+      "school": "-",
+      "province": ""
+    },
+    "216972": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "217005": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "217135": {
+      "school": "-",
+      "province": ""
+    },
+    "217296": {
+      "school": "-",
+      "province": ""
+    },
+    "217372": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "217486": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "217496": {
+      "school": "-",
+      "province": ""
+    },
+    "217652": {
+      "school": "-",
+      "province": ""
+    },
+    "217838": {
+      "school": "-",
+      "province": "郑州市"
+    },
+    "217849": {
+      "school": "-",
+      "province": "浙江省"
+    },
+    "217855": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "217857": {
+      "school": "-",
+      "province": "昆明市"
+    },
+    "217862": {
+      "school": "-",
+      "province": ""
+    },
+    "217876": {
+      "school": "黄埔军校",
+      "province": ""
+    },
+    "218152": {
+      "school": "-",
+      "province": ""
+    },
+    "218324": {
+      "school": "-",
+      "province": ""
+    },
+    "218801": {
+      "school": "-",
+      "province": ""
+    },
+    "218965": {
+      "school": "山东大学（威海）",
+      "province": "山东省"
+    },
+    "218977": {
+      "school": "江西理工大学",
+      "province": "江西省"
+    },
+    "219116": {
+      "school": "-",
+      "province": ""
+    },
+    "219253": {
+      "school": "-",
+      "province": ""
+    },
+    "219260": {
+      "school": "-",
+      "province": "河北省"
+    },
+    "219275": {
+      "school": "-",
+      "province": "无锡市"
+    },
+    "219471": {
+      "school": "-",
+      "province": ""
+    },
+    "219493": {
+      "school": "-",
+      "province": "金华市"
+    },
+    "219494": {
+      "school": "-",
+      "province": ""
+    },
+    "219688": {
+      "school": "应急管理大学",
+      "province": ""
+    },
+    "219721": {
+      "school": "-",
+      "province": ""
+    },
+    "219729": {
+      "school": "-",
+      "province": ""
+    },
+    "220151": {
+      "school": "东南大学",
+      "province": "江苏省"
+    },
+    "220309": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "220529": {
+      "school": "闽江学院",
+      "province": "福建省"
+    },
+    "220697": {
+      "school": "温州商学院",
+      "province": "温州市"
+    },
+    "221007": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "221097": {
+      "school": "-",
+      "province": ""
+    },
+    "221570": {
+      "school": "-",
+      "province": ""
+    },
+    "221597": {
+      "school": "-",
+      "province": "大连市"
+    },
+    "221803": {
+      "school": "-",
+      "province": ""
+    },
+    "221874": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "222315": {
+      "school": "-",
+      "province": ""
+    },
+    "222486": {
+      "school": "-",
+      "province": ""
+    },
+    "222742": {
+      "school": "-",
+      "province": ""
+    },
+    "222807": {
+      "school": "-",
+      "province": ""
+    },
+    "223033": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "223068": {
+      "school": "-",
+      "province": ""
+    },
+    "223105": {
+      "school": "广西农业职业技术大学",
+      "province": "南宁市"
+    },
+    "223309": {
+      "school": "-",
+      "province": "湘潭市"
+    },
+    "223416": {
+      "school": "东北大学",
+      "province": "辽宁省"
+    },
+    "223457": {
+      "school": "-",
+      "province": ""
+    },
+    "223746": {
+      "school": "-",
+      "province": ""
+    },
+    "223855": {
+      "school": "-",
+      "province": ""
+    },
+    "223887": {
+      "school": "宿迁学院",
+      "province": "江苏省"
+    },
+    "223991": {
+      "school": "-",
+      "province": ""
+    },
+    "224127": {
+      "school": "-",
+      "province": ""
+    },
+    "224134": {
+      "school": "-",
+      "province": ""
+    },
+    "224172": {
+      "school": "-",
+      "province": ""
+    },
+    "224290": {
+      "school": "-",
+      "province": ""
+    },
+    "224292": {
+      "school": "-",
+      "province": ""
+    },
+    "224305": {
+      "school": "-",
+      "province": ""
+    },
+    "224319": {
+      "school": "-",
+      "province": ""
+    },
+    "224325": {
+      "school": "-",
+      "province": ""
+    },
+    "224375": {
+      "school": "-",
+      "province": ""
+    },
+    "224413": {
+      "school": "福建商学院",
+      "province": "福州市"
+    },
+    "224578": {
+      "school": "-",
+      "province": ""
+    },
+    "224579": {
+      "school": "-",
+      "province": ""
+    },
+    "224582": {
+      "school": "-",
+      "province": ""
+    },
+    "224601": {
+      "school": "-",
+      "province": ""
+    },
+    "224622": {
+      "school": "-",
+      "province": ""
+    },
+    "224667": {
+      "school": "-",
+      "province": ""
+    },
+    "224668": {
+      "school": "-",
+      "province": ""
+    },
+    "224711": {
+      "school": "-",
+      "province": ""
+    },
+    "224847": {
+      "school": "-",
+      "province": "辽宁省"
+    },
+    "224875": {
+      "school": "-",
+      "province": ""
+    },
+    "224886": {
+      "school": "-",
+      "province": ""
+    },
+    "224984": {
+      "school": "-",
+      "province": ""
+    },
+    "225038": {
+      "school": "-",
+      "province": ""
+    },
+    "225061": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "225069": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "225076": {
+      "school": "-",
+      "province": ""
+    },
+    "225107": {
+      "school": "-",
+      "province": "合肥市"
+    },
+    "225154": {
+      "school": "-",
+      "province": ""
+    },
+    "225201": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "225240": {
+      "school": "-",
+      "province": ""
+    },
+    "225241": {
+      "school": "-",
+      "province": ""
+    },
+    "225275": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "225293": {
+      "school": "-",
+      "province": "浙江省"
+    },
+    "225589": {
+      "school": "沈阳航空航天大学",
+      "province": "辽宁省"
+    },
+    "225620": {
+      "school": "沈阳航空航天大学",
+      "province": "辽宁省"
+    },
+    "225623": {
+      "school": "-",
+      "province": ""
+    },
+    "225636": {
+      "school": "-",
+      "province": ""
+    },
+    "225721": {
+      "school": "-",
+      "province": ""
+    },
+    "225792": {
+      "school": "-",
+      "province": ""
+    },
+    "225796": {
+      "school": "-",
+      "province": ""
+    },
+    "225805": {
+      "school": "-",
+      "province": ""
+    },
+    "226101": {
+      "school": "-",
+      "province": ""
+    },
+    "226163": {
+      "school": "-",
+      "province": ""
+    },
+    "226179": {
+      "school": "-",
+      "province": ""
+    },
+    "226195": {
+      "school": "-",
+      "province": ""
+    },
+    "226492": {
+      "school": "-",
+      "province": ""
+    },
+    "226616": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "226659": {
+      "school": "福建理工大学",
+      "province": "福建省"
+    },
+    "226667": {
+      "school": "-",
+      "province": ""
+    },
+    "226674": {
+      "school": "-",
+      "province": ""
+    },
+    "226894": {
+      "school": "-",
+      "province": ""
+    },
+    "226987": {
+      "school": "-",
+      "province": "吉林省"
+    },
+    "226994": {
+      "school": "-",
+      "province": ""
+    },
+    "227165": {
+      "school": "-",
+      "province": ""
+    },
+    "227329": {
+      "school": "-",
+      "province": ""
+    },
+    "227429": {
+      "school": "-",
+      "province": "吉林省"
+    },
+    "227437": {
+      "school": "-",
+      "province": ""
+    },
+    "227451": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "227462": {
+      "school": "-",
+      "province": ""
+    },
+    "227477": {
+      "school": "-",
+      "province": ""
+    },
+    "227508": {
+      "school": "-",
+      "province": ""
+    },
+    "227551": {
+      "school": "-",
+      "province": ""
+    },
+    "227553": {
+      "school": "-",
+      "province": ""
+    },
+    "227642": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "227644": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "227812": {
+      "school": "-",
+      "province": ""
+    },
+    "227831": {
+      "school": "-",
+      "province": ""
+    },
+    "227838": {
+      "school": "-",
+      "province": ""
+    },
+    "227912": {
+      "school": "-",
+      "province": ""
+    },
+    "227922": {
+      "school": "-",
+      "province": ""
+    },
+    "227936": {
+      "school": "-",
+      "province": ""
+    },
+    "228087": {
+      "school": "-",
+      "province": ""
+    },
+    "228116": {
+      "school": "-",
+      "province": "泉州市"
+    },
+    "228230": {
+      "school": "-",
+      "province": ""
+    },
+    "228628": {
+      "school": "-",
+      "province": ""
+    },
+    "229152": {
+      "school": "-",
+      "province": ""
+    },
+    "229431": {
+      "school": "河北金融学院",
+      "province": ""
+    },
+    "229464": {
+      "school": "-",
+      "province": ""
+    },
+    "229499": {
+      "school": "-",
+      "province": ""
+    },
+    "229615": {
+      "school": "-",
+      "province": "威海市"
+    },
+    "229825": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "229855": {
+      "school": "-",
+      "province": ""
+    },
+    "229858": {
+      "school": "-",
+      "province": ""
+    },
+    "229938": {
+      "school": "-",
+      "province": ""
+    },
+    "229950": {
+      "school": "-",
+      "province": ""
+    },
+    "230183": {
+      "school": "-",
+      "province": ""
+    },
+    "230314": {
+      "school": "-",
+      "province": ""
+    },
+    "230343": {
+      "school": "-",
+      "province": ""
+    },
+    "230410": {
+      "school": "-",
+      "province": ""
+    },
+    "230642": {
+      "school": "-",
+      "province": "天津市"
+    },
+    "230686": {
+      "school": "-",
+      "province": ""
+    },
+    "230708": {
+      "school": "-",
+      "province": ""
+    },
+    "230757": {
+      "school": "-",
+      "province": ""
+    },
+    "230765": {
+      "school": "-",
+      "province": ""
+    },
+    "230766": {
+      "school": "-",
+      "province": ""
+    },
+    "230775": {
+      "school": "成都信息工程大学",
+      "province": "四川省"
+    },
+    "230807": {
+      "school": "-",
+      "province": ""
+    },
+    "230864": {
+      "school": "-",
+      "province": ""
+    },
+    "230880": {
+      "school": "-",
+      "province": ""
+    },
+    "230913": {
+      "school": "-",
+      "province": ""
+    },
+    "230987": {
+      "school": "-",
+      "province": ""
+    },
+    "231023": {
+      "school": "-",
+      "province": ""
+    },
+    "231027": {
+      "school": "-",
+      "province": ""
+    },
+    "231070": {
+      "school": "南华大学",
+      "province": "湖南省"
+    },
+    "231087": {
+      "school": "-",
+      "province": ""
+    },
+    "231181": {
+      "school": "-",
+      "province": ""
+    },
+    "231225": {
+      "school": "-",
+      "province": ""
+    },
+    "231268": {
+      "school": "-",
+      "province": ""
+    },
+    "231285": {
+      "school": "-",
+      "province": ""
+    },
+    "231379": {
+      "school": "-",
+      "province": ""
+    },
+    "231525": {
+      "school": "-",
+      "province": ""
+    },
+    "231569": {
+      "school": "-",
+      "province": ""
+    },
+    "231573": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "231813": {
+      "school": "河南大学",
+      "province": "河南省"
+    },
+    "231858": {
+      "school": "-",
+      "province": ""
+    },
+    "231900": {
+      "school": "-",
+      "province": ""
+    },
+    "231999": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "232013": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "232016": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "232063": {
+      "school": "-",
+      "province": ""
+    },
+    "232073": {
+      "school": "-",
+      "province": ""
+    },
+    "232087": {
+      "school": "深圳信息职业技术大学",
+      "province": "广东省"
+    },
+    "232193": {
+      "school": "-",
+      "province": ""
+    },
+    "232270": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "232288": {
+      "school": "-",
+      "province": ""
+    },
+    "232322": {
+      "school": "-",
+      "province": ""
+    },
+    "232414": {
+      "school": "-",
+      "province": ""
+    },
+    "232611": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "232709": {
+      "school": "大连理工大学",
+      "province": "辽宁省"
+    },
+    "232734": {
+      "school": "-",
+      "province": ""
+    },
+    "232836": {
+      "school": "-",
+      "province": "南昌市"
+    },
+    "232850": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "232867": {
+      "school": "-",
+      "province": ""
+    },
+    "232869": {
+      "school": "-",
+      "province": ""
+    },
+    "232915": {
+      "school": "-",
+      "province": ""
+    },
+    "232925": {
+      "school": "-",
+      "province": ""
+    },
+    "232972": {
+      "school": "-",
+      "province": ""
+    },
+    "232975": {
+      "school": "-",
+      "province": ""
+    },
+    "232995": {
+      "school": "-",
+      "province": ""
+    },
+    "233236": {
+      "school": "闽南理工学院",
+      "province": "福建省"
+    },
+    "233287": {
+      "school": "-",
+      "province": ""
+    },
+    "233321": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "233522": {
+      "school": "-",
+      "province": ""
+    },
+    "233526": {
+      "school": "-",
+      "province": ""
+    },
+    "233529": {
+      "school": "-",
+      "province": ""
+    },
+    "233533": {
+      "school": "-",
+      "province": ""
+    },
+    "233562": {
+      "school": "-",
+      "province": ""
+    },
+    "233584": {
+      "school": "-",
+      "province": ""
+    },
+    "233585": {
+      "school": "-",
+      "province": ""
+    },
+    "233645": {
+      "school": "-",
+      "province": ""
+    },
+    "233674": {
+      "school": "-",
+      "province": ""
+    },
+    "233709": {
+      "school": "-",
+      "province": ""
+    },
+    "233765": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "233871": {
+      "school": "-",
+      "province": ""
+    },
+    "233924": {
+      "school": "-",
+      "province": ""
+    },
+    "233954": {
+      "school": "-",
+      "province": "西安市"
+    },
+    "233955": {
+      "school": "-",
+      "province": ""
+    },
+    "233998": {
+      "school": "-",
+      "province": ""
+    },
+    "234009": {
+      "school": "-",
+      "province": ""
+    },
+    "234013": {
+      "school": "-",
+      "province": ""
+    },
+    "234025": {
+      "school": "-",
+      "province": ""
+    },
+    "234032": {
+      "school": "-",
+      "province": ""
+    },
+    "234035": {
+      "school": "-",
+      "province": ""
+    },
+    "234082": {
+      "school": "-",
+      "province": ""
+    },
+    "234092": {
+      "school": "-",
+      "province": ""
+    },
+    "234108": {
+      "school": "-",
+      "province": ""
+    },
+    "234159": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "234242": {
+      "school": "-",
+      "province": "阿坝藏族羌族自治州"
+    },
+    "234245": {
+      "school": "-",
+      "province": "阿坝藏族羌族自治州"
+    },
+    "234246": {
+      "school": "-",
+      "province": ""
+    },
+    "234397": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "234416": {
+      "school": "-",
+      "province": ""
+    },
+    "234465": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "234511": {
+      "school": "-",
+      "province": ""
+    },
+    "234515": {
+      "school": "-",
+      "province": ""
+    },
+    "234550": {
+      "school": "-",
+      "province": ""
+    },
+    "234601": {
+      "school": "-",
+      "province": ""
+    },
+    "234632": {
+      "school": "-",
+      "province": ""
+    },
+    "234663": {
+      "school": "-",
+      "province": ""
+    },
+    "234684": {
+      "school": "-",
+      "province": ""
+    },
+    "234759": {
+      "school": "-",
+      "province": ""
+    },
+    "234822": {
+      "school": "-",
+      "province": ""
+    },
+    "234824": {
+      "school": "-",
+      "province": "海南省"
+    },
+    "234836": {
+      "school": "-",
+      "province": "十堰市"
+    },
+    "234853": {
+      "school": "-",
+      "province": ""
+    },
+    "234972": {
+      "school": "-",
+      "province": ""
+    },
+    "235247": {
+      "school": "-",
+      "province": ""
+    },
+    "235458": {
+      "school": "-",
+      "province": ""
+    },
+    "235492": {
+      "school": "-",
+      "province": ""
+    },
+    "235618": {
+      "school": "-",
+      "province": ""
+    },
+    "235660": {
+      "school": "-",
+      "province": ""
+    },
+    "235714": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "235743": {
+      "school": "-",
+      "province": ""
+    },
+    "235937": {
+      "school": "江苏科技大学",
+      "province": "镇江市"
+    },
+    "236002": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "236049": {
+      "school": "-",
+      "province": ""
+    },
+    "236171": {
+      "school": "-",
+      "province": ""
+    },
+    "236245": {
+      "school": "北京航空航天大学",
+      "province": "北京市"
+    },
+    "236279": {
+      "school": "-",
+      "province": ""
+    },
+    "236388": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "236405": {
+      "school": "-",
+      "province": ""
+    },
+    "236412": {
+      "school": "-",
+      "province": ""
+    },
+    "236422": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "236430": {
+      "school": "-",
+      "province": ""
+    },
+    "236450": {
+      "school": "-",
+      "province": ""
+    },
+    "236547": {
+      "school": "-",
+      "province": ""
+    },
+    "236601": {
+      "school": "-",
+      "province": ""
+    },
+    "236678": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "236691": {
+      "school": "-",
+      "province": ""
+    },
+    "236743": {
+      "school": "-",
+      "province": ""
+    },
+    "236867": {
+      "school": "-",
+      "province": ""
+    },
+    "236884": {
+      "school": "-",
+      "province": ""
+    },
+    "236979": {
+      "school": "-",
+      "province": ""
+    },
+    "237084": {
+      "school": "深圳大学",
+      "province": "广东省"
+    },
+    "237091": {
+      "school": "-",
+      "province": ""
+    },
+    "237122": {
+      "school": "-",
+      "province": ""
+    },
+    "237194": {
+      "school": "-",
+      "province": ""
+    },
+    "237210": {
+      "school": "-",
+      "province": ""
+    },
+    "237301": {
+      "school": "-",
+      "province": ""
+    },
+    "237363": {
+      "school": "-",
+      "province": "济南市"
+    },
+    "237395": {
+      "school": "-",
+      "province": ""
+    },
+    "237397": {
+      "school": "-",
+      "province": ""
+    },
+    "237417": {
+      "school": "-",
+      "province": ""
+    },
+    "237433": {
+      "school": "陕西科技大学",
+      "province": "西安市"
+    },
+    "237460": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "237462": {
+      "school": "-",
+      "province": ""
+    },
+    "237480": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "237504": {
+      "school": "-",
+      "province": ""
+    },
+    "237570": {
+      "school": "-",
+      "province": ""
+    },
+    "237576": {
+      "school": "-",
+      "province": ""
+    },
+    "237697": {
+      "school": "-",
+      "province": ""
+    },
+    "237706": {
+      "school": "华南师范大学",
+      "province": "广东省"
+    },
+    "238019": {
+      "school": "-",
+      "province": ""
+    },
+    "238078": {
+      "school": "-",
+      "province": "南阳市"
+    },
+    "238195": {
+      "school": "-",
+      "province": ""
+    },
+    "238308": {
+      "school": "-",
+      "province": ""
+    },
+    "238309": {
+      "school": "-",
+      "province": ""
+    },
+    "238333": {
+      "school": "-",
+      "province": ""
+    },
+    "238341": {
+      "school": "-",
+      "province": ""
+    },
+    "238384": {
+      "school": "-",
+      "province": ""
+    },
+    "238428": {
+      "school": "-",
+      "province": ""
+    },
+    "238573": {
+      "school": "-",
+      "province": ""
+    },
+    "238646": {
+      "school": "-",
+      "province": ""
+    },
+    "238712": {
+      "school": "-",
+      "province": "吉林省"
+    },
+    "238717": {
+      "school": "-",
+      "province": ""
+    },
+    "238723": {
+      "school": "-",
+      "province": ""
+    },
+    "238750": {
+      "school": "-",
+      "province": ""
+    },
+    "238756": {
+      "school": "-",
+      "province": ""
+    },
+    "238923": {
+      "school": "-",
+      "province": ""
+    },
+    "238990": {
+      "school": "-",
+      "province": ""
+    },
+    "239017": {
+      "school": "-",
+      "province": "阜阳市"
+    },
+    "239048": {
+      "school": "-",
+      "province": ""
+    },
+    "239116": {
+      "school": "-",
+      "province": ""
+    },
+    "239157": {
+      "school": "-",
+      "province": ""
+    },
+    "239221": {
+      "school": "-",
+      "province": ""
+    },
+    "239279": {
+      "school": "-",
+      "province": ""
+    },
+    "239362": {
+      "school": "-",
+      "province": ""
+    },
+    "239448": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "239493": {
+      "school": "-",
+      "province": ""
+    },
+    "239590": {
+      "school": "-",
+      "province": ""
+    },
+    "239676": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "239710": {
+      "school": "-",
+      "province": ""
+    },
+    "239723": {
+      "school": "-",
+      "province": ""
+    },
+    "239739": {
+      "school": "-",
+      "province": ""
+    },
+    "239766": {
+      "school": "-",
+      "province": ""
+    },
+    "239816": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "239826": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "239845": {
+      "school": "-",
+      "province": ""
+    },
+    "239853": {
+      "school": "-",
+      "province": ""
+    },
+    "240949": {
+      "school": "-",
+      "province": ""
+    },
+    "240973": {
+      "school": "-",
+      "province": ""
+    },
+    "241030": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "241032": {
+      "school": "-",
+      "province": "上海市"
+    },
+    "241038": {
+      "school": "-",
+      "province": ""
+    },
+    "241093": {
+      "school": "-",
+      "province": ""
+    },
+    "242683": {
+      "school": "-",
+      "province": ""
+    },
+    "242694": {
+      "school": "-",
+      "province": ""
+    },
+    "242698": {
+      "school": "-",
+      "province": ""
+    },
+    "242874": {
+      "school": "桂林理工大学",
+      "province": "广西壮族自治区"
+    },
+    "242986": {
+      "school": "-",
+      "province": ""
+    },
+    "242997": {
+      "school": "-",
+      "province": ""
+    },
+    "243042": {
+      "school": "西安邮电大学",
+      "province": "陕西省"
+    },
+    "243066": {
+      "school": "-",
+      "province": ""
+    },
+    "243272": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "243273": {
+      "school": "-",
+      "province": ""
+    },
+    "243276": {
+      "school": "-",
+      "province": ""
+    },
+    "243290": {
+      "school": "-",
+      "province": ""
+    },
+    "243363": {
+      "school": "深圳大学",
+      "province": "广东省"
+    },
+    "243435": {
+      "school": "-",
+      "province": ""
+    },
+    "243540": {
+      "school": "-",
+      "province": ""
+    },
+    "243547": {
+      "school": "-",
+      "province": ""
+    },
+    "243564": {
+      "school": "-",
+      "province": ""
+    },
+    "243571": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "243614": {
+      "school": "-",
+      "province": ""
+    },
+    "243650": {
+      "school": "-",
+      "province": "十堰市"
+    },
+    "243691": {
+      "school": "-",
+      "province": ""
+    },
+    "243792": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "243802": {
+      "school": "-",
+      "province": ""
+    },
+    "243867": {
+      "school": "-",
+      "province": "新疆维吾尔自治区"
+    },
+    "243966": {
+      "school": "-",
+      "province": ""
+    },
+    "243980": {
+      "school": "长春理工大学",
+      "province": "吉林省"
+    },
+    "243994": {
+      "school": "-",
+      "province": ""
+    },
+    "244007": {
+      "school": "太原科技大学",
+      "province": "太原市"
+    },
+    "244024": {
+      "school": "-",
+      "province": ""
+    },
+    "244044": {
+      "school": "天津工业大学",
+      "province": "天津市"
+    },
+    "244062": {
+      "school": "-",
+      "province": ""
+    },
+    "244101": {
+      "school": "-",
+      "province": ""
+    },
+    "244149": {
+      "school": "-",
+      "province": ""
+    },
+    "244232": {
+      "school": "-",
+      "province": "十堰市"
+    },
+    "244249": {
+      "school": "-",
+      "province": ""
+    },
+    "244300": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "244314": {
+      "school": "深圳大学",
+      "province": "广东省"
+    },
+    "244369": {
+      "school": "-",
+      "province": ""
+    },
+    "244437": {
+      "school": "-",
+      "province": ""
+    },
+    "244458": {
+      "school": "-",
+      "province": ""
+    },
+    "244503": {
+      "school": "-",
+      "province": ""
+    },
+    "244553": {
+      "school": "-",
+      "province": ""
+    },
+    "244614": {
+      "school": "-",
+      "province": ""
+    },
+    "244753": {
+      "school": "-",
+      "province": "广西壮族自治区"
+    },
+    "244779": {
+      "school": "-",
+      "province": ""
+    },
+    "244885": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "244922": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "244932": {
+      "school": "-",
+      "province": ""
+    },
+    "244998": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "245044": {
+      "school": "-",
+      "province": "兰州市"
+    },
+    "245108": {
+      "school": "-",
+      "province": ""
+    },
+    "245154": {
+      "school": "-",
+      "province": ""
+    },
+    "245168": {
+      "school": "-",
+      "province": ""
+    },
+    "245197": {
+      "school": "-",
+      "province": ""
+    },
+    "245220": {
+      "school": "福建理工大学",
+      "province": "福建省"
+    },
+    "245347": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "245363": {
+      "school": "-",
+      "province": ""
+    },
+    "245403": {
+      "school": "-",
+      "province": ""
+    },
+    "245407": {
+      "school": "-",
+      "province": ""
+    },
+    "245409": {
+      "school": "-",
+      "province": ""
+    },
+    "245436": {
+      "school": "-",
+      "province": ""
+    },
+    "245452": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "245459": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "245491": {
+      "school": "-",
+      "province": ""
+    },
+    "245503": {
+      "school": "-",
+      "province": ""
+    },
+    "245505": {
+      "school": "-",
+      "province": ""
+    },
+    "245509": {
+      "school": "-",
+      "province": "肇庆市"
+    },
+    "245512": {
+      "school": "-",
+      "province": "肇庆市"
+    },
+    "245524": {
+      "school": "-",
+      "province": ""
+    },
+    "245596": {
+      "school": "-",
+      "province": ""
+    },
+    "245605": {
+      "school": "-",
+      "province": ""
+    },
+    "245606": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "245609": {
+      "school": "-",
+      "province": ""
+    },
+    "245685": {
+      "school": "-",
+      "province": ""
+    },
+    "245720": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "245758": {
+      "school": "-",
+      "province": ""
+    },
+    "245838": {
+      "school": "-",
+      "province": ""
+    },
+    "245889": {
+      "school": "-",
+      "province": ""
+    },
+    "245922": {
+      "school": "-",
+      "province": ""
+    },
+    "245930": {
+      "school": "-",
+      "province": ""
+    },
+    "246001": {
+      "school": "-",
+      "province": ""
+    },
+    "246017": {
+      "school": "-",
+      "province": ""
+    },
+    "246033": {
+      "school": "-",
+      "province": ""
+    },
+    "246064": {
+      "school": "-",
+      "province": ""
+    },
+    "246091": {
+      "school": "-",
+      "province": ""
+    },
+    "246147": {
+      "school": "-",
+      "province": "肇庆市"
+    },
+    "246149": {
+      "school": "-",
+      "province": ""
+    },
+    "246160": {
+      "school": "-",
+      "province": ""
+    },
+    "246188": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "246227": {
+      "school": "-",
+      "province": ""
+    },
+    "246279": {
+      "school": "-",
+      "province": ""
+    },
+    "246318": {
+      "school": "-",
+      "province": ""
+    },
+    "246336": {
+      "school": "-",
+      "province": ""
+    },
+    "246365": {
+      "school": "华中科技大学",
+      "province": "湖北省"
+    },
+    "246372": {
+      "school": "-",
+      "province": "深圳市"
+    },
+    "246446": {
+      "school": "-",
+      "province": ""
+    },
+    "246448": {
+      "school": "-",
+      "province": "安徽省"
+    },
+    "246460": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "246520": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "246552": {
+      "school": "-",
+      "province": ""
+    },
+    "246558": {
+      "school": "-",
+      "province": ""
+    },
+    "246599": {
+      "school": "-",
+      "province": ""
+    },
+    "246632": {
+      "school": "-",
+      "province": "肇庆市"
+    },
+    "246655": {
+      "school": "广东工商职业技术大学",
+      "province": "肇庆市"
+    },
+    "246668": {
+      "school": "-",
+      "province": ""
+    },
+    "246703": {
+      "school": "广东工商职业技术大学",
+      "province": "肇庆市"
+    },
+    "246710": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "246805": {
+      "school": "-",
+      "province": "辽宁省"
+    },
+    "247001": {
+      "school": "-",
+      "province": ""
+    },
+    "247019": {
+      "school": "-",
+      "province": ""
+    },
+    "247028": {
+      "school": "-",
+      "province": ""
+    },
+    "247046": {
+      "school": "-",
+      "province": ""
+    },
+    "247064": {
+      "school": "-",
+      "province": ""
+    },
+    "247090": {
+      "school": "西安文理学院",
+      "province": "陕西省"
+    },
+    "247188": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "247218": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "247253": {
+      "school": "-",
+      "province": ""
+    },
+    "247268": {
+      "school": "-",
+      "province": ""
+    },
+    "247286": {
+      "school": "-",
+      "province": ""
+    },
+    "247298": {
+      "school": "-",
+      "province": ""
+    },
+    "247304": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "247344": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "247373": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "247403": {
+      "school": "-",
+      "province": ""
+    },
+    "247410": {
+      "school": "-",
+      "province": "贵州省"
+    },
+    "247443": {
+      "school": "-",
+      "province": "新疆维吾尔自治区"
+    },
+    "247447": {
+      "school": "-",
+      "province": ""
+    },
+    "247617": {
+      "school": "-",
+      "province": ""
+    },
+    "247644": {
+      "school": "江西师大",
+      "province": "江西省"
+    },
+    "247663": {
+      "school": "-",
+      "province": ""
+    },
+    "247679": {
+      "school": "-",
+      "province": ""
+    },
+    "247780": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "247801": {
+      "school": "-",
+      "province": ""
+    },
+    "247844": {
+      "school": "-",
+      "province": ""
+    },
+    "247861": {
+      "school": "-",
+      "province": ""
+    },
+    "247862": {
+      "school": "-",
+      "province": ""
+    },
+    "247868": {
+      "school": "-",
+      "province": ""
+    },
+    "247890": {
+      "school": "-",
+      "province": ""
+    },
+    "247893": {
+      "school": "-",
+      "province": ""
+    },
+    "247947": {
+      "school": "-",
+      "province": ""
+    },
+    "247964": {
+      "school": "-",
+      "province": ""
+    },
+    "248040": {
+      "school": "-",
+      "province": ""
+    },
+    "248074": {
+      "school": "-",
+      "province": ""
+    },
+    "248139": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "248173": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "248212": {
+      "school": "湖南信息学院",
+      "province": "长沙市"
+    },
+    "248264": {
+      "school": "-",
+      "province": ""
+    },
+    "248277": {
+      "school": "-",
+      "province": ""
+    },
+    "248282": {
+      "school": "-",
+      "province": ""
+    },
+    "248283": {
+      "school": "-",
+      "province": ""
+    },
+    "248406": {
+      "school": "-",
+      "province": ""
+    },
+    "248413": {
+      "school": "-",
+      "province": ""
+    },
+    "248432": {
+      "school": "-",
+      "province": ""
+    },
+    "248435": {
+      "school": "江苏农林职业技术学院",
+      "province": "江苏省"
+    },
+    "248436": {
+      "school": "-",
+      "province": ""
+    },
+    "248657": {
+      "school": "-",
+      "province": ""
+    },
+    "248660": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "248731": {
+      "school": "-",
+      "province": ""
+    },
+    "248775": {
+      "school": "-",
+      "province": ""
+    },
+    "248788": {
+      "school": "-",
+      "province": ""
+    },
+    "248918": {
+      "school": "-",
+      "province": ""
+    },
+    "248938": {
+      "school": "-",
+      "province": ""
+    },
+    "248941": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "248973": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "248974": {
+      "school": "-",
+      "province": "昆明市"
+    },
+    "248977": {
+      "school": "-",
+      "province": ""
+    },
+    "248984": {
+      "school": "-",
+      "province": "南阳市"
+    },
+    "249015": {
+      "school": "广东金融学院",
+      "province": "广东省"
+    },
+    "249060": {
+      "school": "-",
+      "province": ""
+    },
+    "249068": {
+      "school": "-",
+      "province": ""
+    },
+    "249130": {
+      "school": "-",
+      "province": ""
+    },
+    "249134": {
+      "school": "-",
+      "province": ""
+    },
+    "249154": {
+      "school": "-",
+      "province": "阜阳市"
+    },
+    "249161": {
+      "school": "-",
+      "province": ""
+    },
+    "249163": {
+      "school": "-",
+      "province": ""
+    },
+    "249167": {
+      "school": "-",
+      "province": ""
+    },
+    "249172": {
+      "school": "-",
+      "province": ""
+    },
+    "249185": {
+      "school": "-",
+      "province": ""
+    },
+    "249191": {
+      "school": "-",
+      "province": ""
+    },
+    "249192": {
+      "school": "-",
+      "province": ""
+    },
+    "249197": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "249203": {
+      "school": "-",
+      "province": ""
+    },
+    "249208": {
+      "school": "-",
+      "province": ""
+    },
+    "249209": {
+      "school": "-",
+      "province": ""
+    },
+    "249265": {
+      "school": "哈尔滨理工大学",
+      "province": "黑龙江省"
+    },
+    "249266": {
+      "school": "-",
+      "province": ""
+    },
+    "249306": {
+      "school": "-",
+      "province": "大连市"
+    },
+    "249311": {
+      "school": "-",
+      "province": ""
+    },
+    "249403": {
+      "school": "-",
+      "province": ""
+    },
+    "249410": {
+      "school": "-",
+      "province": ""
+    },
+    "249413": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "249415": {
+      "school": "-",
+      "province": ""
+    },
+    "249418": {
+      "school": "-",
+      "province": ""
+    },
+    "249428": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "249518": {
+      "school": "-",
+      "province": ""
+    },
+    "249528": {
+      "school": "-",
+      "province": "吉林省"
+    },
+    "249585": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "249645": {
+      "school": "-",
+      "province": "阜阳市"
+    },
+    "249658": {
+      "school": "-",
+      "province": "黔南布依族苗族自治州"
+    },
+    "249667": {
+      "school": "-",
+      "province": ""
+    },
+    "249677": {
+      "school": "-",
+      "province": ""
+    },
+    "249696": {
+      "school": "-",
+      "province": ""
+    },
+    "249710": {
+      "school": "-",
+      "province": ""
+    },
+    "249723": {
+      "school": "-",
+      "province": ""
+    },
+    "249778": {
+      "school": "-",
+      "province": ""
+    },
+    "249850": {
+      "school": "-",
+      "province": ""
+    },
+    "249863": {
+      "school": "-",
+      "province": ""
+    },
+    "249891": {
+      "school": "-",
+      "province": ""
+    },
+    "249914": {
+      "school": "复旦大学",
+      "province": "上海市"
+    },
+    "249915": {
+      "school": "-",
+      "province": ""
+    },
+    "249932": {
+      "school": "-",
+      "province": "株洲市"
+    },
+    "249981": {
+      "school": "-",
+      "province": ""
+    },
+    "249999": {
+      "school": "-",
+      "province": ""
+    },
+    "250009": {
+      "school": "-",
+      "province": ""
+    },
+    "250021": {
+      "school": "-",
+      "province": ""
+    },
+    "250042": {
+      "school": "湖南工业大学",
+      "province": "株洲市"
+    },
+    "250058": {
+      "school": "-",
+      "province": ""
+    },
+    "250068": {
+      "school": "-",
+      "province": ""
+    },
+    "250109": {
+      "school": "-",
+      "province": ""
+    },
+    "250135": {
+      "school": "苏州工学院",
+      "province": "江苏省"
+    },
+    "250230": {
+      "school": "湖南工业大学",
+      "province": "株洲市"
+    },
+    "250233": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "250338": {
+      "school": "-",
+      "province": ""
+    },
+    "250351": {
+      "school": "-",
+      "province": ""
+    },
+    "250354": {
+      "school": "-",
+      "province": ""
+    },
+    "250445": {
+      "school": "-",
+      "province": ""
+    },
+    "250461": {
+      "school": "-",
+      "province": "郑州市"
+    },
+    "250476": {
+      "school": "-",
+      "province": ""
+    },
+    "250490": {
+      "school": "-",
+      "province": ""
+    },
+    "250556": {
+      "school": "-",
+      "province": ""
+    },
+    "250568": {
+      "school": "-",
+      "province": ""
+    },
+    "250576": {
+      "school": "-",
+      "province": ""
+    },
+    "250584": {
+      "school": "-",
+      "province": ""
+    },
+    "250587": {
+      "school": "-",
+      "province": ""
+    },
+    "250592": {
+      "school": "-",
+      "province": ""
+    },
+    "250595": {
+      "school": "-",
+      "province": ""
+    },
+    "250652": {
+      "school": "-",
+      "province": ""
+    },
+    "250678": {
+      "school": "-",
+      "province": "河北省"
+    },
+    "250725": {
+      "school": "-",
+      "province": ""
+    },
+    "250730": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "250742": {
+      "school": "-",
+      "province": "赣州市"
+    },
+    "250865": {
+      "school": "-",
+      "province": ""
+    },
+    "250976": {
+      "school": "-",
+      "province": ""
+    },
+    "250977": {
+      "school": "-",
+      "province": ""
+    },
+    "250978": {
+      "school": "-",
+      "province": ""
+    },
+    "250994": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "251001": {
+      "school": "-",
+      "province": ""
+    },
+    "251005": {
+      "school": "-",
+      "province": ""
+    },
+    "251071": {
+      "school": "-",
+      "province": ""
+    },
+    "251142": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "251161": {
+      "school": "浙大教科附属沈括小学",
+      "province": "浙江省"
+    },
+    "251206": {
+      "school": "-",
+      "province": ""
+    },
+    "251211": {
+      "school": "-",
+      "province": ""
+    },
+    "251268": {
+      "school": "-",
+      "province": ""
+    },
+    "251291": {
+      "school": "-",
+      "province": ""
+    },
+    "251324": {
+      "school": "-",
+      "province": ""
+    },
+    "252083": {
+      "school": "青海大学",
+      "province": "青海省"
+    },
+    "252118": {
+      "school": "-",
+      "province": ""
+    },
+    "252377": {
+      "school": "-",
+      "province": ""
+    },
+    "252422": {
+      "school": "-",
+      "province": ""
+    },
+    "252441": {
+      "school": "-",
+      "province": "南昌市"
+    },
+    "252464": {
+      "school": "-",
+      "province": ""
+    },
+    "252493": {
+      "school": "深圳大学",
+      "province": "广东省"
+    },
+    "259770": {
+      "school": "-",
+      "province": ""
+    },
+    "259806": {
+      "school": "-",
+      "province": ""
+    },
+    "259807": {
+      "school": "-",
+      "province": ""
+    },
+    "259892": {
+      "school": "-",
+      "province": ""
+    },
+    "259919": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "260012": {
+      "school": "-",
+      "province": ""
+    },
+    "260037": {
+      "school": "-",
+      "province": ""
+    },
+    "260046": {
+      "school": "长春工程学院",
+      "province": "吉林省"
+    },
+    "260213": {
+      "school": "河北工程技术学院",
+      "province": "石家庄市"
+    },
+    "260224": {
+      "school": "-",
+      "province": ""
+    },
+    "260227": {
+      "school": "-",
+      "province": ""
+    },
+    "260256": {
+      "school": "-",
+      "province": ""
+    },
+    "260273": {
+      "school": "-",
+      "province": ""
+    },
+    "260321": {
+      "school": "-",
+      "province": ""
+    },
+    "260453": {
+      "school": "-",
+      "province": ""
+    },
+    "260486": {
+      "school": "-",
+      "province": ""
+    },
+    "260509": {
+      "school": "-",
+      "province": ""
+    },
+    "260605": {
+      "school": "-",
+      "province": ""
+    },
+    "260634": {
+      "school": "-",
+      "province": ""
+    },
+    "260643": {
+      "school": "-",
+      "province": ""
+    },
+    "260702": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "260703": {
+      "school": "-",
+      "province": ""
+    },
+    "260918": {
+      "school": "-",
+      "province": ""
+    },
+    "260965": {
+      "school": "-",
+      "province": ""
+    },
+    "260977": {
+      "school": "-",
+      "province": ""
+    },
+    "261007": {
+      "school": "-",
+      "province": ""
+    },
+    "261103": {
+      "school": "-",
+      "province": "大理白族自治州"
+    },
+    "261124": {
+      "school": "-",
+      "province": ""
+    },
+    "261374": {
+      "school": "-",
+      "province": ""
+    },
+    "261414": {
+      "school": "-",
+      "province": "安徽省"
+    },
+    "261508": {
+      "school": "-",
+      "province": ""
+    },
+    "261532": {
+      "school": "福州外语外贸学院",
+      "province": "福建省"
+    },
+    "261594": {
+      "school": "-",
+      "province": "保定市"
+    },
+    "261602": {
+      "school": "-",
+      "province": ""
+    },
+    "261616": {
+      "school": "-",
+      "province": ""
+    },
+    "261696": {
+      "school": "-",
+      "province": ""
+    },
+    "261704": {
+      "school": "-",
+      "province": ""
+    },
+    "261733": {
+      "school": "-",
+      "province": ""
+    },
+    "261776": {
+      "school": "-",
+      "province": ""
+    },
+    "261955": {
+      "school": "-",
+      "province": ""
+    },
+    "262035": {
+      "school": "-",
+      "province": ""
+    },
+    "262062": {
+      "school": "吉林工商学院-西安校区",
+      "province": "吉林省"
+    },
+    "262083": {
+      "school": "-",
+      "province": ""
+    },
+    "262197": {
+      "school": "-",
+      "province": ""
+    },
+    "262219": {
+      "school": "-",
+      "province": ""
+    },
+    "262222": {
+      "school": "-",
+      "province": ""
+    },
+    "262280": {
+      "school": "-",
+      "province": ""
+    },
+    "262294": {
+      "school": "-",
+      "province": ""
+    },
+    "262303": {
+      "school": "-",
+      "province": ""
+    },
+    "262400": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "262426": {
+      "school": "-",
+      "province": ""
+    },
+    "262558": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "262587": {
+      "school": "-",
+      "province": ""
+    },
+    "262706": {
+      "school": "上海大学",
+      "province": "上海市"
+    },
+    "262725": {
+      "school": "-",
+      "province": ""
+    },
+    "262907": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "262972": {
+      "school": "-",
+      "province": ""
+    },
+    "263046": {
+      "school": "-",
+      "province": ""
+    },
+    "263050": {
+      "school": "三峡大学",
+      "province": "湖北省"
+    },
+    "263092": {
+      "school": "-",
+      "province": ""
+    },
+    "263111": {
+      "school": "大理大学",
+      "province": "大理白族自治州"
+    },
+    "263174": {
+      "school": "-",
+      "province": ""
+    },
+    "263180": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "263212": {
+      "school": "-",
+      "province": "黑龙江省"
+    },
+    "263325": {
+      "school": "-",
+      "province": ""
+    },
+    "263352": {
+      "school": "-",
+      "province": ""
+    },
+    "263389": {
+      "school": "-",
+      "province": ""
+    },
+    "263428": {
+      "school": "江苏师范大学",
+      "province": "江苏省"
+    },
+    "263436": {
+      "school": "黔南民族师范学院",
+      "province": "黔南布依族苗族自治州"
+    },
+    "263476": {
+      "school": "-",
+      "province": ""
+    },
+    "263542": {
+      "school": "-",
+      "province": ""
+    },
+    "263561": {
+      "school": "-",
+      "province": ""
+    },
+    "263631": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "263853": {
+      "school": "-",
+      "province": ""
+    },
+    "263914": {
+      "school": "-",
+      "province": ""
+    },
+    "263958": {
+      "school": "-",
+      "province": ""
+    },
+    "263992": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "263993": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "264006": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "264024": {
+      "school": "-",
+      "province": ""
+    },
+    "264042": {
+      "school": "-",
+      "province": ""
+    },
+    "264078": {
+      "school": "郑州西亚斯学院数字技术产业学院",
+      "province": "河南省"
+    },
+    "264104": {
+      "school": "-",
+      "province": ""
+    },
+    "264140": {
+      "school": "-",
+      "province": ""
+    },
+    "264151": {
+      "school": "-",
+      "province": ""
+    },
+    "264160": {
+      "school": "-",
+      "province": ""
+    },
+    "264163": {
+      "school": "-",
+      "province": ""
+    },
+    "264186": {
+      "school": "-",
+      "province": ""
+    },
+    "264193": {
+      "school": "-",
+      "province": ""
+    },
+    "264200": {
+      "school": "-",
+      "province": ""
+    },
+    "264214": {
+      "school": "-",
+      "province": "重庆市"
+    },
+    "264228": {
+      "school": "-",
+      "province": ""
+    },
+    "264290": {
+      "school": "-",
+      "province": ""
+    },
+    "264342": {
+      "school": "-",
+      "province": "青海省"
+    },
+    "264348": {
+      "school": "-",
+      "province": ""
+    },
+    "264374": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "264412": {
+      "school": "-",
+      "province": ""
+    },
+    "264417": {
+      "school": "-",
+      "province": ""
+    },
+    "264431": {
+      "school": "-",
+      "province": ""
+    },
+    "264433": {
+      "school": "-",
+      "province": ""
+    },
+    "264442": {
+      "school": "-",
+      "province": ""
+    },
+    "264486": {
+      "school": "-",
+      "province": ""
+    },
+    "264543": {
+      "school": "-",
+      "province": ""
+    },
+    "264660": {
+      "school": "河南中医药大学",
+      "province": "郑州市"
+    },
+    "264687": {
+      "school": "-",
+      "province": ""
+    },
+    "264690": {
+      "school": "-",
+      "province": ""
+    },
+    "264713": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "264741": {
+      "school": "-",
+      "province": ""
+    },
+    "264855": {
+      "school": "-",
+      "province": ""
+    },
+    "264875": {
+      "school": "-",
+      "province": ""
+    },
+    "265103": {
+      "school": "-",
+      "province": ""
+    },
+    "265117": {
+      "school": "-",
+      "province": ""
+    },
+    "265147": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "265188": {
+      "school": "-",
+      "province": ""
+    },
+    "265190": {
+      "school": "-",
+      "province": ""
+    },
+    "265193": {
+      "school": "-",
+      "province": ""
+    },
+    "265260": {
+      "school": "-",
+      "province": ""
+    },
+    "265272": {
+      "school": "-",
+      "province": ""
+    },
+    "265324": {
+      "school": "-",
+      "province": "四川省"
+    },
+    "265362": {
+      "school": "-",
+      "province": ""
+    },
+    "265373": {
+      "school": "-",
+      "province": "山东省"
+    },
+    "265399": {
+      "school": "-",
+      "province": ""
+    },
+    "265420": {
+      "school": "-",
+      "province": ""
+    },
+    "265464": {
+      "school": "-",
+      "province": ""
+    },
+    "265467": {
+      "school": "-",
+      "province": ""
+    },
+    "265516": {
+      "school": "-",
+      "province": ""
+    },
+    "265578": {
+      "school": "-",
+      "province": ""
+    },
+    "265588": {
+      "school": "大连理工大学",
+      "province": "大连市"
+    },
+    "265612": {
+      "school": "-",
+      "province": ""
+    },
+    "265675": {
+      "school": "-",
+      "province": ""
+    },
+    "265676": {
+      "school": "-",
+      "province": ""
+    },
+    "265726": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "265727": {
+      "school": "-",
+      "province": ""
+    },
+    "265730": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "265772": {
+      "school": "-",
+      "province": ""
+    },
+    "265821": {
+      "school": "-",
+      "province": ""
+    },
+    "265831": {
+      "school": "河南工程学院",
+      "province": "河南省"
+    },
+    "265844": {
+      "school": "-",
+      "province": ""
+    },
+    "265862": {
+      "school": "青海大学",
+      "province": "青海省"
+    },
+    "266015": {
+      "school": "-",
+      "province": ""
+    },
+    "266063": {
+      "school": "-",
+      "province": ""
+    },
+    "266133": {
+      "school": "-",
+      "province": ""
+    },
+    "266309": {
+      "school": "-",
+      "province": ""
+    },
+    "266370": {
+      "school": "-",
+      "province": ""
+    },
+    "266409": {
+      "school": "-",
+      "province": ""
+    },
+    "266474": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "266515": {
+      "school": "湖北大学",
+      "province": "湖北省"
+    },
+    "266560": {
+      "school": "深圳大学",
+      "province": "广东省"
+    },
+    "266561": {
+      "school": "-",
+      "province": ""
+    },
+    "268525": {
+      "school": "南阳理工学院",
+      "province": "南阳市"
+    },
+    "268568": {
+      "school": "宁波财经学院",
+      "province": "宁波市"
+    },
+    "268595": {
+      "school": "-",
+      "province": ""
+    },
+    "268599": {
+      "school": "-",
+      "province": ""
+    },
+    "268665": {
+      "school": "广东工商职业技术大学",
+      "province": "肇庆市"
+    },
+    "268682": {
+      "school": "-",
+      "province": ""
+    },
+    "268691": {
+      "school": "-",
+      "province": ""
+    },
+    "268750": {
+      "school": "西安工业大学",
+      "province": "西安市"
+    },
+    "268785": {
+      "school": "-",
+      "province": ""
+    },
+    "275324": {
+      "school": "-",
+      "province": ""
+    },
+    "275333": {
+      "school": "-",
+      "province": ""
+    },
+    "275336": {
+      "school": "-",
+      "province": ""
+    },
+    "275338": {
+      "school": "-",
+      "province": ""
+    },
+    "275391": {
+      "school": "-",
+      "province": ""
+    },
+    "275395": {
+      "school": "-",
+      "province": ""
+    },
+    "275560": {
+      "school": "广西城市职业大学",
+      "province": "崇左市"
+    },
+    "275570": {
+      "school": "-",
+      "province": ""
+    },
+    "275591": {
+      "school": "大连工程学院",
+      "province": "辽宁省"
+    },
+    "275611": {
+      "school": "-",
+      "province": ""
+    },
+    "275612": {
+      "school": "-",
+      "province": ""
+    },
+    "275626": {
+      "school": "-",
+      "province": ""
+    },
+    "275662": {
+      "school": "-",
+      "province": ""
+    },
+    "275759": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "275782": {
+      "school": "-",
+      "province": ""
+    },
+    "275793": {
+      "school": "-",
+      "province": ""
+    },
+    "275802": {
+      "school": "-",
+      "province": ""
+    },
+    "275810": {
+      "school": "-",
+      "province": ""
+    },
+    "275811": {
+      "school": "-",
+      "province": ""
+    },
+    "275819": {
+      "school": "-",
+      "province": ""
+    },
+    "275820": {
+      "school": "-",
+      "province": ""
+    },
+    "275821": {
+      "school": "-",
+      "province": ""
+    },
+    "275879": {
+      "school": "-",
+      "province": ""
+    },
+    "275900": {
+      "school": "-",
+      "province": ""
+    },
+    "275931": {
+      "school": "湖州师范学院",
+      "province": "浙江省"
+    },
+    "275950": {
+      "school": "-",
+      "province": ""
+    },
+    "275952": {
+      "school": "-",
+      "province": ""
+    },
+    "275961": {
+      "school": "-",
+      "province": "南昌市"
+    },
+    "276023": {
+      "school": "南昌大学",
+      "province": "江西省"
+    },
+    "276030": {
+      "school": "-",
+      "province": ""
+    },
+    "276037": {
+      "school": "-",
+      "province": ""
+    },
+    "276049": {
+      "school": "-",
+      "province": ""
+    },
+    "276084": {
+      "school": "-",
+      "province": ""
+    },
+    "276113": {
+      "school": "-",
+      "province": ""
+    },
+    "276133": {
+      "school": "-",
+      "province": ""
+    },
+    "276138": {
+      "school": "-",
+      "province": ""
+    },
+    "276139": {
+      "school": "-",
+      "province": ""
+    },
+    "276159": {
+      "school": "-",
+      "province": ""
+    },
+    "276181": {
+      "school": "-",
+      "province": ""
+    },
+    "276201": {
+      "school": "-",
+      "province": ""
+    },
+    "276206": {
+      "school": "-",
+      "province": ""
+    },
+    "276244": {
+      "school": "-",
+      "province": ""
+    },
+    "276247": {
+      "school": "东华理工大学",
+      "province": "江西省"
+    },
+    "276264": {
+      "school": "电子科技大学",
+      "province": "四川省"
+    },
+    "276269": {
+      "school": "-",
+      "province": "新疆维吾尔自治区"
+    },
+    "276271": {
+      "school": "-",
+      "province": ""
+    },
+    "276285": {
+      "school": "-",
+      "province": ""
+    },
+    "276286": {
+      "school": "-",
+      "province": "辽宁省"
+    },
+    "276296": {
+      "school": "-",
+      "province": ""
+    },
+    "276356": {
+      "school": "-",
+      "province": ""
+    },
+    "276360": {
+      "school": "-",
+      "province": ""
+    },
+    "276389": {
+      "school": "-",
+      "province": ""
+    },
+    "276393": {
+      "school": "-",
+      "province": ""
+    },
+    "276394": {
+      "school": "哈尔滨工业大学（威海）",
+      "province": "山东省"
+    },
+    "276414": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "276434": {
+      "school": "-",
+      "province": ""
+    },
+    "276476": {
+      "school": "-",
+      "province": ""
+    },
+    "276479": {
+      "school": "-",
+      "province": ""
+    },
+    "276542": {
+      "school": "沈阳理工大学",
+      "province": "沈阳市"
+    },
+    "276588": {
+      "school": "-",
+      "province": ""
+    },
+    "276597": {
+      "school": "-",
+      "province": ""
+    },
+    "276604": {
+      "school": "长江师范学院",
+      "province": "重庆市"
+    },
+    "276607": {
+      "school": "-",
+      "province": ""
+    },
+    "276628": {
+      "school": "-",
+      "province": ""
+    },
+    "276637": {
+      "school": "-",
+      "province": ""
+    },
+    "276646": {
+      "school": "-",
+      "province": ""
+    },
+    "276734": {
+      "school": "南华大学",
+      "province": "湖南省"
+    },
+    "276756": {
+      "school": "-",
+      "province": ""
+    },
+    "276771": {
+      "school": "-",
+      "province": ""
+    },
+    "276812": {
+      "school": "-",
+      "province": ""
+    },
+    "276870": {
+      "school": "-",
+      "province": ""
+    },
+    "276889": {
+      "school": "重庆科技大学",
+      "province": "重庆市"
+    },
+    "276924": {
+      "school": "-",
+      "province": ""
+    },
+    "276935": {
+      "school": "南京医科大学",
+      "province": "南京市"
+    },
+    "276990": {
+      "school": "-",
+      "province": ""
+    },
+    "276997": {
+      "school": "-",
+      "province": ""
+    },
+    "276999": {
+      "school": "-",
+      "province": ""
+    },
+    "277087": {
+      "school": "-",
+      "province": ""
+    },
+    "277111": {
+      "school": "-",
+      "province": ""
+    },
+    "277133": {
+      "school": "西南科技大学",
+      "province": "四川省"
+    },
+    "277158": {
+      "school": "绵阳城市学院",
+      "province": "绵阳市"
+    },
+    "277226": {
+      "school": "-",
+      "province": ""
+    },
+    "277231": {
+      "school": "大理大学",
+      "province": "大理白族自治州"
+    },
+    "277232": {
+      "school": "-",
+      "province": ""
+    },
+    "277233": {
+      "school": "-",
+      "province": ""
+    },
+    "277246": {
+      "school": "贵州大学",
+      "province": "贵州省"
+    },
+    "277247": {
+      "school": "-",
+      "province": ""
+    },
+    "277251": {
+      "school": "-",
+      "province": ""
+    },
+    "277272": {
+      "school": "-",
+      "province": ""
+    },
+    "277280": {
+      "school": "-",
+      "province": ""
+    },
+    "277284": {
+      "school": "-",
+      "province": ""
+    },
+    "277295": {
+      "school": "沈阳航空航天大学",
+      "province": "辽宁省"
+    },
+    "277306": {
+      "school": "-",
+      "province": ""
+    },
+    "277315": {
+      "school": "-",
+      "province": ""
+    },
+    "277332": {
+      "school": "-",
+      "province": ""
+    },
+    "277349": {
+      "school": "-",
+      "province": ""
+    },
+    "277350": {
+      "school": "-",
+      "province": ""
+    },
+    "277357": {
+      "school": "-",
+      "province": ""
+    },
+    "277360": {
+      "school": "-",
+      "province": ""
+    },
+    "277369": {
+      "school": "-",
+      "province": ""
+    },
+    "277375": {
+      "school": "-",
+      "province": ""
+    },
+    "277392": {
+      "school": "-",
+      "province": ""
+    },
+    "277395": {
+      "school": "-",
+      "province": ""
+    },
+    "277408": {
+      "school": "-",
+      "province": ""
+    },
+    "277413": {
+      "school": "-",
+      "province": ""
+    },
+    "277422": {
+      "school": "-",
+      "province": ""
+    },
+    "277427": {
+      "school": "广东海洋大学",
+      "province": "广东省"
+    },
+    "277431": {
+      "school": "大连民族大学",
+      "province": "大连市"
+    },
+    "277440": {
+      "school": "-",
+      "province": ""
+    },
+    "277441": {
+      "school": "-",
+      "province": ""
+    },
+    "277443": {
+      "school": "-",
+      "province": ""
+    },
+    "277454": {
+      "school": "-",
+      "province": ""
+    },
+    "277455": {
+      "school": "-",
+      "province": ""
+    },
+    "277480": {
+      "school": "-",
+      "province": ""
+    },
+    "277490": {
+      "school": "-",
+      "province": ""
+    },
+    "277493": {
+      "school": "黑龙江八一农垦大学",
+      "province": "黑龙江省"
+    },
+    "277497": {
+      "school": "-",
+      "province": ""
+    },
+    "277500": {
+      "school": "-",
+      "province": ""
+    },
+    "277502": {
+      "school": "南华大学",
+      "province": "湖南省"
+    },
+    "277508": {
+      "school": "-",
+      "province": ""
+    },
+    "277509": {
+      "school": "-",
+      "province": ""
+    },
+    "277525": {
+      "school": "南阳理工学院",
+      "province": "南阳市"
+    },
+    "277533": {
+      "school": "三峡大学",
+      "province": "湖北省"
+    },
+    "277539": {
+      "school": "-",
+      "province": ""
+    },
+    "277548": {
+      "school": "-",
+      "province": ""
+    },
+    "277550": {
+      "school": "-",
+      "province": ""
+    },
+    "277559": {
+      "school": "-",
+      "province": ""
+    },
+    "277566": {
+      "school": "天津科技大学",
+      "province": "天津市"
+    },
+    "277568": {
+      "school": "-",
+      "province": ""
+    },
+    "277581": {
+      "school": "-",
+      "province": ""
+    },
+    "277609": {
+      "school": "-",
+      "province": ""
+    },
+    "277617": {
+      "school": "-",
+      "province": ""
+    },
+    "277625": {
+      "school": "-",
+      "province": ""
+    },
+    "277626": {
+      "school": "-",
+      "province": ""
+    },
+    "277627": {
+      "school": "-",
+      "province": ""
+    },
+    "277629": {
+      "school": "-",
+      "province": ""
+    },
+    "277633": {
+      "school": "长安大学",
+      "province": "陕西省"
+    },
+    "277634": {
+      "school": "-",
+      "province": ""
+    },
+    "277653": {
+      "school": "-",
+      "province": "江西省"
+    },
+    "277654": {
+      "school": "-",
+      "province": ""
+    },
+    "277668": {
+      "school": "-",
+      "province": ""
+    },
+    "277675": {
+      "school": "-",
+      "province": ""
+    },
+    "277676": {
+      "school": "-",
+      "province": ""
+    },
+    "277683": {
+      "school": "山东政法学院",
+      "province": "山东省"
+    },
+    "277684": {
+      "school": "北京工业大学",
+      "province": "北京市"
+    },
+    "277694": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "277698": {
+      "school": "-",
+      "province": ""
+    },
+    "277702": {
+      "school": "-",
+      "province": ""
+    },
+    "277705": {
+      "school": "-",
+      "province": ""
+    },
+    "277724": {
+      "school": "-",
+      "province": ""
+    },
+    "277725": {
+      "school": "-",
+      "province": ""
+    },
+    "277759": {
+      "school": "-",
+      "province": ""
+    },
+    "277770": {
+      "school": "-",
+      "province": ""
+    },
+    "277771": {
+      "school": "-",
+      "province": ""
+    },
+    "277774": {
+      "school": "广东金融学院",
+      "province": "广东省"
+    },
+    "277781": {
+      "school": "-",
+      "province": ""
+    },
+    "277782": {
+      "school": "-",
+      "province": ""
+    },
+    "277797": {
+      "school": "西安工程大学",
+      "province": "陕西省"
+    },
+    "277800": {
+      "school": "-",
+      "province": ""
+    },
+    "277813": {
+      "school": "-",
+      "province": ""
+    },
+    "277821": {
+      "school": "-",
+      "province": ""
+    },
+    "277842": {
+      "school": "-",
+      "province": ""
+    },
+    "277860": {
+      "school": "-",
+      "province": ""
+    },
+    "277862": {
+      "school": "-",
+      "province": ""
+    },
+    "277876": {
+      "school": "-",
+      "province": ""
+    },
+    "277879": {
+      "school": "-",
+      "province": ""
+    },
+    "277912": {
+      "school": "-",
+      "province": ""
+    },
+    "277917": {
+      "school": "金陵科技学院",
+      "province": "江苏省"
+    },
+    "277942": {
+      "school": "-",
+      "province": ""
+    },
+    "277963": {
+      "school": "-",
+      "province": "甘肃省"
+    },
+    "277965": {
+      "school": "-",
+      "province": ""
+    },
+    "277966": {
+      "school": "-",
+      "province": ""
+    },
+    "277968": {
+      "school": "-",
+      "province": ""
+    },
+    "277970": {
+      "school": "-",
+      "province": ""
+    },
+    "277973": {
+      "school": "-",
+      "province": ""
+    },
+    "277982": {
+      "school": "-",
+      "province": ""
+    },
+    "277987": {
+      "school": "-",
+      "province": ""
+    },
+    "277991": {
+      "school": "-",
+      "province": ""
+    },
+    "278001": {
+      "school": "厦门外国语学校集美分校",
+      "province": ""
+    },
+    "278004": {
+      "school": "-",
+      "province": ""
+    },
+    "278017": {
+      "school": "-",
+      "province": ""
+    },
+    "278019": {
+      "school": "苏州大学",
+      "province": "江苏省"
+    },
+    "278023": {
+      "school": "-",
+      "province": ""
+    },
+    "278079": {
+      "school": "昆明理工大学",
+      "province": "云南省"
+    },
+    "278080": {
+      "school": "沈阳理工大学",
+      "province": "沈阳市"
+    },
+    "278088": {
+      "school": "-",
+      "province": ""
+    },
+    "278097": {
+      "school": "-",
+      "province": ""
+    },
+    "278106": {
+      "school": "-",
+      "province": ""
+    },
+    "278125": {
+      "school": "-",
+      "province": ""
+    },
+    "278130": {
+      "school": "天津工业大学",
+      "province": "天津市"
+    },
+    "278132": {
+      "school": "-",
+      "province": ""
+    },
+    "278138": {
+      "school": "-",
+      "province": ""
+    },
+    "278143": {
+      "school": "-",
+      "province": ""
+    },
+    "278147": {
+      "school": "山东华宇工学院",
+      "province": "德州市"
+    },
+    "278149": {
+      "school": "-",
+      "province": ""
+    },
+    "278150": {
+      "school": "-",
+      "province": ""
+    },
+    "278151": {
+      "school": "-",
+      "province": ""
+    },
+    "278157": {
+      "school": "-",
+      "province": ""
+    },
+    "278172": {
+      "school": "-",
+      "province": ""
+    },
+    "278173": {
+      "school": "-",
+      "province": ""
+    },
+    "278196": {
+      "school": "-",
+      "province": ""
+    },
+    "278200": {
+      "school": "-",
+      "province": ""
+    },
+    "278202": {
+      "school": "-",
+      "province": ""
+    },
+    "278219": {
+      "school": "华东师范大学",
+      "province": "上海市"
+    },
+    "278223": {
+      "school": "-",
+      "province": ""
+    },
+    "278228": {
+      "school": "-",
+      "province": ""
+    },
+    "278233": {
+      "school": "-",
+      "province": ""
+    },
+    "278242": {
+      "school": "-",
+      "province": "甘肃省"
+    },
+    "278247": {
+      "school": "-",
+      "province": ""
+    },
+    "278249": {
+      "school": "-",
+      "province": ""
+    },
+    "278271": {
+      "school": "南京财经大学",
+      "province": "南京市"
+    },
+    "278282": {
+      "school": "-",
+      "province": ""
+    },
+    "278294": {
+      "school": "-",
+      "province": ""
+    },
+    "278333": {
+      "school": "-",
+      "province": ""
+    },
+    "278349": {
+      "school": "-",
+      "province": ""
+    },
+    "278365": {
+      "school": "-",
+      "province": ""
+    },
+    "278366": {
+      "school": "-",
+      "province": ""
+    },
+    "278374": {
+      "school": "-",
+      "province": ""
+    },
+    "278383": {
+      "school": "三江学院",
+      "province": "江苏省"
+    },
+    "278433": {
+      "school": "-",
+      "province": ""
+    },
+    "278447": {
+      "school": "-",
+      "province": ""
+    },
+    "278452": {
+      "school": "-",
+      "province": ""
+    },
+    "278463": {
+      "school": "-",
+      "province": ""
+    },
+    "278475": {
+      "school": "-",
+      "province": ""
+    },
+    "278488": {
+      "school": "-",
+      "province": ""
+    },
+    "278489": {
+      "school": "-",
+      "province": ""
+    },
+    "278490": {
+      "school": "-",
+      "province": ""
+    },
+    "278505": {
+      "school": "-",
+      "province": ""
+    },
+    "278531": {
+      "school": "-",
+      "province": ""
+    },
+    "278534": {
+      "school": "-",
+      "province": ""
+    },
+    "278548": {
+      "school": "-",
+      "province": ""
+    },
+    "278561": {
+      "school": "-",
+      "province": ""
+    },
+    "278567": {
+      "school": "-",
+      "province": ""
+    },
+    "278577": {
+      "school": "-",
+      "province": ""
+    },
+    "278582": {
+      "school": "-",
+      "province": ""
+    },
+    "278584": {
+      "school": "成都师范学院",
+      "province": "四川省"
+    },
+    "278589": {
+      "school": "-",
+      "province": ""
+    },
+    "278597": {
+      "school": "南昌交通学院",
+      "province": "南昌市"
+    },
+    "278616": {
+      "school": "-",
+      "province": "江苏省"
+    },
+    "278619": {
+      "school": "-",
+      "province": ""
+    },
+    "278634": {
+      "school": "湖北中医药大学",
+      "province": "湖北省"
+    },
+    "278639": {
+      "school": "-",
+      "province": ""
+    },
+    "278649": {
+      "school": "湖北中医药大学",
+      "province": "湖北省"
+    },
+    "278653": {
+      "school": "山东大学（威海）",
+      "province": "山东省"
+    },
+    "278656": {
+      "school": "湖北中医药大学",
+      "province": "湖北省"
+    },
+    "278662": {
+      "school": "-",
+      "province": ""
+    },
+    "278664": {
+      "school": "-",
+      "province": ""
+    },
+    "278710": {
+      "school": "-",
+      "province": ""
+    },
+    "278716": {
+      "school": "-",
+      "province": ""
+    },
+    "278717": {
+      "school": "-",
+      "province": ""
+    },
+    "278738": {
+      "school": "-",
+      "province": ""
+    },
+    "278748": {
+      "school": "中国科学技术大学",
+      "province": "合肥市"
+    },
+    "278779": {
+      "school": "-",
+      "province": ""
+    },
+    "278780": {
+      "school": "-",
+      "province": ""
+    },
+    "278792": {
+      "school": "-",
+      "province": ""
+    },
+    "278801": {
+      "school": "-",
+      "province": ""
+    },
+    "278812": {
+      "school": "-",
+      "province": ""
+    },
+    "278818": {
+      "school": "-",
+      "province": ""
+    },
+    "278828": {
+      "school": "-",
+      "province": ""
+    },
+    "278834": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "278839": {
+      "school": "-",
+      "province": ""
+    },
+    "278840": {
+      "school": "-",
+      "province": ""
+    },
+    "278854": {
+      "school": "-",
+      "province": ""
+    },
+    "278856": {
+      "school": "-",
+      "province": ""
+    },
+    "278867": {
+      "school": "河南工业大学",
+      "province": "郑州市"
+    },
+    "278868": {
+      "school": "-",
+      "province": ""
+    },
+    "278873": {
+      "school": "河南财政金融学院",
+      "province": "郑州市"
+    },
+    "278876": {
+      "school": "-",
+      "province": ""
+    },
+    "278882": {
+      "school": "-",
+      "province": ""
+    },
+    "278886": {
+      "school": "-",
+      "province": ""
+    },
+    "278906": {
+      "school": "东北林业大学",
+      "province": "哈尔滨市"
+    },
+    "278913": {
+      "school": "复旦大学附属徐汇实验学校",
+      "province": ""
+    },
+    "278914": {
+      "school": "-",
+      "province": ""
+    },
+    "278926": {
+      "school": "-",
+      "province": ""
+    },
+    "278928": {
+      "school": "-",
+      "province": ""
+    },
+    "278966": {
+      "school": "-",
+      "province": ""
+    },
+    "278977": {
+      "school": "-",
+      "province": ""
+    },
+    "278984": {
+      "school": "-",
+      "province": ""
+    },
+    "278991": {
+      "school": "-",
+      "province": ""
+    },
+    "278995": {
+      "school": "-",
+      "province": ""
+    },
+    "278997": {
+      "school": "-",
+      "province": ""
+    },
+    "278998": {
+      "school": "-",
+      "province": ""
+    },
+    "278999": {
+      "school": "-",
+      "province": ""
+    },
+    "279020": {
+      "school": "-",
+      "province": ""
+    },
+    "279022": {
+      "school": "-",
+      "province": ""
+    },
+    "279032": {
+      "school": "北京化工大学",
+      "province": "北京市"
+    },
+    "279038": {
+      "school": "福建省福州教育学院附属中学",
+      "province": "福建省"
+    },
+    "279128": {
+      "school": "-",
+      "province": ""
+    },
+    "279158": {
+      "school": "-",
+      "province": ""
+    },
+    "279166": {
+      "school": "-",
+      "province": ""
+    },
+    "279207": {
+      "school": "中国矿业大学（北京）",
+      "province": "北京市"
+    },
+    "279212": {
+      "school": "-",
+      "province": ""
+    },
+    "279224": {
+      "school": "-",
+      "province": ""
+    },
+    "279227": {
+      "school": "-",
+      "province": ""
+    },
+    "279231": {
+      "school": "-",
+      "province": ""
+    },
+    "279239": {
+      "school": "-",
+      "province": ""
+    },
+    "279240": {
+      "school": "-",
+      "province": ""
+    },
+    "279260": {
+      "school": "-",
+      "province": ""
+    },
+    "279280": {
+      "school": "-",
+      "province": ""
+    },
+    "279284": {
+      "school": "-",
+      "province": ""
+    },
+    "279292": {
+      "school": "-",
+      "province": ""
+    },
+    "279293": {
+      "school": "-",
+      "province": ""
+    },
+    "279297": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "279300": {
+      "school": "-",
+      "province": ""
+    },
+    "279301": {
+      "school": "宁波诺丁汉大学",
+      "province": "宁波市"
+    },
+    "279315": {
+      "school": "-",
+      "province": ""
+    },
+    "279320": {
+      "school": "-",
+      "province": ""
+    },
+    "279323": {
+      "school": "-",
+      "province": ""
+    },
+    "279325": {
+      "school": "-",
+      "province": ""
+    },
+    "279338": {
+      "school": "-",
+      "province": ""
+    },
+    "279352": {
+      "school": "中国矿业大学（北京）",
+      "province": "北京市"
+    },
+    "279355": {
+      "school": "-",
+      "province": ""
+    },
+    "279372": {
+      "school": "-",
+      "province": ""
+    },
+    "279391": {
+      "school": "-",
+      "province": ""
+    },
+    "279393": {
+      "school": "-",
+      "province": ""
+    },
+    "279395": {
+      "school": "-",
+      "province": ""
+    },
+    "279397": {
+      "school": "-",
+      "province": ""
+    },
+    "279406": {
+      "school": "-",
+      "province": ""
+    },
+    "279416": {
+      "school": "-",
+      "province": ""
+    },
+    "279418": {
+      "school": "济南大学",
+      "province": "山东省"
+    },
+    "279425": {
+      "school": "中国矿业大学（北京）",
+      "province": "北京市"
+    },
+    "279427": {
+      "school": "-",
+      "province": ""
+    },
+    "279428": {
+      "school": "-",
+      "province": ""
+    },
+    "279449": {
+      "school": "-",
+      "province": ""
+    },
+    "279464": {
+      "school": "-",
+      "province": ""
+    },
+    "279482": {
+      "school": "-",
+      "province": ""
+    },
+    "279485": {
+      "school": "-",
+      "province": ""
+    },
+    "279502": {
+      "school": "-",
+      "province": ""
+    },
+    "279513": {
+      "school": "-",
+      "province": ""
+    },
+    "279524": {
+      "school": "-",
+      "province": ""
+    },
+    "279532": {
+      "school": "-",
+      "province": ""
+    },
+    "279543": {
+      "school": "-",
+      "province": ""
+    },
+    "279545": {
+      "school": "-",
+      "province": ""
+    },
+    "279555": {
+      "school": "-",
+      "province": ""
+    },
+    "279588": {
+      "school": "-",
+      "province": ""
+    },
+    "279608": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "279625": {
+      "school": "集美大学",
+      "province": "福建省"
+    },
+    "279626": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "279628": {
+      "school": "集美大学",
+      "province": "福建省"
+    },
+    "279641": {
+      "school": "-",
+      "province": ""
+    },
+    "279654": {
+      "school": "-",
+      "province": ""
+    },
+    "279661": {
+      "school": "-",
+      "province": ""
+    },
+    "279677": {
+      "school": "-",
+      "province": ""
+    },
+    "279683": {
+      "school": "-",
+      "province": ""
+    },
+    "279686": {
+      "school": "-",
+      "province": ""
+    },
+    "279705": {
+      "school": "-",
+      "province": ""
+    },
+    "279717": {
+      "school": "肇庆学院",
+      "province": "广东省"
+    },
+    "279725": {
+      "school": "-",
+      "province": ""
+    },
+    "279729": {
+      "school": "-",
+      "province": ""
+    },
+    "279757": {
+      "school": "-",
+      "province": ""
+    },
+    "279778": {
+      "school": "-",
+      "province": ""
+    },
+    "279807": {
+      "school": "-",
+      "province": ""
+    },
+    "279809": {
+      "school": "南京理工",
+      "province": "江苏省"
+    },
+    "279825": {
+      "school": "-",
+      "province": ""
+    },
+    "279829": {
+      "school": "集美大学",
+      "province": "福建省"
+    },
+    "279838": {
+      "school": "华中科技大学",
+      "province": "湖北省"
+    },
+    "279855": {
+      "school": "-",
+      "province": ""
+    },
+    "279859": {
+      "school": "-",
+      "province": ""
+    },
+    "279862": {
+      "school": "惠州学院",
+      "province": "广东省"
+    },
+    "279865": {
+      "school": "-",
+      "province": ""
+    },
+    "279873": {
+      "school": "重庆邮电大学",
+      "province": "重庆市"
+    },
+    "279874": {
+      "school": "-",
+      "province": ""
+    },
+    "279897": {
+      "school": "武汉经开外国语学校",
+      "province": ""
+    },
+    "279901": {
+      "school": "-",
+      "province": ""
+    },
+    "279923": {
+      "school": "-",
+      "province": ""
+    },
+    "279928": {
+      "school": "-",
+      "province": ""
+    },
+    "279930": {
+      "school": "-",
+      "province": ""
+    },
+    "279935": {
+      "school": "-",
+      "province": ""
+    },
+    "279963": {
+      "school": "-",
+      "province": ""
+    },
+    "279975": {
+      "school": "-",
+      "province": ""
+    },
+    "279980": {
+      "school": "-",
+      "province": ""
+    },
+    "280003": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "280031": {
+      "school": "-",
+      "province": ""
+    },
+    "280058": {
+      "school": "-",
+      "province": ""
+    },
+    "280079": {
+      "school": "-",
+      "province": ""
+    },
+    "280082": {
+      "school": "-",
+      "province": ""
+    },
+    "280083": {
+      "school": "-",
+      "province": ""
+    },
+    "280090": {
+      "school": "-",
+      "province": ""
+    },
+    "280093": {
+      "school": "-",
+      "province": ""
+    },
+    "280103": {
+      "school": "-",
+      "province": ""
+    },
+    "280104": {
+      "school": "-",
+      "province": ""
+    },
+    "280118": {
+      "school": "-",
+      "province": ""
+    },
+    "280120": {
+      "school": "-",
+      "province": ""
+    },
+    "280131": {
+      "school": "重庆邮电大学",
+      "province": "重庆市"
+    },
+    "280133": {
+      "school": "-",
+      "province": ""
+    },
+    "280136": {
+      "school": "同济大学",
+      "province": "上海市"
+    },
+    "280173": {
+      "school": "-",
+      "province": ""
+    },
+    "280186": {
+      "school": "-",
+      "province": ""
+    },
+    "280200": {
+      "school": "-",
+      "province": ""
+    },
+    "280202": {
+      "school": "中国矿业大学（北京）",
+      "province": "北京市"
+    },
+    "280206": {
+      "school": "-",
+      "province": ""
+    },
+    "280212": {
+      "school": "-",
+      "province": ""
+    },
+    "280226": {
+      "school": "-",
+      "province": ""
+    },
+    "280242": {
+      "school": "上饶师范学院",
+      "province": "江西省"
+    },
+    "280246": {
+      "school": "-",
+      "province": ""
+    },
+    "280255": {
+      "school": "-",
+      "province": ""
+    },
+    "280260": {
+      "school": "-",
+      "province": ""
+    },
+    "280278": {
+      "school": "大连民族大学",
+      "province": "大连市"
+    },
+    "280280": {
+      "school": "-",
+      "province": ""
+    },
+    "280288": {
+      "school": "-",
+      "province": ""
+    },
+    "280294": {
+      "school": "贵州大学",
+      "province": "贵州省"
+    },
+    "280296": {
+      "school": "-",
+      "province": ""
+    },
+    "280305": {
+      "school": "-",
+      "province": ""
+    },
+    "280311": {
+      "school": "-",
+      "province": ""
+    },
+    "280317": {
+      "school": "-",
+      "province": ""
+    },
+    "280321": {
+      "school": "南昌航空大学科技学院",
+      "province": "江西省"
+    },
+    "280326": {
+      "school": "-",
+      "province": ""
+    },
+    "280327": {
+      "school": "-",
+      "province": ""
+    },
+    "280329": {
+      "school": "-",
+      "province": ""
+    },
+    "280336": {
+      "school": "-",
+      "province": ""
+    },
+    "280368": {
+      "school": "-",
+      "province": ""
+    },
+    "280372": {
+      "school": "-",
+      "province": ""
+    },
+    "280377": {
+      "school": "-",
+      "province": ""
+    },
+    "280388": {
+      "school": "-",
+      "province": ""
+    },
+    "280392": {
+      "school": "大连民族大学",
+      "province": "大连市"
+    },
+    "280403": {
+      "school": "-",
+      "province": ""
+    },
+    "280424": {
+      "school": "-",
+      "province": ""
+    },
+    "280448": {
+      "school": "-",
+      "province": ""
+    },
+    "280451": {
+      "school": "-",
+      "province": ""
+    },
+    "280480": {
+      "school": "-",
+      "province": ""
+    },
+    "280489": {
+      "school": "-",
+      "province": ""
+    },
+    "280495": {
+      "school": "-",
+      "province": ""
+    },
+    "280496": {
+      "school": "-",
+      "province": ""
+    },
+    "280499": {
+      "school": "-",
+      "province": ""
+    },
+    "280503": {
+      "school": "-",
+      "province": ""
+    },
+    "280525": {
+      "school": "大连东软信息学院",
+      "province": "辽宁省"
+    },
+    "280526": {
+      "school": "大连东软信息学院",
+      "province": "辽宁省"
+    },
+    "280530": {
+      "school": "山东建筑大学",
+      "province": "山东省"
+    },
+    "280531": {
+      "school": "-",
+      "province": ""
+    },
+    "280541": {
+      "school": "-",
+      "province": ""
+    },
+    "280549": {
+      "school": "-",
+      "province": ""
+    },
+    "280556": {
+      "school": "武汉职业技术学院",
+      "province": "湖北省"
+    },
+    "280560": {
+      "school": "碧桂园实验学校",
+      "province": "广东省"
+    },
+    "280564": {
+      "school": "-",
+      "province": ""
+    },
+    "280576": {
+      "school": "-",
+      "province": ""
+    },
+    "280578": {
+      "school": "辽宁科技大学",
+      "province": "辽宁省"
+    },
+    "280583": {
+      "school": "吉林大学",
+      "province": "吉林省"
+    },
+    "280590": {
+      "school": "-",
+      "province": ""
+    },
+    "280596": {
+      "school": "-",
+      "province": ""
+    },
+    "280598": {
+      "school": "-",
+      "province": ""
+    },
+    "280609": {
+      "school": "-",
+      "province": ""
+    },
+    "280612": {
+      "school": "广东科技学院",
+      "province": "广东省"
+    },
+    "280613": {
+      "school": "-",
+      "province": ""
+    },
+    "280614": {
+      "school": "-",
+      "province": ""
+    },
+    "280639": {
+      "school": "-",
+      "province": ""
+    },
+    "280660": {
+      "school": "-",
+      "province": ""
+    },
+    "280661": {
+      "school": "-",
+      "province": ""
+    },
+    "280662": {
+      "school": "-",
+      "province": ""
+    },
+    "280667": {
+      "school": "-",
+      "province": ""
+    },
+    "280668": {
+      "school": "-",
+      "province": ""
+    },
+    "280670": {
+      "school": "南京航空航天大学",
+      "province": "江苏省"
+    },
+    "280684": {
+      "school": "-",
+      "province": ""
+    },
+    "280691": {
+      "school": "-",
+      "province": ""
+    },
+    "280698": {
+      "school": "浙江海洋大学",
+      "province": "舟山市"
+    },
+    "280699": {
+      "school": "浙江工业大学",
+      "province": "杭州市"
+    },
+    "280702": {
+      "school": "-",
+      "province": ""
+    },
+    "280714": {
+      "school": "-",
+      "province": ""
+    },
+    "280724": {
+      "school": "佛山大学",
+      "province": "广东省"
+    },
+    "280739": {
+      "school": "-",
+      "province": ""
+    },
+    "280751": {
+      "school": "-",
+      "province": ""
+    },
+    "280761": {
+      "school": "-",
+      "province": ""
+    },
+    "280764": {
+      "school": "-",
+      "province": ""
+    },
+    "280766": {
+      "school": "-",
+      "province": ""
+    },
+    "280767": {
+      "school": "-",
+      "province": ""
+    },
+    "280770": {
+      "school": "-",
+      "province": ""
+    },
+    "280778": {
+      "school": "-",
+      "province": ""
+    },
+    "280788": {
+      "school": "-",
+      "province": ""
+    },
+    "280793": {
+      "school": "大理大学",
+      "province": "大理白族自治州"
+    },
+    "280794": {
+      "school": "-",
+      "province": ""
+    },
+    "280806": {
+      "school": "-",
+      "province": ""
+    },
+    "280813": {
+      "school": "大连理工大学",
+      "province": "辽宁省"
+    },
+    "280821": {
+      "school": "-",
+      "province": ""
+    },
+    "280822": {
+      "school": "-",
+      "province": ""
+    },
+    "280827": {
+      "school": "-",
+      "province": ""
+    },
+    "280863": {
+      "school": "电子科技大学",
+      "province": "四川省"
+    },
+    "280878": {
+      "school": "-",
+      "province": ""
+    },
+    "280928": {
+      "school": "-",
+      "province": ""
+    },
+    "280939": {
+      "school": "-",
+      "province": ""
+    },
+    "280941": {
+      "school": "-",
+      "province": ""
+    },
+    "280942": {
+      "school": "-",
+      "province": ""
+    },
+    "280953": {
+      "school": "-",
+      "province": ""
+    },
+    "280958": {
+      "school": "-",
+      "province": ""
+    },
+    "280960": {
+      "school": "-",
+      "province": ""
+    },
+    "280997": {
+      "school": "-",
+      "province": ""
+    },
+    "281023": {
+      "school": "-",
+      "province": ""
+    },
+    "281028": {
+      "school": "-",
+      "province": ""
+    },
+    "281033": {
+      "school": "-",
+      "province": ""
+    },
+    "281040": {
+      "school": "-",
+      "province": ""
+    },
+    "281050": {
+      "school": "中国矿业大学（北京）",
+      "province": "北京市"
+    },
+    "281059": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "281070": {
+      "school": "-",
+      "province": ""
+    },
+    "281091": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "281109": {
+      "school": "-",
+      "province": "福建省"
+    },
+    "281114": {
+      "school": "-",
+      "province": ""
+    },
+    "281138": {
+      "school": "河南农业大学",
+      "province": "郑州市"
+    },
+    "281159": {
+      "school": "-",
+      "province": ""
+    },
+    "281173": {
+      "school": "-",
+      "province": ""
+    },
+    "281196": {
+      "school": "-",
+      "province": ""
+    },
+    "281213": {
+      "school": "会泽县第一中学校",
+      "province": "云南省"
+    },
+    "281232": {
+      "school": "-",
+      "province": ""
+    },
+    "281257": {
+      "school": "兰州理工大学",
+      "province": "兰州市"
+    },
+    "281262": {
+      "school": "湖南城市学院",
+      "province": "湖南省"
+    },
+    "281301": {
+      "school": "集美大学诚毅学院",
+      "province": "福建省"
+    },
+    "281303": {
+      "school": "-",
+      "province": ""
+    },
+    "281304": {
+      "school": "-",
+      "province": ""
+    },
+    "281316": {
+      "school": "-",
+      "province": ""
+    },
+    "281349": {
+      "school": "-",
+      "province": ""
+    },
+    "281354": {
+      "school": "-",
+      "province": ""
+    },
+    "281376": {
+      "school": "-",
+      "province": ""
+    },
+    "281377": {
+      "school": "-",
+      "province": ""
+    },
+    "281385": {
+      "school": "-",
+      "province": ""
+    },
+    "281428": {
+      "school": "-",
+      "province": ""
+    },
+    "281436": {
+      "school": "-",
+      "province": ""
+    },
+    "281449": {
+      "school": "-",
+      "province": ""
+    },
+    "281452": {
+      "school": "-",
+      "province": ""
+    },
+    "281485": {
+      "school": "-",
+      "province": ""
+    },
+    "281487": {
+      "school": "-",
+      "province": ""
+    },
+    "281500": {
+      "school": "-",
+      "province": ""
+    },
+    "281507": {
+      "school": "-",
+      "province": ""
+    },
+    "281511": {
+      "school": "-",
+      "province": ""
+    },
+    "281513": {
+      "school": "-",
+      "province": ""
+    },
+    "281530": {
+      "school": "-",
+      "province": ""
+    },
+    "281538": {
+      "school": "-",
+      "province": ""
+    },
+    "281545": {
+      "school": "-",
+      "province": ""
+    },
+    "281553": {
+      "school": "-",
+      "province": ""
+    },
+    "281561": {
+      "school": "江西财经大学",
+      "province": "南昌市"
+    },
+    "281573": {
+      "school": "-",
+      "province": ""
+    },
+    "281580": {
+      "school": "-",
+      "province": ""
+    },
+    "281588": {
+      "school": "东北大学",
+      "province": "辽宁省"
+    },
+    "281594": {
+      "school": "-",
+      "province": ""
+    },
+    "281614": {
+      "school": "-",
+      "province": ""
+    },
+    "281622": {
+      "school": "-",
+      "province": ""
+    },
+    "281628": {
+      "school": "-",
+      "province": ""
+    },
+    "281640": {
+      "school": "-",
+      "province": ""
+    },
+    "281664": {
+      "school": "常州外国语学校",
+      "province": "江苏省"
+    },
+    "281729": {
+      "school": "-",
+      "province": ""
+    },
+    "281732": {
+      "school": "-",
+      "province": ""
+    },
+    "281737": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "281741": {
+      "school": "-",
+      "province": ""
+    },
+    "281744": {
+      "school": "-",
+      "province": ""
+    },
+    "281755": {
+      "school": "南昌大学",
+      "province": "江西省"
+    },
+    "281783": {
+      "school": "-",
+      "province": ""
+    },
+    "281812": {
+      "school": "-",
+      "province": ""
+    },
+    "281815": {
+      "school": "-",
+      "province": ""
+    },
+    "281822": {
+      "school": "-",
+      "province": ""
+    },
+    "281824": {
+      "school": "-",
+      "province": ""
+    },
+    "281840": {
+      "school": "滇西应用技术大学",
+      "province": "大理市"
+    },
+    "281872": {
+      "school": "大理大学",
+      "province": "大理白族自治州"
+    },
+    "281875": {
+      "school": "-",
+      "province": ""
+    },
+    "281886": {
+      "school": "-",
+      "province": ""
+    },
+    "281896": {
+      "school": "-",
+      "province": ""
+    },
+    "281897": {
+      "school": "周口职业技术学院",
+      "province": "河南省"
+    },
+    "281908": {
+      "school": "-",
+      "province": ""
+    },
+    "281914": {
+      "school": "-",
+      "province": ""
+    },
+    "281921": {
+      "school": "-",
+      "province": ""
+    },
+    "281936": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "281950": {
+      "school": "-",
+      "province": ""
+    },
+    "281951": {
+      "school": "-",
+      "province": ""
+    },
+    "281956": {
+      "school": "-",
+      "province": ""
+    },
+    "281966": {
+      "school": "郑州西亚斯学院",
+      "province": "郑州市"
+    },
+    "281970": {
+      "school": "-",
+      "province": ""
+    },
+    "281973": {
+      "school": "-",
+      "province": ""
+    },
+    "281974": {
+      "school": "-",
+      "province": ""
+    },
+    "281975": {
+      "school": "-",
+      "province": ""
+    },
+    "281993": {
+      "school": "-",
+      "province": ""
+    },
+    "281995": {
+      "school": "-",
+      "province": ""
+    },
+    "281997": {
+      "school": "江西财经大学",
+      "province": "南昌市"
+    },
+    "282004": {
+      "school": "-",
+      "province": ""
+    },
+    "282005": {
+      "school": "-",
+      "province": ""
+    },
+    "282008": {
+      "school": "-",
+      "province": ""
+    },
+    "282020": {
+      "school": "-",
+      "province": ""
+    },
+    "282021": {
+      "school": "-",
+      "province": ""
+    },
+    "282030": {
+      "school": "-",
+      "province": ""
+    },
+    "282038": {
+      "school": "-",
+      "province": ""
+    },
+    "282050": {
+      "school": "-",
+      "province": ""
+    },
+    "282064": {
+      "school": "-",
+      "province": ""
+    },
+    "282070": {
+      "school": "-",
+      "province": ""
+    },
+    "282076": {
+      "school": "-",
+      "province": ""
+    },
+    "282080": {
+      "school": "-",
+      "province": ""
+    },
+    "282083": {
+      "school": "-",
+      "province": ""
+    },
+    "282096": {
+      "school": "-",
+      "province": ""
+    },
+    "282097": {
+      "school": "-",
+      "province": ""
+    },
+    "282101": {
+      "school": "-",
+      "province": ""
+    },
+    "282103": {
+      "school": "-",
+      "province": "湖北省"
+    },
+    "282109": {
+      "school": "-",
+      "province": ""
+    },
+    "282110": {
+      "school": "-",
+      "province": ""
+    },
+    "282116": {
+      "school": "-",
+      "province": ""
+    },
+    "282120": {
+      "school": "东南大学",
+      "province": "江苏省"
+    },
+    "282122": {
+      "school": "-",
+      "province": ""
+    },
+    "282124": {
+      "school": "-",
+      "province": ""
+    },
+    "282130": {
+      "school": "-",
+      "province": ""
+    },
+    "282136": {
+      "school": "-",
+      "province": ""
+    },
+    "282167": {
+      "school": "-",
+      "province": ""
+    },
+    "282168": {
+      "school": "-",
+      "province": ""
+    },
+    "282184": {
+      "school": "-",
+      "province": ""
+    },
+    "282186": {
+      "school": "-",
+      "province": ""
+    },
+    "282189": {
+      "school": "-",
+      "province": ""
+    },
+    "282196": {
+      "school": "-",
+      "province": ""
+    },
+    "282200": {
+      "school": "-",
+      "province": ""
+    },
+    "282208": {
+      "school": "-",
+      "province": ""
+    },
+    "282210": {
+      "school": "南京师大",
+      "province": "江苏省"
+    },
+    "282212": {
+      "school": "-",
+      "province": ""
+    },
+    "282215": {
+      "school": "-",
+      "province": ""
+    },
+    "282222": {
+      "school": "-",
+      "province": ""
+    },
+    "282234": {
+      "school": "-",
+      "province": ""
+    },
+    "282236": {
+      "school": "-",
+      "province": ""
+    },
+    "282251": {
+      "school": "-",
+      "province": ""
+    },
+    "282254": {
+      "school": "-",
+      "province": ""
+    },
+    "282256": {
+      "school": "-",
+      "province": ""
+    },
+    "282265": {
+      "school": "-",
+      "province": ""
+    },
+    "282275": {
+      "school": "-",
+      "province": ""
+    },
+    "282276": {
+      "school": "东南大学",
+      "province": "江苏省"
+    },
+    "282292": {
+      "school": "-",
+      "province": ""
+    },
+    "282304": {
+      "school": "-",
+      "province": ""
+    },
+    "282305": {
+      "school": "-",
+      "province": ""
+    },
+    "282310": {
+      "school": "广东工商职业技术大学",
+      "province": "肇庆市"
+    },
+    "282311": {
+      "school": "-",
+      "province": ""
+    },
+    "282316": {
+      "school": "-",
+      "province": ""
+    },
+    "282318": {
+      "school": "江苏科技大学",
+      "province": "江苏省"
+    },
+    "282320": {
+      "school": "湖南工商大学",
+      "province": "长沙市"
+    },
+    "282321": {
+      "school": "-",
+      "province": ""
+    },
+    "282324": {
+      "school": "-",
+      "province": ""
+    },
+    "282325": {
+      "school": "江苏科技大学",
+      "province": "镇江市"
+    },
+    "282354": {
+      "school": "-",
+      "province": ""
+    },
+    "282361": {
+      "school": "-",
+      "province": ""
+    },
+    "282366": {
+      "school": "-",
+      "province": ""
+    },
+    "282375": {
+      "school": "-",
+      "province": ""
+    },
+    "282392": {
+      "school": "-",
+      "province": ""
+    },
+    "282393": {
+      "school": "-",
+      "province": ""
+    },
+    "282401": {
+      "school": "-",
+      "province": ""
+    },
+    "282403": {
+      "school": "-",
+      "province": ""
+    },
+    "282409": {
+      "school": "-",
+      "province": ""
+    },
+    "282414": {
+      "school": "-",
+      "province": ""
+    },
+    "282420": {
+      "school": "-",
+      "province": ""
+    },
+    "282436": {
+      "school": "山西农业大学",
+      "province": "晋中市"
+    },
+    "282452": {
+      "school": "-",
+      "province": ""
+    },
+    "282457": {
+      "school": "-",
+      "province": ""
+    },
+    "282473": {
+      "school": "-",
+      "province": ""
+    },
+    "282489": {
+      "school": "-",
+      "province": ""
+    },
+    "282491": {
+      "school": "-",
+      "province": ""
+    },
+    "282511": {
+      "school": "湖南工业大学",
+      "province": "株洲市"
+    },
+    "282523": {
+      "school": "-",
+      "province": ""
+    },
+    "282530": {
+      "school": "-",
+      "province": ""
+    },
+    "282539": {
+      "school": "-",
+      "province": ""
+    },
+    "282542": {
+      "school": "-",
+      "province": ""
+    },
+    "282556": {
+      "school": "-",
+      "province": ""
+    },
+    "282560": {
+      "school": "-",
+      "province": ""
+    },
+    "282572": {
+      "school": "-",
+      "province": ""
+    },
+    "282585": {
+      "school": "武汉理工大学",
+      "province": "武汉市"
+    },
+    "282586": {
+      "school": "-",
+      "province": ""
+    },
+    "282591": {
+      "school": "惠州学院",
+      "province": "广东省"
+    },
+    "282592": {
+      "school": "-",
+      "province": ""
+    },
+    "282627": {
+      "school": "-",
+      "province": ""
+    },
+    "282631": {
+      "school": "-",
+      "province": ""
+    },
+    "282632": {
+      "school": "-",
+      "province": ""
+    },
+    "282633": {
+      "school": "-",
+      "province": ""
+    },
+    "282657": {
+      "school": "-",
+      "province": ""
+    },
+    "282658": {
+      "school": "-",
+      "province": ""
+    },
+    "282666": {
+      "school": "长沙市麓山滨江实验学校",
+      "province": ""
+    },
+    "282671": {
+      "school": "-",
+      "province": ""
+    },
+    "282687": {
+      "school": "-",
+      "province": ""
+    },
+    "282688": {
+      "school": "-",
+      "province": ""
+    },
+    "282708": {
+      "school": "-",
+      "province": ""
+    },
+    "282728": {
+      "school": "-",
+      "province": ""
+    },
+    "282742": {
+      "school": "-",
+      "province": ""
+    },
+    "282744": {
+      "school": "山东管理学院",
+      "province": "山东省"
+    },
+    "282756": {
+      "school": "-",
+      "province": ""
+    },
+    "282759": {
+      "school": "-",
+      "province": ""
+    },
+    "282765": {
+      "school": "-",
+      "province": ""
+    },
+    "282772": {
+      "school": "-",
+      "province": ""
+    },
+    "282780": {
+      "school": "-",
+      "province": ""
+    },
+    "282794": {
+      "school": "-",
+      "province": ""
+    },
+    "282801": {
+      "school": "-",
+      "province": ""
+    },
+    "282804": {
+      "school": "-",
+      "province": ""
+    },
+    "282805": {
+      "school": "韶关学院",
+      "province": "广东省"
+    },
+    "282815": {
+      "school": "国防科技大学",
+      "province": "湖南省"
+    },
+    "282817": {
+      "school": "-",
+      "province": ""
+    },
+    "282818": {
+      "school": "-",
+      "province": ""
+    },
+    "282824": {
+      "school": "武汉商学院",
+      "province": "湖北省"
+    },
+    "282825": {
+      "school": "-",
+      "province": ""
+    },
+    "282831": {
+      "school": "-",
+      "province": "广东省"
+    },
+    "282832": {
+      "school": "-",
+      "province": ""
+    },
+    "282833": {
+      "school": "-",
+      "province": ""
+    },
+    "282836": {
+      "school": "-",
+      "province": ""
+    },
+    "282845": {
+      "school": "-",
+      "province": ""
+    },
+    "282858": {
+      "school": "-",
+      "province": ""
+    },
+    "282859": {
+      "school": "-",
+      "province": ""
+    },
+    "282862": {
+      "school": "-",
+      "province": ""
+    },
+    "282867": {
+      "school": "-",
+      "province": ""
+    },
+    "282878": {
+      "school": "-",
+      "province": ""
+    },
+    "282885": {
+      "school": "-",
+      "province": ""
+    },
+    "282894": {
+      "school": "-",
+      "province": ""
+    },
+    "282906": {
+      "school": "-",
+      "province": ""
+    },
+    "282917": {
+      "school": "北京一零一中学",
+      "province": "北京市"
+    },
+    "282923": {
+      "school": "-",
+      "province": ""
+    },
+    "282929": {
+      "school": "-",
+      "province": ""
+    },
+    "282930": {
+      "school": "-",
+      "province": ""
+    },
+    "282933": {
+      "school": "-",
+      "province": ""
+    },
+    "282939": {
+      "school": "-",
+      "province": ""
+    },
+    "282948": {
+      "school": "-",
+      "province": ""
+    },
+    "282951": {
+      "school": "-",
+      "province": ""
+    },
+    "282958": {
+      "school": "-",
+      "province": ""
+    },
+    "282969": {
+      "school": "-",
+      "province": ""
+    },
+    "282979": {
+      "school": "-",
+      "province": ""
+    },
+    "282996": {
+      "school": "-",
+      "province": ""
+    },
+    "282997": {
+      "school": "-",
+      "province": ""
+    },
+    "282998": {
+      "school": "西藏民族大学",
+      "province": "咸阳市"
+    },
+    "283006": {
+      "school": "-",
+      "province": ""
+    },
+    "283009": {
+      "school": "-",
+      "province": ""
+    },
+    "283013": {
+      "school": "-",
+      "province": ""
+    },
+    "283014": {
+      "school": "滇西应用技术大学",
+      "province": "大理市"
+    },
+    "283015": {
+      "school": "燕山大学",
+      "province": "河北省"
+    },
+    "283017": {
+      "school": "-",
+      "province": ""
+    },
+    "283024": {
+      "school": "湖南城市学院",
+      "province": "湖南省"
+    },
+    "283034": {
+      "school": "-",
+      "province": ""
+    },
+    "283036": {
+      "school": "-",
+      "province": ""
+    },
+    "283053": {
+      "school": "-",
+      "province": ""
+    },
+    "283054": {
+      "school": "福建工程学院",
+      "province": "福建省"
+    },
+    "283058": {
+      "school": "-",
+      "province": ""
+    },
+    "283062": {
+      "school": "-",
+      "province": ""
+    },
+    "283067": {
+      "school": "-",
+      "province": ""
+    },
+    "283077": {
+      "school": "-",
+      "province": ""
+    },
+    "283082": {
+      "school": "-",
+      "province": ""
+    },
+    "283087": {
+      "school": "-",
+      "province": ""
+    },
+    "283096": {
+      "school": "-",
+      "province": ""
+    },
+    "283121": {
+      "school": "-",
+      "province": ""
+    },
+    "283122": {
+      "school": "-",
+      "province": ""
+    },
+    "283124": {
+      "school": "-",
+      "province": ""
+    },
+    "283126": {
+      "school": "-",
+      "province": ""
+    },
+    "283131": {
+      "school": "-",
+      "province": "湖南省"
+    },
+    "283132": {
+      "school": "-",
+      "province": ""
+    },
+    "283141": {
+      "school": "长沙学院",
+      "province": "湖南省"
+    },
+    "283146": {
+      "school": "-",
+      "province": ""
+    },
+    "283154": {
+      "school": "-",
+      "province": ""
+    },
+    "283155": {
+      "school": "-",
+      "province": ""
+    },
+    "283156": {
+      "school": "-",
+      "province": ""
+    },
+    "283163": {
+      "school": "-",
+      "province": ""
+    },
+    "283164": {
+      "school": "-",
+      "province": ""
+    },
+    "283171": {
+      "school": "-",
+      "province": ""
+    },
+    "283177": {
+      "school": "郑州西亚斯学院",
+      "province": "郑州市"
+    },
+    "283188": {
+      "school": "-",
+      "province": ""
+    },
+    "283206": {
+      "school": "-",
+      "province": ""
+    },
+    "283224": {
+      "school": "-",
+      "province": ""
+    },
+    "283226": {
+      "school": "绵阳城市学院",
+      "province": "绵阳市"
+    },
+    "283227": {
+      "school": "-",
+      "province": ""
+    },
+    "283242": {
+      "school": "-",
+      "province": ""
+    },
+    "283245": {
+      "school": "郑州西亚斯学院",
+      "province": "郑州市"
+    },
+    "283246": {
+      "school": "-",
+      "province": ""
+    },
+    "283250": {
+      "school": "-",
+      "province": ""
+    },
+    "283260": {
+      "school": "-",
+      "province": ""
+    },
+    "283285": {
+      "school": "-",
+      "province": ""
+    },
+    "283287": {
+      "school": "燕山大学",
+      "province": "河北省"
+    },
+    "283288": {
+      "school": "-",
+      "province": ""
+    },
+    "283292": {
+      "school": "-",
+      "province": ""
+    },
+    "283293": {
+      "school": "-",
+      "province": ""
+    },
+    "283298": {
+      "school": "-",
+      "province": ""
+    },
+    "283304": {
+      "school": "-",
+      "province": ""
+    },
+    "283320": {
+      "school": "-",
+      "province": ""
+    },
+    "283328": {
+      "school": "-",
+      "province": ""
+    },
+    "283350": {
+      "school": "-",
+      "province": ""
+    },
+    "283353": {
+      "school": "贵州大学",
+      "province": "贵州省"
+    },
+    "283355": {
+      "school": "-",
+      "province": ""
+    },
+    "283360": {
+      "school": "-",
+      "province": ""
+    },
+    "283362": {
+      "school": "-",
+      "province": ""
+    },
+    "283375": {
+      "school": "-",
+      "province": ""
+    },
+    "283380": {
+      "school": "-",
+      "province": ""
+    },
+    "283381": {
+      "school": "-",
+      "province": ""
+    },
+    "283393": {
+      "school": "-",
+      "province": ""
+    },
+    "283399": {
+      "school": "-",
+      "province": ""
+    },
+    "283412": {
+      "school": "-",
+      "province": ""
+    },
+    "283413": {
+      "school": "桂林信息科技学院",
+      "province": "桂林市"
+    },
+    "283429": {
+      "school": "-",
+      "province": ""
+    },
+    "283440": {
+      "school": "燕山大学",
+      "province": "河北省"
+    },
+    "283442": {
+      "school": "-",
+      "province": ""
+    },
+    "283451": {
+      "school": "-",
+      "province": ""
+    },
+    "283458": {
+      "school": "-",
+      "province": ""
+    },
+    "283470": {
+      "school": "中原工学院",
+      "province": "河南省"
+    },
+    "283487": {
+      "school": "-",
+      "province": ""
+    },
+    "283512": {
+      "school": "-",
+      "province": ""
+    },
+    "283514": {
+      "school": "-",
+      "province": ""
+    },
+    "283540": {
+      "school": "-",
+      "province": ""
+    },
+    "283543": {
+      "school": "-",
+      "province": ""
+    },
+    "283554": {
+      "school": "上海大学",
+      "province": "上海市"
+    },
+    "283559": {
+      "school": "-",
+      "province": ""
+    },
+    "283566": {
+      "school": "-",
+      "province": ""
+    },
+    "283577": {
+      "school": "-",
+      "province": ""
+    },
+    "283585": {
+      "school": "-",
+      "province": ""
+    },
+    "283586": {
+      "school": "郑州西亚斯学院",
+      "province": "郑州市"
+    },
+    "283593": {
+      "school": "-",
+      "province": ""
+    },
+    "283604": {
+      "school": "江西水利电力大学",
+      "province": "江西省"
+    },
+    "283628": {
+      "school": "-",
+      "province": ""
+    },
+    "283635": {
+      "school": "-",
+      "province": ""
+    },
+    "283641": {
+      "school": "-",
+      "province": ""
+    },
+    "283643": {
+      "school": "-",
+      "province": ""
+    },
+    "283658": {
+      "school": "-",
+      "province": ""
+    },
+    "283659": {
+      "school": "-",
+      "province": ""
+    },
+    "283663": {
+      "school": "-",
+      "province": ""
+    },
+    "283687": {
+      "school": "-",
+      "province": ""
+    },
+    "283722": {
+      "school": "-",
+      "province": ""
+    },
+    "283724": {
+      "school": "-",
+      "province": ""
+    },
+    "283742": {
+      "school": "-",
+      "province": ""
+    },
+    "283751": {
+      "school": "-",
+      "province": ""
+    },
+    "283758": {
+      "school": "-",
+      "province": ""
+    },
+    "283778": {
+      "school": "-",
+      "province": ""
+    },
+    "283795": {
+      "school": "-",
+      "province": ""
+    },
+    "283810": {
+      "school": "-",
+      "province": ""
+    },
+    "283817": {
+      "school": "中原工学院",
+      "province": "河南省"
+    },
+    "283849": {
+      "school": "-",
+      "province": ""
+    },
+    "283869": {
+      "school": "-",
+      "province": ""
+    },
+    "283881": {
+      "school": "-",
+      "province": ""
+    },
+    "283903": {
+      "school": "-",
+      "province": ""
+    },
+    "283908": {
+      "school": "-",
+      "province": ""
+    },
+    "283919": {
+      "school": "重庆师范大学",
+      "province": "重庆市"
+    },
+    "283922": {
+      "school": "-",
+      "province": ""
+    },
+    "283932": {
+      "school": "-",
+      "province": ""
+    },
+    "283936": {
+      "school": "-",
+      "province": ""
+    },
+    "283949": {
+      "school": "河南理工大学",
+      "province": "焦作市"
+    },
+    "283958": {
+      "school": "-",
+      "province": ""
+    },
+    "283961": {
+      "school": "-",
+      "province": ""
+    },
+    "283964": {
+      "school": "-",
+      "province": ""
+    },
+    "283977": {
+      "school": "-",
+      "province": ""
+    },
+    "284013": {
+      "school": "福建省厦门市思明小学",
+      "province": "福建省"
+    },
+    "284046": {
+      "school": "-",
+      "province": ""
+    },
+    "284083": {
+      "school": "-",
+      "province": ""
+    },
+    "284090": {
+      "school": "华东师范大学",
+      "province": "上海市"
+    },
+    "284097": {
+      "school": "-",
+      "province": ""
+    },
+    "284106": {
+      "school": "-",
+      "province": ""
+    },
+    "284109": {
+      "school": "郑州西亚斯学院",
+      "province": "郑州市"
+    },
+    "284110": {
+      "school": "-",
+      "province": ""
+    },
+    "284115": {
+      "school": "-",
+      "province": ""
+    },
+    "284118": {
+      "school": "-",
+      "province": ""
+    },
+    "284125": {
+      "school": "-",
+      "province": ""
+    },
+    "284133": {
+      "school": "-",
+      "province": ""
+    },
+    "284143": {
+      "school": "-",
+      "province": ""
+    },
+    "284157": {
+      "school": "-",
+      "province": "河南省"
+    },
+    "284163": {
+      "school": "南京邮电大学",
+      "province": "江苏省"
+    },
+    "284185": {
+      "school": "-",
+      "province": ""
+    },
+    "284199": {
+      "school": "-",
+      "province": ""
+    },
+    "284207": {
+      "school": "-",
+      "province": ""
+    },
+    "284208": {
+      "school": "-",
+      "province": ""
+    },
+    "284218": {
+      "school": "-",
+      "province": ""
+    },
+    "284219": {
+      "school": "-",
+      "province": ""
+    },
+    "284221": {
+      "school": "-",
+      "province": ""
+    },
+    "284227": {
+      "school": "-",
+      "province": ""
+    },
+    "284228": {
+      "school": "-",
+      "province": ""
+    },
+    "284234": {
+      "school": "-",
+      "province": ""
+    },
+    "284262": {
+      "school": "-",
+      "province": ""
+    },
+    "284264": {
+      "school": "中北大学",
+      "province": "山西省"
+    },
+    "284273": {
+      "school": "-",
+      "province": ""
+    },
+    "284282": {
+      "school": "-",
+      "province": ""
+    },
+    "284284": {
+      "school": "-",
+      "province": ""
+    },
+    "284308": {
+      "school": "-",
+      "province": ""
+    },
+    "284320": {
+      "school": "-",
+      "province": ""
+    },
+    "284321": {
+      "school": "-",
+      "province": ""
+    },
+    "284332": {
+      "school": "-",
+      "province": ""
+    },
+    "284334": {
+      "school": "-",
+      "province": ""
+    },
+    "284337": {
+      "school": "-",
+      "province": ""
+    },
+    "284344": {
+      "school": "赣东学院",
+      "province": "抚州市"
+    },
+    "284346": {
+      "school": "-",
+      "province": ""
+    },
+    "284353": {
+      "school": "-",
+      "province": ""
+    },
+    "284356": {
+      "school": "-",
+      "province": ""
+    },
+    "284364": {
+      "school": "-",
+      "province": ""
+    },
+    "284376": {
+      "school": "-",
+      "province": ""
+    },
+    "284399": {
+      "school": "-",
+      "province": ""
+    },
+    "284400": {
+      "school": "-",
+      "province": ""
+    },
+    "284407": {
+      "school": "-",
+      "province": ""
+    },
+    "284423": {
+      "school": "-",
+      "province": ""
+    },
+    "284435": {
+      "school": "-",
+      "province": ""
+    },
+    "284437": {
+      "school": "-",
+      "province": ""
+    },
+    "284441": {
+      "school": "-",
+      "province": ""
+    },
+    "284446": {
+      "school": "-",
+      "province": ""
+    },
+    "284447": {
+      "school": "河北金融学院",
+      "province": "河北省"
+    },
+    "284456": {
+      "school": "-",
+      "province": ""
+    },
+    "284468": {
+      "school": "华中科技大学",
+      "province": "湖北省"
+    },
+    "284475": {
+      "school": "-",
+      "province": ""
+    },
+    "284476": {
+      "school": "-",
+      "province": ""
+    },
+    "284482": {
+      "school": "-",
+      "province": ""
+    },
+    "284486": {
+      "school": "-",
+      "province": ""
+    },
+    "284487": {
+      "school": "-",
+      "province": ""
+    },
+    "284498": {
+      "school": "-",
+      "province": ""
+    },
+    "284504": {
+      "school": "南昌大学",
+      "province": "江西省"
+    },
+    "284511": {
+      "school": "-",
+      "province": ""
+    },
+    "284513": {
+      "school": "-",
+      "province": ""
+    },
+    "284514": {
+      "school": "-",
+      "province": ""
+    },
+    "284515": {
+      "school": "-",
+      "province": ""
+    },
+    "284521": {
+      "school": "-",
+      "province": ""
+    },
+    "284524": {
+      "school": "-",
+      "province": ""
+    },
+    "284567": {
+      "school": "-",
+      "province": ""
+    },
+    "284569": {
+      "school": "-",
+      "province": ""
+    },
+    "284570": {
+      "school": "-",
+      "province": ""
+    },
+    "284571": {
+      "school": "-",
+      "province": ""
+    },
+    "284584": {
+      "school": "-",
+      "province": ""
+    },
+    "284588": {
+      "school": "华东师范大学",
+      "province": "上海市"
+    },
+    "284589": {
+      "school": "重庆邮电大学",
+      "province": "重庆市"
+    },
+    "284593": {
+      "school": "-",
+      "province": ""
+    },
+    "284594": {
+      "school": "-",
+      "province": ""
+    },
+    "284595": {
+      "school": "-",
+      "province": ""
+    },
+    "284599": {
+      "school": "-",
+      "province": ""
+    },
+    "284603": {
+      "school": "-",
+      "province": ""
+    },
+    "284608": {
+      "school": "-",
+      "province": ""
+    },
+    "284616": {
+      "school": "-",
+      "province": ""
+    },
+    "284624": {
+      "school": "-",
+      "province": ""
+    },
+    "284627": {
+      "school": "-",
+      "province": ""
+    },
+    "284653": {
+      "school": "-",
+      "province": ""
+    },
+    "284666": {
+      "school": "-",
+      "province": ""
+    },
+    "284667": {
+      "school": "-",
+      "province": ""
+    },
+    "284669": {
+      "school": "吉林工商学院-西安校区",
+      "province": ""
+    },
+    "284675": {
+      "school": "西南石油大学",
+      "province": "四川省"
+    },
+    "284676": {
+      "school": "-",
+      "province": ""
+    },
+    "284678": {
+      "school": "-",
+      "province": ""
+    },
+    "284679": {
+      "school": "-",
+      "province": ""
+    },
+    "284689": {
+      "school": "-",
+      "province": ""
+    },
+    "284692": {
+      "school": "-",
+      "province": ""
+    },
+    "284705": {
+      "school": "-",
+      "province": ""
+    },
+    "284709": {
+      "school": "-",
+      "province": ""
+    },
+    "284711": {
+      "school": "-",
+      "province": ""
+    },
+    "284714": {
+      "school": "-",
+      "province": ""
+    },
+    "284719": {
+      "school": "-",
+      "province": ""
+    },
+    "284723": {
+      "school": "-",
+      "province": ""
+    },
+    "284733": {
+      "school": "贵州财经大学",
+      "province": "贵州省"
+    },
+    "284734": {
+      "school": "-",
+      "province": ""
+    },
+    "284735": {
+      "school": "连云港市师范学院第一附属小学",
+      "province": ""
+    },
+    "284747": {
+      "school": "-",
+      "province": ""
+    },
+    "284749": {
+      "school": "-",
+      "province": ""
+    },
+    "284753": {
+      "school": "-",
+      "province": ""
+    },
+    "284754": {
+      "school": "-",
+      "province": ""
+    },
+    "284757": {
+      "school": "-",
+      "province": ""
+    },
+    "284765": {
+      "school": "-",
+      "province": ""
+    },
+    "284766": {
+      "school": "-",
+      "province": ""
+    },
+    "284770": {
+      "school": "华南农业大学",
+      "province": "广东省"
+    },
+    "284787": {
+      "school": "-",
+      "province": ""
+    },
+    "284788": {
+      "school": "-",
+      "province": ""
+    },
+    "284790": {
+      "school": "辽宁工程技术大学",
+      "province": "辽宁省"
+    },
+    "284799": {
+      "school": "-",
+      "province": ""
+    },
+    "284803": {
+      "school": "河南大学",
+      "province": "河南省"
+    },
+    "284804": {
+      "school": "-",
+      "province": ""
+    },
+    "284810": {
+      "school": "-",
+      "province": ""
+    },
+    "284814": {
+      "school": "-",
+      "province": ""
+    },
+    "284816": {
+      "school": "-",
+      "province": ""
+    },
+    "284846": {
+      "school": "-",
+      "province": ""
+    },
+    "284856": {
+      "school": "-",
+      "province": ""
+    },
+    "284870": {
+      "school": "-",
+      "province": ""
+    },
+    "284878": {
+      "school": "-",
+      "province": ""
+    },
+    "284880": {
+      "school": "-",
+      "province": ""
+    },
+    "284883": {
+      "school": "重庆理工大学",
+      "province": "重庆市"
+    },
+    "284885": {
+      "school": "-",
+      "province": ""
+    },
+    "284896": {
+      "school": "-",
+      "province": ""
+    },
+    "284900": {
+      "school": "-",
+      "province": ""
+    },
+    "284905": {
+      "school": "云南大学",
+      "province": "云南省"
+    },
+    "284909": {
+      "school": "-",
+      "province": ""
+    },
+    "284914": {
+      "school": "-",
+      "province": ""
+    },
+    "284921": {
+      "school": "-",
+      "province": ""
+    },
+    "284924": {
+      "school": "-",
+      "province": ""
+    },
+    "284932": {
+      "school": "-",
+      "province": ""
+    },
+    "284933": {
+      "school": "-",
+      "province": ""
+    },
+    "284934": {
+      "school": "-",
+      "province": ""
+    },
+    "284935": {
+      "school": "-",
+      "province": ""
+    },
+    "284994": {
+      "school": "-",
+      "province": ""
+    },
+    "284998": {
+      "school": "-",
+      "province": ""
+    },
+    "285006": {
+      "school": "-",
+      "province": ""
+    },
+    "285015": {
+      "school": "厦门双十中学湖里分校",
+      "province": ""
+    },
+    "285032": {
+      "school": "天津大学",
+      "province": "天津市"
+    },
+    "285060": {
+      "school": "-",
+      "province": ""
+    },
+    "285061": {
+      "school": "-",
+      "province": ""
+    },
+    "285071": {
+      "school": "-",
+      "province": ""
+    },
+    "285074": {
+      "school": "-",
+      "province": ""
+    },
+    "285081": {
+      "school": "-",
+      "province": ""
+    },
+    "285082": {
+      "school": "-",
+      "province": ""
+    },
+    "285095": {
+      "school": "青岛市南海信学校",
+      "province": "山东省"
+    },
+    "285098": {
+      "school": "-",
+      "province": ""
+    },
+    "285101": {
+      "school": "-",
+      "province": ""
+    },
+    "285103": {
+      "school": "-",
+      "province": ""
+    },
+    "285106": {
+      "school": "-",
+      "province": ""
+    },
+    "285113": {
+      "school": "-",
+      "province": ""
+    },
+    "285127": {
+      "school": "中国传媒大学",
+      "province": "北京市"
+    },
+    "285129": {
+      "school": "-",
+      "province": ""
+    },
+    "285136": {
+      "school": "-",
+      "province": ""
+    },
+    "285139": {
+      "school": "-",
+      "province": ""
+    },
+    "285145": {
+      "school": "-",
+      "province": ""
+    },
+    "285153": {
+      "school": "-",
+      "province": ""
+    },
+    "285155": {
+      "school": "-",
+      "province": ""
+    },
+    "285158": {
+      "school": "-",
+      "province": ""
+    },
+    "285162": {
+      "school": "-",
+      "province": ""
+    },
+    "285171": {
+      "school": "-",
+      "province": ""
+    },
+    "285173": {
+      "school": "-",
+      "province": ""
+    },
+    "285177": {
+      "school": "-",
+      "province": ""
+    },
+    "285185": {
+      "school": "-",
+      "province": ""
+    },
+    "285188": {
+      "school": "兰州理工大学",
+      "province": "兰州市"
+    },
+    "285199": {
+      "school": "-",
+      "province": ""
+    },
+    "285211": {
+      "school": "-",
+      "province": ""
+    },
+    "285212": {
+      "school": "-",
+      "province": ""
+    },
+    "285214": {
+      "school": "-",
+      "province": ""
+    },
+    "285228": {
+      "school": "-",
+      "province": ""
+    },
+    "285232": {
+      "school": "-",
+      "province": ""
+    },
+    "285233": {
+      "school": "-",
+      "province": ""
+    },
+    "285244": {
+      "school": "-",
+      "province": ""
+    },
+    "285246": {
+      "school": "-",
+      "province": ""
+    },
+    "285249": {
+      "school": "-",
+      "province": ""
+    },
+    "285259": {
+      "school": "-",
+      "province": ""
+    },
+    "285260": {
+      "school": "-",
+      "province": ""
+    },
+    "285263": {
+      "school": "-",
+      "province": ""
+    },
+    "285275": {
+      "school": "-",
+      "province": ""
+    },
+    "285294": {
+      "school": "-",
+      "province": ""
+    },
+    "285301": {
+      "school": "-",
+      "province": ""
+    },
+    "285302": {
+      "school": "广州理工学院",
+      "province": "广州市"
+    },
+    "285309": {
+      "school": "-",
+      "province": ""
+    },
+    "285315": {
+      "school": "-",
+      "province": ""
+    },
+    "285326": {
+      "school": "北方民族大学",
+      "province": "银川市"
+    },
+    "285328": {
+      "school": "-",
+      "province": ""
+    },
+    "285332": {
+      "school": "-",
+      "province": ""
+    },
+    "285334": {
+      "school": "-",
+      "province": ""
+    },
+    "285340": {
+      "school": "-",
+      "province": ""
+    },
+    "285341": {
+      "school": "-",
+      "province": ""
+    },
+    "285362": {
+      "school": "-",
+      "province": ""
+    },
+    "285364": {
+      "school": "-",
+      "province": ""
+    },
+    "285369": {
+      "school": "-",
+      "province": ""
+    },
+    "285375": {
+      "school": "-",
+      "province": "内蒙古自治区"
+    },
+    "285379": {
+      "school": "-",
+      "province": ""
+    },
+    "285385": {
+      "school": "-",
+      "province": ""
+    },
+    "285387": {
+      "school": "-",
+      "province": ""
+    },
+    "285391": {
+      "school": "-",
+      "province": ""
+    },
+    "285394": {
+      "school": "-",
+      "province": ""
+    },
+    "285400": {
+      "school": "-",
+      "province": ""
+    },
+    "285414": {
+      "school": "-",
+      "province": ""
+    },
+    "285427": {
+      "school": "-",
+      "province": ""
+    },
+    "285433": {
+      "school": "-",
+      "province": ""
+    },
+    "285446": {
+      "school": "-",
+      "province": ""
+    },
+    "285453": {
+      "school": "-",
+      "province": ""
+    },
+    "285456": {
+      "school": "-",
+      "province": ""
+    },
+    "285457": {
+      "school": "-",
+      "province": ""
+    },
+    "285460": {
+      "school": "广州科技职业技术大学",
+      "province": "广州市"
+    },
+    "285476": {
+      "school": "-",
+      "province": ""
+    },
+    "285484": {
+      "school": "-",
+      "province": ""
+    },
+    "285493": {
+      "school": "-",
+      "province": ""
+    },
+    "285497": {
+      "school": "-",
+      "province": ""
+    },
+    "285498": {
+      "school": "-",
+      "province": ""
+    },
+    "285502": {
+      "school": "-",
+      "province": ""
+    },
+    "285509": {
+      "school": "-",
+      "province": ""
+    },
+    "285513": {
+      "school": "-",
+      "province": ""
+    },
+    "285514": {
+      "school": "-",
+      "province": ""
+    },
+    "285516": {
+      "school": "-",
+      "province": ""
+    },
+    "285517": {
+      "school": "-",
+      "province": ""
+    },
+    "285518": {
+      "school": "-",
+      "province": ""
+    },
+    "285519": {
+      "school": "湖南科技大学",
+      "province": "湘潭市"
+    },
+    "285520": {
+      "school": "-",
+      "province": ""
+    },
+    "285521": {
+      "school": "-",
+      "province": ""
+    },
+    "285522": {
+      "school": "-",
+      "province": ""
+    },
+    "285524": {
+      "school": "-",
+      "province": ""
+    },
+    "285525": {
+      "school": "-",
+      "province": ""
+    },
+    "285527": {
+      "school": "河南大学",
+      "province": "河南省"
+    },
+    "285528": {
+      "school": "-",
+      "province": ""
+    },
+    "285530": {
+      "school": "-",
+      "province": ""
+    },
+    "285532": {
+      "school": "-",
+      "province": ""
+    },
+    "285533": {
+      "school": "-",
+      "province": ""
+    },
+    "285534": {
+      "school": "惠州学院",
+      "province": "广东省"
+    },
+    "285536": {
+      "school": "-",
+      "province": ""
+    },
+    "285538": {
+      "school": "-",
+      "province": ""
+    },
+    "285542": {
+      "school": "-",
+      "province": ""
+    },
+    "285544": {
+      "school": "-",
+      "province": ""
+    },
+    "285545": {
+      "school": "惠州学院",
+      "province": "广东省"
+    },
+    "285547": {
+      "school": "-",
+      "province": ""
+    },
+    "285548": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "285549": {
+      "school": "-",
+      "province": ""
+    },
+    "285554": {
+      "school": "-",
+      "province": ""
+    },
+    "285555": {
+      "school": "-",
+      "province": ""
+    },
+    "285556": {
+      "school": "-",
+      "province": ""
+    },
+    "285558": {
+      "school": "-",
+      "province": ""
+    },
+    "285559": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "285565": {
+      "school": "-",
+      "province": ""
+    },
+    "285567": {
+      "school": "-",
+      "province": ""
+    },
+    "285569": {
+      "school": "-",
+      "province": ""
+    },
+    "285573": {
+      "school": "-",
+      "province": ""
+    },
+    "285578": {
+      "school": "-",
+      "province": ""
+    },
+    "285582": {
+      "school": "-",
+      "province": ""
+    },
+    "285598": {
+      "school": "-",
+      "province": ""
+    },
+    "285616": {
+      "school": "-",
+      "province": ""
+    },
+    "285619": {
+      "school": "-",
+      "province": ""
+    },
+    "285625": {
+      "school": "-",
+      "province": ""
+    },
+    "285629": {
+      "school": "-",
+      "province": ""
+    },
+    "285635": {
+      "school": "-",
+      "province": ""
+    },
+    "285636": {
+      "school": "-",
+      "province": ""
+    },
+    "285642": {
+      "school": "-",
+      "province": ""
+    },
+    "285666": {
+      "school": "-",
+      "province": ""
+    },
+    "285667": {
+      "school": "-",
+      "province": ""
+    },
+    "285673": {
+      "school": "吉林工商学院-卡伦校区",
+      "province": "吉林省"
+    },
+    "285674": {
+      "school": "广州理工学院",
+      "province": "广州市"
+    },
+    "285694": {
+      "school": "-",
+      "province": ""
+    },
+    "285696": {
+      "school": "-",
+      "province": ""
+    },
+    "285703": {
+      "school": "-",
+      "province": ""
+    },
+    "285712": {
+      "school": "-",
+      "province": ""
+    },
+    "285729": {
+      "school": "-",
+      "province": ""
+    },
+    "285742": {
+      "school": "-",
+      "province": ""
+    },
+    "285745": {
+      "school": "-",
+      "province": ""
+    },
+    "285748": {
+      "school": "-",
+      "province": ""
+    },
+    "285752": {
+      "school": "连云港市实验学校",
+      "province": ""
+    },
+    "285763": {
+      "school": "昌吉学院",
+      "province": "新疆维吾尔自治区"
+    },
+    "285786": {
+      "school": "-",
+      "province": ""
+    },
+    "285789": {
+      "school": "-",
+      "province": ""
+    },
+    "285799": {
+      "school": "-",
+      "province": ""
+    },
+    "285815": {
+      "school": "-",
+      "province": ""
+    },
+    "285817": {
+      "school": "-",
+      "province": ""
+    },
+    "285819": {
+      "school": "-",
+      "province": ""
+    },
+    "285821": {
+      "school": "-",
+      "province": ""
+    },
+    "285822": {
+      "school": "首都师范大学附属育新小学",
+      "province": ""
+    },
+    "285824": {
+      "school": "-",
+      "province": ""
+    },
+    "285833": {
+      "school": "-",
+      "province": ""
+    },
+    "285841": {
+      "school": "西安科技大学",
+      "province": "西安市"
+    },
+    "285844": {
+      "school": "山东农大",
+      "province": "山东省"
+    },
+    "285849": {
+      "school": "-",
+      "province": ""
+    },
+    "285851": {
+      "school": "-",
+      "province": ""
+    },
+    "285861": {
+      "school": "-",
+      "province": ""
+    },
+    "285868": {
+      "school": "-",
+      "province": ""
+    },
+    "285874": {
+      "school": "-",
+      "province": ""
+    },
+    "285876": {
+      "school": "南京信息工程大学",
+      "province": "江苏省"
+    },
+    "285882": {
+      "school": "-",
+      "province": ""
+    },
+    "285900": {
+      "school": "-",
+      "province": ""
+    },
+    "285916": {
+      "school": "-",
+      "province": ""
+    },
+    "285918": {
+      "school": "-",
+      "province": ""
+    },
+    "285923": {
+      "school": "中国计量大学",
+      "province": "杭州市"
+    },
+    "285932": {
+      "school": "北京师范大学-香港浸会大学联合国际学院",
+      "province": ""
+    },
+    "285933": {
+      "school": "-",
+      "province": ""
+    },
+    "285939": {
+      "school": "-",
+      "province": ""
+    },
+    "285940": {
+      "school": "-",
+      "province": ""
+    },
+    "285942": {
+      "school": "桂林电子科技大学北海校区",
+      "province": ""
+    },
+    "285943": {
+      "school": "-",
+      "province": ""
+    },
+    "285947": {
+      "school": "-",
+      "province": ""
+    },
+    "285962": {
+      "school": "-",
+      "province": ""
+    },
+    "285969": {
+      "school": "-",
+      "province": ""
+    },
+    "286015": {
+      "school": "山西农业大学",
+      "province": "晋中市"
+    },
+    "286023": {
+      "school": "-",
+      "province": ""
+    },
+    "286030": {
+      "school": "-",
+      "province": ""
+    },
+    "286031": {
+      "school": "-",
+      "province": ""
+    },
+    "286032": {
+      "school": "-",
+      "province": ""
+    },
+    "286041": {
+      "school": "-",
+      "province": ""
+    },
+    "286042": {
+      "school": "-",
+      "province": ""
+    },
+    "286118": {
+      "school": "河南大学",
+      "province": "河南省"
+    },
+    "286121": {
+      "school": "-",
+      "province": ""
+    },
+    "286179": {
+      "school": "-",
+      "province": ""
+    },
+    "286185": {
+      "school": "-",
+      "province": ""
+    },
+    "286189": {
+      "school": "-",
+      "province": ""
+    },
+    "286225": {
+      "school": "-",
+      "province": ""
+    },
+    "286231": {
+      "school": "-",
+      "province": ""
+    },
+    "286237": {
+      "school": "-",
+      "province": ""
+    },
+    "286238": {
+      "school": "-",
+      "province": ""
+    },
+    "286251": {
+      "school": "-",
+      "province": ""
+    },
+    "286254": {
+      "school": "-",
+      "province": ""
+    },
+    "286260": {
+      "school": "淮北理工学院",
+      "province": "淮北市"
+    },
+    "286264": {
+      "school": "南京工业大学",
+      "province": "江苏省"
+    },
+    "286281": {
+      "school": "-",
+      "province": ""
+    },
+    "286286": {
+      "school": "-",
+      "province": ""
+    },
+    "286291": {
+      "school": "-",
+      "province": ""
+    },
+    "286301": {
+      "school": "浙江理工大学",
+      "province": "杭州市"
+    },
+    "286312": {
+      "school": "-",
+      "province": ""
+    },
+    "286315": {
+      "school": "-",
+      "province": ""
+    },
+    "286319": {
+      "school": "重庆工商大学派斯学院",
+      "province": "重庆市"
+    },
+    "286332": {
+      "school": "-",
+      "province": ""
+    },
+    "286341": {
+      "school": "重庆工商大学派斯学院",
+      "province": "重庆市"
+    },
+    "286349": {
+      "school": "-",
+      "province": ""
+    },
+    "286350": {
+      "school": "-",
+      "province": ""
+    },
+    "286351": {
+      "school": "-",
+      "province": ""
+    },
+    "286352": {
+      "school": "-",
+      "province": ""
+    },
+    "286353": {
+      "school": "-",
+      "province": ""
+    },
+    "286354": {
+      "school": "-",
+      "province": ""
+    },
+    "286358": {
+      "school": "-",
+      "province": ""
+    },
+    "286362": {
+      "school": "-",
+      "province": ""
+    },
+    "286373": {
+      "school": "东华理工大学",
+      "province": "江西省"
+    },
+    "286379": {
+      "school": "-",
+      "province": ""
+    },
+    "286409": {
+      "school": "-",
+      "province": ""
+    },
+    "286410": {
+      "school": "河南大学",
+      "province": "河南省"
+    },
+    "286415": {
+      "school": "-",
+      "province": ""
+    },
+    "286418": {
+      "school": "-",
+      "province": ""
+    },
+    "286425": {
+      "school": "-",
+      "province": ""
+    },
+    "286427": {
+      "school": "-",
+      "province": ""
+    },
+    "286438": {
+      "school": "-",
+      "province": ""
+    },
+    "286446": {
+      "school": "-",
+      "province": ""
+    },
+    "286449": {
+      "school": "-",
+      "province": ""
+    },
+    "286451": {
+      "school": "-",
+      "province": ""
+    },
+    "286454": {
+      "school": "-",
+      "province": ""
+    },
+    "286463": {
+      "school": "-",
+      "province": ""
+    },
+    "286464": {
+      "school": "-",
+      "province": ""
+    },
+    "286465": {
+      "school": "-",
+      "province": ""
+    },
+    "286477": {
+      "school": "-",
+      "province": ""
+    },
+    "286479": {
+      "school": "-",
+      "province": ""
+    },
+    "286480": {
+      "school": "-",
+      "province": ""
+    },
+    "286481": {
+      "school": "-",
+      "province": ""
+    },
+    "286492": {
+      "school": "-",
+      "province": ""
+    },
+    "286500": {
+      "school": "-",
+      "province": ""
+    },
+    "286501": {
+      "school": "上海大学",
+      "province": "上海市"
+    },
+    "286505": {
+      "school": "-",
+      "province": ""
+    },
+    "286510": {
+      "school": "-",
+      "province": ""
+    },
+    "286519": {
+      "school": "-",
+      "province": ""
+    },
+    "286521": {
+      "school": "-",
+      "province": ""
+    },
+    "286526": {
+      "school": "-",
+      "province": ""
+    },
+    "286528": {
+      "school": "-",
+      "province": ""
+    },
+    "286532": {
+      "school": "-",
+      "province": ""
+    },
+    "286537": {
+      "school": "-",
+      "province": ""
+    },
+    "286546": {
+      "school": "-",
+      "province": ""
+    },
+    "286548": {
+      "school": "-",
+      "province": ""
+    },
+    "286552": {
+      "school": "-",
+      "province": ""
+    },
+    "286561": {
+      "school": "-",
+      "province": ""
+    },
+    "286567": {
+      "school": "-",
+      "province": ""
+    },
+    "286571": {
+      "school": "-",
+      "province": ""
+    },
+    "286576": {
+      "school": "-",
+      "province": ""
+    },
+    "286579": {
+      "school": "-",
+      "province": ""
+    },
+    "286580": {
+      "school": "-",
+      "province": ""
+    },
+    "286590": {
+      "school": "-",
+      "province": ""
+    },
+    "286600": {
+      "school": "-",
+      "province": ""
+    },
+    "286609": {
+      "school": "-",
+      "province": ""
+    },
+    "286611": {
+      "school": "-",
+      "province": ""
+    },
+    "286613": {
+      "school": "-",
+      "province": ""
+    },
+    "286616": {
+      "school": "-",
+      "province": ""
+    },
+    "286618": {
+      "school": "-",
+      "province": ""
+    },
+    "286620": {
+      "school": "-",
+      "province": ""
+    },
+    "286629": {
+      "school": "-",
+      "province": ""
+    },
+    "286630": {
+      "school": "-",
+      "province": ""
+    },
+    "286637": {
+      "school": "-",
+      "province": ""
+    },
+    "286641": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "286642": {
+      "school": "上海大学",
+      "province": "上海市"
+    },
+    "286643": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "286644": {
+      "school": "-",
+      "province": ""
+    },
+    "286648": {
+      "school": "浙江万里学院",
+      "province": "宁波市"
+    },
+    "286649": {
+      "school": "-",
+      "province": ""
+    },
+    "286650": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "286651": {
+      "school": "南阳师范学院",
+      "province": "河南省"
+    },
+    "286652": {
+      "school": "-",
+      "province": ""
+    },
+    "286653": {
+      "school": "-",
+      "province": ""
+    },
+    "286654": {
+      "school": "-",
+      "province": ""
+    },
+    "286655": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "286659": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "286661": {
+      "school": "-",
+      "province": ""
+    },
+    "286682": {
+      "school": "-",
+      "province": "北京市"
+    },
+    "286687": {
+      "school": "吉林工商学院-西安校区",
+      "province": "吉林省"
+    },
+    "286691": {
+      "school": "南阳师范学院",
+      "province": "南阳市"
+    },
+    "286694": {
+      "school": "-",
+      "province": ""
+    },
+    "286695": {
+      "school": "-",
+      "province": ""
+    },
+    "286698": {
+      "school": "-",
+      "province": ""
+    },
+    "286701": {
+      "school": "-",
+      "province": ""
+    },
+    "286734": {
+      "school": "-",
+      "province": ""
+    },
+    "286754": {
+      "school": "-",
+      "province": ""
+    },
+    "286758": {
+      "school": "-",
+      "province": ""
+    },
+    "286759": {
+      "school": "-",
+      "province": ""
+    },
+    "286761": {
+      "school": "-",
+      "province": ""
+    },
+    "286762": {
+      "school": "-",
+      "province": ""
+    },
+    "286766": {
+      "school": "-",
+      "province": ""
+    },
+    "286801": {
+      "school": "-",
+      "province": ""
+    },
+    "286804": {
+      "school": "-",
+      "province": ""
+    },
+    "286828": {
+      "school": "-",
+      "province": ""
+    },
+    "286840": {
+      "school": "-",
+      "province": ""
+    },
+    "286843": {
+      "school": "-",
+      "province": ""
+    },
+    "286849": {
+      "school": "-",
+      "province": ""
+    },
+    "286850": {
+      "school": "-",
+      "province": ""
+    },
+    "286852": {
+      "school": "-",
+      "province": ""
+    },
+    "286861": {
+      "school": "-",
+      "province": ""
+    },
+    "286869": {
+      "school": "-",
+      "province": ""
+    },
+    "286938": {
+      "school": "-",
+      "province": ""
+    },
+    "286948": {
+      "school": "-",
+      "province": ""
+    },
+    "286950": {
+      "school": "长沙学院",
+      "province": "湖南省"
+    },
+    "286966": {
+      "school": "杭州市余杭区古墩路小学（金家渡校区）",
+      "province": "浙江省"
+    },
+    "286971": {
+      "school": "襄阳东风中学小学部",
+      "province": "湖北省"
+    },
+    "286972": {
+      "school": "-",
+      "province": ""
+    },
+    "286973": {
+      "school": "-",
+      "province": ""
+    },
+    "286974": {
+      "school": "-",
+      "province": ""
+    },
+    "286980": {
+      "school": "-",
+      "province": ""
+    },
+    "286982": {
+      "school": "-",
+      "province": ""
+    },
+    "286989": {
+      "school": "襄阳市长征路小学",
+      "province": "湖北省"
+    },
+    "286994": {
+      "school": "-",
+      "province": ""
+    },
+    "286995": {
+      "school": "-",
+      "province": ""
+    },
+    "286997": {
+      "school": "-",
+      "province": ""
+    },
+    "287005": {
+      "school": "-",
+      "province": ""
+    },
+    "287007": {
+      "school": "-",
+      "province": ""
+    },
+    "287016": {
+      "school": "-",
+      "province": ""
+    },
+    "287020": {
+      "school": "襄阳华侨城实验学校",
+      "province": "湖北省"
+    },
+    "287030": {
+      "school": "-",
+      "province": ""
+    },
+    "287035": {
+      "school": "西安科技大学",
+      "province": "西安市"
+    },
+    "287048": {
+      "school": "-",
+      "province": ""
+    },
+    "287053": {
+      "school": "南京邮电大学通达学院",
+      "province": "江苏省"
+    },
+    "287055": {
+      "school": "-",
+      "province": ""
+    },
+    "287081": {
+      "school": "-",
+      "province": ""
+    },
+    "287090": {
+      "school": "-",
+      "province": ""
+    },
+    "287094": {
+      "school": "-",
+      "province": ""
+    },
+    "287112": {
+      "school": "-",
+      "province": ""
+    },
+    "287116": {
+      "school": "-",
+      "province": ""
+    },
+    "287119": {
+      "school": "-",
+      "province": ""
+    },
+    "287121": {
+      "school": "-",
+      "province": ""
+    },
+    "287127": {
+      "school": "-",
+      "province": ""
+    },
+    "287128": {
+      "school": "-",
+      "province": ""
+    },
+    "287140": {
+      "school": "-",
+      "province": ""
+    },
+    "287148": {
+      "school": "-",
+      "province": ""
+    },
+    "287150": {
+      "school": "武汉工商学院",
+      "province": "武汉市"
+    },
+    "287162": {
+      "school": "-",
+      "province": ""
+    },
+    "287167": {
+      "school": "-",
+      "province": ""
+    },
+    "287171": {
+      "school": "-",
+      "province": ""
+    },
+    "287172": {
+      "school": "-",
+      "province": ""
+    },
+    "287232": {
+      "school": "-",
+      "province": ""
+    },
+    "287233": {
+      "school": "-",
+      "province": ""
+    },
+    "287234": {
+      "school": "-",
+      "province": ""
+    },
+    "287235": {
+      "school": "-",
+      "province": ""
+    },
+    "287247": {
+      "school": "-",
+      "province": ""
+    },
+    "287250": {
+      "school": "-",
+      "province": ""
+    },
+    "287256": {
+      "school": "-",
+      "province": ""
+    },
+    "287262": {
+      "school": "-",
+      "province": ""
+    },
+    "287270": {
+      "school": "江西科技学院",
+      "province": "江西省"
+    },
+    "287273": {
+      "school": "-",
+      "province": ""
+    },
+    "287282": {
+      "school": "-",
+      "province": ""
+    },
+    "287286": {
+      "school": "常州工学院",
+      "province": "江苏省"
+    },
+    "287289": {
+      "school": "-",
+      "province": ""
+    },
+    "287292": {
+      "school": "-",
+      "province": ""
+    },
+    "287293": {
+      "school": "长沙学院",
+      "province": "湖南省"
+    },
+    "287297": {
+      "school": "-",
+      "province": ""
+    },
+    "287314": {
+      "school": "-",
+      "province": ""
+    },
+    "287315": {
+      "school": "-",
+      "province": ""
+    },
+    "287322": {
+      "school": "-",
+      "province": ""
+    },
+    "287323": {
+      "school": "-",
+      "province": ""
+    },
+    "287327": {
+      "school": "-",
+      "province": ""
+    },
+    "287328": {
+      "school": "四川师范大学",
+      "province": "成都市"
+    },
+    "287330": {
+      "school": "-",
+      "province": ""
+    },
+    "287331": {
+      "school": "-",
+      "province": ""
+    },
+    "287332": {
+      "school": "-",
+      "province": ""
+    },
+    "287353": {
+      "school": "-",
+      "province": ""
+    },
+    "287378": {
+      "school": "-",
+      "province": ""
+    },
+    "287383": {
+      "school": "-",
+      "province": ""
+    },
+    "287384": {
+      "school": "西南石油大学",
+      "province": "四川省"
+    },
+    "287386": {
+      "school": "-",
+      "province": ""
+    },
+    "287394": {
+      "school": "-",
+      "province": ""
+    },
+    "287395": {
+      "school": "-",
+      "province": ""
+    },
+    "287396": {
+      "school": "-",
+      "province": ""
+    },
+    "287397": {
+      "school": "-",
+      "province": ""
+    },
+    "287398": {
+      "school": "-",
+      "province": ""
+    },
+    "287403": {
+      "school": "-",
+      "province": ""
+    },
+    "287413": {
+      "school": "福建理工大学",
+      "province": ""
+    },
+    "287420": {
+      "school": "-",
+      "province": ""
+    },
+    "287426": {
+      "school": "-",
+      "province": ""
+    },
+    "287427": {
+      "school": "-",
+      "province": ""
+    },
+    "287431": {
+      "school": "-",
+      "province": ""
+    },
+    "287434": {
+      "school": "-",
+      "province": ""
+    },
+    "287436": {
+      "school": "-",
+      "province": ""
+    },
+    "287439": {
+      "school": "-",
+      "province": ""
+    },
+    "287440": {
+      "school": "-",
+      "province": ""
+    },
+    "287443": {
+      "school": "-",
+      "province": ""
+    },
+    "287446": {
+      "school": "-",
+      "province": ""
+    },
+    "287448": {
+      "school": "-",
+      "province": ""
+    },
+    "287449": {
+      "school": "-",
+      "province": ""
+    },
+    "287450": {
+      "school": "-",
+      "province": ""
+    },
+    "287451": {
+      "school": "-",
+      "province": ""
+    },
+    "287452": {
+      "school": "-",
+      "province": ""
+    },
+    "287455": {
+      "school": "-",
+      "province": ""
+    },
+    "287456": {
+      "school": "-",
+      "province": ""
+    },
+    "287461": {
+      "school": "-",
+      "province": ""
+    },
+    "287462": {
+      "school": "-",
+      "province": ""
+    },
+    "287468": {
+      "school": "-",
+      "province": ""
+    },
+    "287482": {
+      "school": "-",
+      "province": ""
+    },
+    "287490": {
+      "school": "-",
+      "province": ""
+    },
+    "287491": {
+      "school": "-",
+      "province": ""
+    },
+    "287494": {
+      "school": "-",
+      "province": ""
+    },
+    "287501": {
+      "school": "-",
+      "province": ""
+    },
+    "287522": {
+      "school": "-",
+      "province": ""
+    },
+    "287529": {
+      "school": "-",
+      "province": ""
+    },
+    "287531": {
+      "school": "-",
+      "province": ""
+    },
+    "287534": {
+      "school": "-",
+      "province": ""
+    },
+    "287538": {
+      "school": "-",
+      "province": ""
+    },
+    "287546": {
+      "school": "-",
+      "province": ""
+    },
+    "287550": {
+      "school": "-",
+      "province": ""
+    },
+    "287551": {
+      "school": "-",
+      "province": ""
+    },
+    "287552": {
+      "school": "-",
+      "province": ""
+    },
+    "287560": {
+      "school": "-",
+      "province": ""
+    },
+    "287568": {
+      "school": "-",
+      "province": ""
+    },
+    "287570": {
+      "school": "-",
+      "province": ""
+    },
+    "287571": {
+      "school": "-",
+      "province": ""
+    },
+    "287572": {
+      "school": "-",
+      "province": ""
+    },
+    "287575": {
+      "school": "-",
+      "province": ""
+    },
+    "287577": {
+      "school": "-",
+      "province": ""
+    },
+    "287579": {
+      "school": "-",
+      "province": ""
+    },
+    "287583": {
+      "school": "华中科技大学",
+      "province": "湖北省"
+    },
+    "287587": {
+      "school": "-",
+      "province": ""
+    },
+    "287589": {
+      "school": "-",
+      "province": ""
+    },
+    "287599": {
+      "school": "-",
+      "province": ""
+    },
+    "287600": {
+      "school": "-",
+      "province": ""
+    },
+    "287601": {
+      "school": "-",
+      "province": ""
+    },
+    "287603": {
+      "school": "-",
+      "province": ""
+    }
+  }
+}

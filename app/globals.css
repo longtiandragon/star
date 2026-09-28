@@ -40,6 +40,10 @@ button, select { cursor: pointer; }
 .header-nav a:last-child { background: #ef3419; }
 
 .contest-head { width: min(94%, 1900px); margin: 10px auto 0; }
+.contest-switch { display: flex; justify-content: center; gap: 4px; margin: 8px 0 14px; font-family: Consolas, monospace; }
+.contest-switch button { min-height: 40px; padding: 7px 16px; border: 1px solid #a7afbb; background: #fff; color: #30374b; font-size: 15px; font-weight: 900; }
+.contest-switch button[aria-pressed="true"] { border-color: #126e9e; background: #126e9e; color: #fff; }
+.contest-switch small { margin-left: 6px; font-size: 12px; font-weight: 600; }
 .contest-identity { text-align: center; }
 .contest-identity h1 { margin: 0; font-size: clamp(20px, 2vw, 30px); font-weight: 400; letter-spacing: .02em; }
 .contest-identity p { margin: 7px 0 0; color: #7d8190; font-size: 14px; }
@@ -109,7 +113,7 @@ button, select { cursor: pointer; }
 .xcpc-table tbody tr:hover { filter: brightness(.97); }
 .xcpc-table tbody tr[data-disqualified="true"] { --row-bg: #fff0ea !important; }
 .xcpc-table tbody td { height: 52px; padding: 4px 7px; border: 0; background: var(--row-bg); font-size: 13px; font-weight: 700; }
-.rank-column { width: 62px; }
+.rank-column { width: 112px; }
 .school-column { width: 220px; }
 .team-column { width: 235px; }
 .score-column { width: 55px; }
@@ -117,6 +121,8 @@ button, select { cursor: pointer; }
 .problem-column { width: 58px; }
 .rank-cell { position: relative; }
 .rank-number { color: #30374b; font-size: 16px; font-weight: 900; }
+.rank-rise { display: block; margin-top: 2px; color: #067668; font: 800 11px Consolas, monospace; white-space: nowrap; }
+.rank-rise > span { font-size: 16px; vertical-align: -1px; }
 .rank-gold { color: var(--gold); }
 .rank-silver { color: var(--silver); }
 .rank-bronze { color: var(--bronze); }

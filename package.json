@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "build:pages": "next build",
-    "refresh:data": "node work/fetch-contest.mjs 547 app/data",
+    "refresh:data": "node work/fetch-contest.mjs 547 app/data && node work/fetch-contest.mjs 548 app/data",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern out"
   },

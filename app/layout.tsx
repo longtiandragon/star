@@ -12,17 +12,17 @@ function deploymentUrl() {
 const siteUrl = deploymentUrl().replace(/\/$/, "");
 
 export const metadata: Metadata = {
-  title: "百度之星选手雷达｜初赛第一场 #547",
-  description: "整理 2026 年百度之星初赛第一场公开排名、学校与地区信息。",
+  title: "百度之星选手雷达｜初赛第二场与第一场",
+  description: "整理 2026 年百度之星初赛第二场与第一场公开排名、学校与地区信息。",
   openGraph: {
-    title: "百度之星选手雷达｜初赛第一场 #547",
-    description: "4,000+ 位参赛者的公开总榜、学校与地区资料索引。",
+    title: "百度之星选手雷达｜初赛第二场与第一场",
+    description: "两场初赛的公开总榜、违规公示与名次变化。",
     images: [{ url: `${siteUrl}/og.png`, width: 1673, height: 941, alt: "百度之星选手雷达" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "百度之星选手雷达｜初赛第一场 #547",
-    description: "4,000+ 位参赛者的公开总榜、学校与地区资料索引。",
+    title: "百度之星选手雷达｜初赛第二场与第一场",
+    description: "两场初赛的公开总榜、违规公示与名次变化。",
     images: [`${siteUrl}/og.png`],
   },
 };

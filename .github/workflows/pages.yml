@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: contest-547-pages
+  group: baidu-star-pages
   cancel-in-progress: false
 
 jobs:
@@ -56,7 +56,7 @@ jobs:
             if curl --fail --silent --show-error \
               --connect-timeout 5 --max-time 15 \
               --resolve "www.matiji.net:443:$candidate" \
-              'https://www.matiji.net/exam-back/pc/queryMatchRankListById.do?matchId=547&start=0&limit=1' \
+              'https://www.matiji.net/exam-back/pc/queryMatchRankListById.do?matchId=548&start=0&limit=1' \
               > /dev/null; then
               MATIJI_IP="$candidate"
               break
@@ -78,12 +78,14 @@ jobs:
         run: |
           node --input-type=module <<'NODE'
           import { readFile } from "node:fs/promises";
-          const snapshot = JSON.parse(await readFile("public/data/contest-547.json", "utf8"));
-          const age = Date.now() - Date.parse(snapshot.generatedAt);
-          if (!Number.isFinite(age) || age > 10 * 60 * 1000) {
-            throw new Error(`Ranking snapshot is stale: ${snapshot.generatedAt}`);
+          for (const contestId of [548, 547]) {
+            const snapshot = JSON.parse(await readFile(`public/data/contest-${contestId}.json`, "utf8"));
+            const age = Date.now() - Date.parse(snapshot.generatedAt);
+            if (!Number.isFinite(age) || age > 10 * 60 * 1000) {
+              throw new Error(`Ranking snapshot ${contestId} is stale: ${snapshot.generatedAt}`);
+            }
+            console.log(`Fresh snapshot ${contestId}: ${snapshot.generatedAt}, ${snapshot.stats.total} contestants`);
           }
-          console.log(`Fresh snapshot: ${snapshot.generatedAt}, ${snapshot.stats.total} contestants`);
           NODE
 
       - name: Set Pages base path

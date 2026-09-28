@@ -5,6 +5,7 @@ import {
   exclusionSource,
   updatedExclusionSource,
 } from "./contest-547-exclusions.mjs";
+import { contest548Exclusions, contest548ExclusionSource } from "./contest-548-exclusions.mjs";
 
 const contestId = Number(process.argv[2] || 547);
 const dataDir = resolve(process.argv[3] || "app/data");
@@ -91,52 +92,78 @@ const sourceContestants = rows.map((row) => {
     }),
   };
 })
-  .sort(compareContestRanking)
-  .map((contestant, index) => ({ ...contestant, rank: index + 1 }));
+  .sort((left, right) => left.rank - right.rank || compareContestRanking(left, right));
 
-const disqualifiedArchive = JSON.parse(await readFile(disqualifiedPath, "utf8"));
-const archivedExcludedContestants = Array.isArray(disqualifiedArchive.excludedContestants)
-  ? disqualifiedArchive.excludedContestants
-  : [];
-const currentContestantsByNickname = new Map(sourceContestants.map((contestant) => [contestant.nickname, contestant]));
-const excludedContestants = archivedExcludedContestants
-  .map((archived) => {
+let excludedContestants;
+let excludedUserIds;
+if (contestId === 548) {
+  const byUserId = new Map(sourceContestants.map((item) => [item.userId, item]));
+  excludedContestants = contest548Exclusions.map(({ userId, category }) => {
+    const contestant = byUserId.get(userId);
+    return {
+      ...(contestant || {
+        rank: 0, userId, nickname: userId === 156621 ? "lxy0417" : `小码_${userId}`, passCount: 0,
+        finishTime: 0, errors: 0, problems: Array.from({ length: Number(rankingPayload.total || 0) }, () => ({ solved: false, seconds: 0, errors: 0 })),
+      }),
+      originalRank: contestant?.rank || null,
+      disqualification: category,
+    };
+  }).sort((left, right) => (left.originalRank ?? Infinity) - (right.originalRank ?? Infinity) || left.userId - right.userId);
+  excludedUserIds = new Set(contest548Exclusions.map((item) => item.userId));
+  if (excludedUserIds.size !== contest548Exclusions.length) throw new Error("第二场官方名单存在重复用户 ID");
+} else if (contestId === 547) {
+  const disqualifiedArchive = JSON.parse(await readFile(disqualifiedPath, "utf8"));
+  const archivedExcludedContestants = Array.isArray(disqualifiedArchive.excludedContestants)
+    ? disqualifiedArchive.excludedContestants
+    : [];
+  const currentContestantsByNickname = new Map(sourceContestants.map((contestant) => [contestant.nickname, contestant]));
+  excludedContestants = archivedExcludedContestants.map((archived) => {
     const current = currentContestantsByNickname.get(archived.nickname);
     if (!current) return archived;
-    return {
-      ...current,
-      profile: archived.profile,
-      originalRank: current.rank,
-      disqualification: archived.disqualification,
-    };
-  })
-  .sort(compareContestRanking);
-if (excludedContestants.length !== contest547Exclusions.length) {
-  throw new Error(`作弊/违规档案应为 ${contest547Exclusions.length} 人，当前为 ${excludedContestants.length} 人`);
-}
-const expectedExclusions = new Map(contest547Exclusions.map((item) => [item.nickname, item.category]));
-for (const contestant of excludedContestants) {
-  if (expectedExclusions.get(contestant.nickname) !== contestant.disqualification) {
-    throw new Error(`作弊/违规档案与官方名单不一致：${contestant.nickname}`);
+    return { ...current, profile: archived.profile, originalRank: current.rank, disqualification: archived.disqualification };
+  }).sort((left, right) => (left.originalRank ?? left.rank) - (right.originalRank ?? right.rank));
+  if (excludedContestants.length !== contest547Exclusions.length) {
+    throw new Error(`作弊/违规档案应为 ${contest547Exclusions.length} 人，当前为 ${excludedContestants.length} 人`);
   }
+  const expectedExclusions = new Map(contest547Exclusions.map((item) => [item.nickname, item.category]));
+  for (const contestant of excludedContestants) {
+    if (expectedExclusions.get(contestant.nickname) !== contestant.disqualification) {
+      throw new Error(`作弊/违规档案与官方名单不一致：${contestant.nickname}`);
+    }
+  }
+  excludedUserIds = new Set(sourceContestants.filter((item) => expectedExclusions.has(item.nickname)).map((item) => item.userId));
+} else {
+  throw new Error(`尚未配置比赛 ${contestId} 的官方违规名单`);
 }
 
-const excludedNicknames = new Set(excludedContestants.map((item) => item.nickname));
-const currentNicknames = new Set(sourceContestants.map((item) => item.nickname));
-const missingExcludedCount = excludedContestants.filter((item) => !currentNicknames.has(item.nickname)).length;
+const priorAdvancerIds = contestId === 548
+  ? new Set(JSON.parse(await readFile(resolve(dataDir, "contest-547-ranking.json"), "utf8"))
+    .contestants.filter((item) => item.rank <= 400).map((item) => item.userId))
+  : new Set();
+let advancementCursor = 0;
 const contestants = sourceContestants
-  .filter((item) => !excludedNicknames.has(item.nickname))
-  .map((item, index) => ({ ...item, rank: index + 1 }));
+  .filter((item) => !excludedUserIds.has(item.userId))
+  .map((item, index) => {
+    const previouslyAdvanced = priorAdvancerIds.has(item.userId);
+    return {
+      ...item, originalRank: item.rank, rank: index + 1,
+      previouslyAdvanced,
+      advancementRank: previouslyAdvanced ? null : ++advancementCursor,
+    };
+  });
+const activeExcludedCount = sourceContestants.length - contestants.length;
 const stats = {
   total: contestants.length,
-  originalTotal: sourceContestants.length + missingExcludedCount,
-  excludedTotal: excludedContestants.length,
+  originalTotal: sourceContestants.length,
+  excludedTotal: activeExcludedCount,
+  announcedExcludedTotal: excludedContestants.length,
   priorExcludedTotal: excludedContestants.filter((item) => item.disqualification !== "新增作弊").length,
   cheatingTotal: excludedContestants.filter((item) => item.disqualification === "作弊").length,
   violationTotal: excludedContestants.filter((item) => item.disqualification === "违规").length,
   newCheatingTotal: excludedContestants.filter((item) => item.disqualification === "新增作弊").length,
   questionCount: Number(rankingPayload.total || 0),
   highestPass: contestants.reduce((max, item) => Math.max(max, item.passCount), 0),
+  priorAdvancerCount: contestants.filter((item) => item.previouslyAdvanced).length,
 };
 
 await writeFile(
@@ -153,8 +180,8 @@ await writeFile(
     stats,
     contestants,
     excludedContestants,
-    exclusionSource,
-    updatedExclusionSource,
+    exclusionSource: contestId === 548 ? contest548ExclusionSource : exclusionSource,
+    updatedExclusionSource: contestId === 548 ? null : updatedExclusionSource,
     generatedAt: new Date().toISOString(),
   }, null, 2)}\n`,
 );
@@ -174,9 +201,9 @@ for (const [userId, profile] of Object.entries(profiles)) {
     province: typeof profile.province === "string" ? profile.province : "",
   };
 }
-const pending = contestants.filter((item) => !profiles[item.userId]);
+const pending = sourceContestants.filter((item) => !profiles[item.userId]);
 let cursor = 0;
-let completed = contestants.length - pending.length;
+let completed = sourceContestants.length - pending.length;
 
 async function saveProfiles() {
   await mkdir(dirname(profilesPath), { recursive: true });
@@ -207,14 +234,14 @@ async function worker() {
     }
 
     completed += 1;
-    if (completed % 100 === 0 || completed === contestants.length) {
+    if (completed % 100 === 0 || completed === sourceContestants.length) {
       await saveProfiles();
-      console.log(`profiles ${completed}/${contestants.length}`);
+      console.log(`profiles ${completed}/${sourceContestants.length}`);
     }
   }
 }
 
-await Promise.all(Array.from({ length: 10 }, () => worker()));
+await Promise.all(Array.from({ length: 16 }, () => worker()));
 await saveProfiles();
 await mkdir(dirname(publicPath), { recursive: true });
 await writeFile(
@@ -236,9 +263,12 @@ await writeFile(
         province: "",
       },
     })),
-    excludedContestants,
-    exclusionSource,
-    updatedExclusionSource,
+    excludedContestants: excludedContestants.map((contestant) => ({
+      ...contestant,
+      profile: contestant.profile || profiles[contestant.userId] || { school: "-", province: "" },
+    })),
+    exclusionSource: contestId === 548 ? contest548ExclusionSource : exclusionSource,
+    updatedExclusionSource: contestId === 548 ? null : updatedExclusionSource,
     generatedAt: new Date().toISOString(),
   })}\n`,
 );
