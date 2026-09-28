@@ -136,10 +136,17 @@ if (contestId === 548) {
   throw new Error(`尚未配置比赛 ${contestId} 的官方违规名单`);
 }
 
-const priorAdvancerIds = contestId === 548
-  ? new Set(JSON.parse(await readFile(resolve(dataDir, "contest-547-ranking.json"), "utf8"))
-    .contestants.filter((item) => item.rank <= 400).map((item) => item.userId))
-  : new Set();
+const firstRoundAdvancement = contestId === 548
+  ? JSON.parse(await readFile(resolve("work", "contest-547-advancers.json"), "utf8"))
+  : null;
+if (firstRoundAdvancement && firstRoundAdvancement.advancers.length !== 400) {
+  throw new Error("首场官方晋级名单应有 400 人");
+}
+const priorAdvancerIds = new Set(firstRoundAdvancement?.advancers
+  .map((item) => item.userId).filter((userId) => Number.isInteger(userId)) || []);
+if (firstRoundAdvancement && priorAdvancerIds.size !== firstRoundAdvancement.advancers.filter((item) => item.userId !== null).length) {
+  throw new Error("首场官方晋级名单存在重复用户 ID");
+}
 let advancementCursor = 0;
 const contestants = sourceContestants
   .filter((item) => !excludedUserIds.has(item.userId))
@@ -152,6 +159,7 @@ const contestants = sourceContestants
     };
   });
 const activeExcludedCount = sourceContestants.length - contestants.length;
+const advancementCutoffRank = contestants.find((item) => item.advancementRank === 400)?.rank || null;
 const stats = {
   total: contestants.length,
   originalTotal: sourceContestants.length,
@@ -164,6 +172,8 @@ const stats = {
   questionCount: Number(rankingPayload.total || 0),
   highestPass: contestants.reduce((max, item) => Math.max(max, item.passCount), 0),
   priorAdvancerCount: contestants.filter((item) => item.previouslyAdvanced).length,
+  priorAdvancerCountWithinCutoff: contestants.filter((item) => item.previouslyAdvanced && item.rank <= advancementCutoffRank).length,
+  advancementCutoffRank,
 };
 
 await writeFile(
@@ -182,6 +192,7 @@ await writeFile(
     excludedContestants,
     exclusionSource: contestId === 548 ? contest548ExclusionSource : exclusionSource,
     updatedExclusionSource: contestId === 548 ? null : updatedExclusionSource,
+    firstRoundAdvancementSource: firstRoundAdvancement?.source || null,
     generatedAt: new Date().toISOString(),
   }, null, 2)}\n`,
 );
@@ -269,6 +280,7 @@ await writeFile(
     })),
     exclusionSource: contestId === 548 ? contest548ExclusionSource : exclusionSource,
     updatedExclusionSource: contestId === 548 ? null : updatedExclusionSource,
+    firstRoundAdvancementSource: firstRoundAdvancement?.source || null,
     generatedAt: new Date().toISOString(),
   })}\n`,
 );

@@ -42,3 +42,5 @@ next-env.d.ts
 !/work/fetch-contest.mjs
 !/work/contest-547-exclusions.mjs
 !/work/contest-548-exclusions.mjs
+!/work/build-first-advancers.py
+!/work/contest-547-advancers.json

@@ -45,6 +45,8 @@ type ContestData = {
     questionCount: number;
     highestPass: number;
     priorAdvancerCount?: number;
+    priorAdvancerCountWithinCutoff?: number;
+    advancementCutoffRank?: number | null;
   };
   contestants: Contestant[];
   excludedContestants: Contestant[];
@@ -56,6 +58,10 @@ type ContestData = {
   updatedExclusionSource: {
     articleUrl: string;
     publishedAt: string;
+  } | null;
+  firstRoundAdvancementSource?: {
+    articleUrl: string;
+    pdfUrl: string;
   } | null;
   generatedAt: string;
 };
@@ -306,7 +312,7 @@ export default function Home() {
         <article data-tone="gold"><small>金牌 5%</small><strong>{data ? `1—${formatNumber(goldEnd)}` : "—"}</strong></article>
         <article data-tone="silver"><small>银牌 15%</small><strong>{data ? `${formatNumber(goldEnd + 1)}—${formatNumber(silverEnd)}` : "—"}</strong></article>
         <article data-tone="bronze"><small>铜牌 30%</small><strong>{data ? `${formatNumber(silverEnd + 1)}—${formatNumber(bronzeEnd)}` : "—"}</strong></article>
-        <article data-tone="advance"><small>晋级参考</small><strong>前 {ADVANCE_LIMIT}</strong></article>
+        <article data-tone="advance"><small>{contestId === 548 ? "第二场晋级线·参考" : "晋级参考"}</small><strong>{contestId === 548 && data?.stats.advancementCutoffRank ? `第 ${data.stats.advancementCutoffRank} 名` : `前 ${ADVANCE_LIMIT}`}</strong></article>
         <article data-tone="excluded"><small>已排除</small><strong>{data ? formatNumber(data.stats.excludedTotal) : "—"}</strong></article>
       </section>
 
@@ -315,7 +321,7 @@ export default function Home() {
           <div>
             <span className="eyebrow">STANDINGS</span>
             <h2 id="standings-title">{viewMode === "ranking" ? "有效排名" : viewMode === "new-cheating" ? "新增作弊原排名" : contestId === 548 ? "第二场违规 / 作弊公示" : "首批违规 / 作弊原排名"}</h2>
-            <p>{viewMode === "ranking" ? `排除${contestId === 548 ? "第二场" : "两批"}官方公示名单后重新排名 · 每页 40 人${contestId === 548 ? " · 已在首场前 400 的选手不占第二场晋级名额" : ""}` : "显示码蹄集原榜名次，不参与奖项与晋级 · 每页 40 人"}</p>
+            <p>{viewMode === "ranking" ? `排除${contestId === 548 ? "第二场" : "两批"}官方公示名单后重新排名 · 每页 40 人${contestId === 548 ? " · 首场已晋级选手不占第二场 400 个名额" : ""}` : "显示码蹄集原榜名次，不参与奖项与晋级 · 每页 40 人"}</p>
           </div>
           <div className="snapshot-time"><small>最后快照</small><strong>{data ? formatDateTime(data.generatedAt) : "读取中"}</strong></div>
         </header>
@@ -327,6 +333,10 @@ export default function Home() {
           {viewMode === "excluded" && data && <span className="official-notice">作弊 {data.stats.cheatingTotal} 人 · 违规 {data.stats.violationTotal} 人{contestId === 548 && data.stats.announcedExcludedTotal !== data.stats.excludedTotal ? ` · 当前原榜可查 ${data.stats.excludedTotal} 人，另 ${data.stats.announcedExcludedTotal! - data.stats.excludedTotal} 人原排名不可核实` : ""} · <a href={data.exclusionSource.articleUrl} target="_blank" rel="noreferrer">官方公示 ↗</a></span>}
           {viewMode === "new-cheating" && data?.updatedExclusionSource && <span className="official-notice new-cheating-notice">新增作弊 {data.stats.newCheatingTotal} 人 · <a href={data.updatedExclusionSource.articleUrl} target="_blank" rel="noreferrer">9月1日更新公示 ↗</a></span>}
         </div>
+
+        {contestId === 548 && viewMode === "ranking" && data?.firstRoundAdvancementSource && (
+          <p className="advancement-note">按<a href={data.firstRoundAdvancementSource.articleUrl} target="_blank" rel="noreferrer">第一场官方晋级名单 ↗</a>核对 ID：第二场有 {data.stats.priorAdvancerCount} 位首场已晋级选手，其中 {data.stats.priorAdvancerCountWithinCutoff} 位在本场前 {data.stats.advancementCutoffRank} 名，故本场 400 个候选名额顺延至第 {data.stats.advancementCutoffRank} 名。第二场晋级以官方最终名单为准。</p>
+        )}
 
         <div className="board-tools">
           <label className="search-box">
@@ -372,7 +382,7 @@ export default function Home() {
                       data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
                       data-row-parity={(contestant.rank - 1) % 2}
                     >
-                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{displayRank}</span>{rise > 0 && <span className="rank-rise" title={`原榜第 ${contestant.originalRank} 名，上升 ${rise} 名至第 ${contestant.rank} 名`}><span aria-hidden="true">↗</span> 原 {contestant.originalRank} → {contestant.rank}</span>}<span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级参考</span>}{contestant.previouslyAdvanced && <span className="advance-badge">首场前400</span>}{contestant.disqualification && <span className={`status-badge status-${getDisqualificationTone(contestant.disqualification)}`}>{contestant.disqualification}</span>}</span></td>
+                      <td className="rank-cell"><span className={`rank-number ${award?.tone || ""}`}>{displayRank}</span>{rise > 0 && <span className="rank-rise" title={`原榜第 ${contestant.originalRank} 名，上升 ${rise} 名至第 ${contestant.rank} 名`}><span aria-hidden="true">↗</span> 原 {contestant.originalRank} → {contestant.rank}</span>}<span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级参考</span>}{contestant.previouslyAdvanced && <span className="prior-advance-badge" title="已列入第一场官方晋级名单，不占第二场名额">首场已晋级</span>}{contestant.disqualification && <span className={`status-badge status-${getDisqualificationTone(contestant.disqualification)}`}>{contestant.disqualification}</span>}</span></td>
                       <td><div className="school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div></td>
                       <td><div className="team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><strong>{contestant.nickname}</strong><small>ID {contestant.userId}</small></div></div></td>
                       <td className="solved-cell"><strong>{contestant.passCount}</strong><span>/{data?.stats.questionCount || 8}</span></td>
@@ -401,7 +411,7 @@ export default function Home() {
                   data-solved-group={solvedGroupTones.get(contestant.passCount) || 0}
                   data-row-parity={(contestant.rank - 1) % 2}
                 >
-                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{displayRank}</span>{rise > 0 && <span className="rank-rise" title={`上升 ${rise} 名`}><span aria-hidden="true">↗</span> 原 {contestant.originalRank} → {contestant.rank}</span>}<span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级参考</span>}{contestant.previouslyAdvanced && <span className="advance-badge">首场前400</span>}{contestant.disqualification && <span className={`status-badge status-${getDisqualificationTone(contestant.disqualification)}`}>{contestant.disqualification}</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
+                  <div className="mobile-head"><div className="rank-stack"><span className={`rank-number ${award?.tone || ""}`}>#{displayRank}</span>{rise > 0 && <span className="rank-rise" title={`上升 ${rise} 名`}><span aria-hidden="true">↗</span> 原 {contestant.originalRank} → {contestant.rank}</span>}<span className="badge-row">{award && <span className={`medal-badge ${award.tone}`}>{award.label}</span>}{advanced && <span className="advance-badge">晋级参考</span>}{contestant.previouslyAdvanced && <span className="prior-advance-badge" title="已列入第一场官方晋级名单，不占第二场名额">首场已晋级</span>}{contestant.disqualification && <span className={`status-badge status-${getDisqualificationTone(contestant.disqualification)}`}>{contestant.disqualification}</span>}</span></div><span className="mobile-score"><strong>{contestant.passCount}</strong><small>AC</small></span></div>
                   <div className="mobile-team"><span className="team-avatar">{contestant.nickname.slice(0, 1).toUpperCase()}</span><div><h3>{contestant.nickname}</h3><p>ID {contestant.userId}</p></div></div>
                   <div className="mobile-school"><strong>{contestant.profile.school === "-" ? "学校未公开" : contestant.profile.school}</strong><span>{contestant.profile.province || "地区未公开"}</span></div>
                   <div className="mobile-metrics"><span><small>总用时</small>{formatDuration(contestant.finishTime)}</span><span><small>罚次</small>{contestant.errors}</span></div>

@@ -88,6 +88,8 @@ button, select { cursor: pointer; }
 .official-notice a { border-bottom: 1px solid currentColor; color: #c52a2a; }
 .new-cheating-notice { color: #78141b; }
 .new-cheating-notice a { color: #9e101b; }
+.advancement-note { margin: 0 0 10px; padding: 8px 11px; border-left: 3px solid #087f78; background: #eaf8f5; color: #184b49; font: 700 13px/1.55 Consolas, "Noto Sans SC", sans-serif; }
+.advancement-note a { margin: 0 2px; border-bottom: 1px solid currentColor; color: #075e72; }
 
 .board-tools { display: grid; grid-template-columns: minmax(250px, 1fr) minmax(180px, .35fr) 130px auto; gap: 5px; align-items: center; margin-bottom: 10px; font-family: Consolas, monospace; }
 .board-tools select, .search-box > div { height: 42px; border: 1px solid #aaaeba; border-radius: 0; background: white; color: #2b3144; }
@@ -127,11 +129,12 @@ button, select { cursor: pointer; }
 .rank-silver { color: var(--silver); }
 .rank-bronze { color: var(--bronze); }
 .badge-row { display: flex; gap: 2px; justify-content: center; margin-top: 2px; }
-.medal-badge, .advance-badge, .status-badge { padding: 2px 5px; border-radius: 1px; font-size: 10px; font-weight: 900; }
+.medal-badge, .advance-badge, .prior-advance-badge, .status-badge { padding: 2px 5px; border-radius: 1px; font-size: 10px; font-weight: 900; }
 .medal-badge.rank-gold { background: #fff566; color: #5d4800; }
 .medal-badge.rank-silver { background: #ffadd2; color: #5d2540; }
 .medal-badge.rank-bronze { background: #f0c0a0; color: #60351f; }
 .advance-badge { background: #b8f2ea; color: #075c57; }
+.prior-advance-badge { background: #244d85; color: #fff; }
 .status-cheating { background: #b31925; color: white; }
 .status-violation { background: #f08a24; color: white; }
 .status-new-cheating { background: #6f0b16; color: white; }

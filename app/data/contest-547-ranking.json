@@ -18,7 +18,9 @@
     "newCheatingTotal": 7,
     "questionCount": 8,
     "highestPass": 7,
-    "priorAdvancerCount": 0
+    "priorAdvancerCount": 0,
+    "priorAdvancerCountWithinCutoff": 0,
+    "advancementCutoffRank": 400
   },
   "contestants": [
     {
@@ -225846,5 +225848,6 @@
     "articleUrl": "https://star.baidu.com/#/news-info?tab=3&id=CD67A73928B8C85AE5C40D0E277DAD49",
     "publishedAt": "2026-09-01"
   },
-  "generatedAt": "2026-09-28T02:49:26.340Z"
+  "firstRoundAdvancementSource": null,
+  "generatedAt": "2026-09-28T03:06:36.745Z"
 }
